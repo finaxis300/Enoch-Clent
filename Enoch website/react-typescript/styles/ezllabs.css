@@ -1,0 +1,45 @@
+.element {
+  max-height: 181px;
+}
+.explore-select-dropdown-content {
+  display: block;
+  position: relative;
+}
+.support-list-dropbox .explore-select-droplist {
+  display: block;
+}
+.explore-select-dropdown-content ul li:last-child div {
+  border-bottom: 1px solid #c2d9dd;
+}
+.contacttabcontent{
+  display: none;
+}
+.contact-dropdown-content {
+  display: block;
+ 
+}
+.contact-drop-scrollable {
+  position: relative;
+ z-index: 9;
+  padding: 0px 0px;
+}
+.contact-droplist:after {
+  content: "\f0d7";
+  font-family: fontawesome;
+  position: absolute;
+  border: 0;
+  color: #A6BBDB;
+  right: 26px;
+  bottom: 0;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.explore-select-dropdown-content {
+  
+  top: 0px;
+}
+.cookietablink.active {
+  color: #8656EF;
+}

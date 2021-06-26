@@ -1,0 +1,15 @@
+.EEZL-collapse-sect {
+    margin-bottom: 160px;
+}
+@media only screen and (max-width: 1540px){
+
+
+.panel {
+    padding: 0 18px;
+}
+}
+@media only screen and (max-width: 1480px){
+.EEZL-collapse-sect {
+    margin-bottom: 100px;
+}
+}
