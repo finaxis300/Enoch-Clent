@@ -1,0 +1,23 @@
+{
+  "name": "e0labswebsite-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3005",
+    "build": "next build",
+    "start": "next start -p 3005"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "carbon-components-react": "^7.30.0",
+    "formik": "^2.2.6",
+    "next": "10.0.7",
+    "react": "17.0.1",
+    "react-datepicker": "^4.1.1",
+    "react-dom": "17.0.1",
+    "react-google-recaptcha": "^2.1.0",
+    "react-router-dom": "^5.2.0",
+    "yup": "^0.32.9"
+  }
+}

@@ -1,0 +1,7111 @@
+
+/*====================================*/
+/*==============EEZL-FAQ==============*/
+/*====================================*/
+
+
+/*---how-can-we-help---*/
+
+.how-can-we-help{
+  background: linear-gradient(265.09deg, #3E17FF -4.46%, #7D17FF 100%);
+  border-radius: 32px;
+  height: auto;
+  padding: 50px 75px;
+}
+
+.how-can-we-help-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  text-align: left;
+}
+
+.how-can-we-help-left h1{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 118.6%;
+  color: #FFFFFF;
+}
+
+.how-can-we-help-left h1 span{
+  color: #FFA600;
+}
+
+.how-can-we-help-right{
+  text-align: right;
+}
+
+.how-can-we-help-right img{
+  width: 80%;
+}
+
+
+
+/*---EEZL-collapse-sect---*/
+
+.EEZL-collapse-sect{
+  margin-top: 80px;
+}
+
+.EEZL-collapse-sect-left{}
+
+.EEZL-collapse-sect-left ul{
+  list-style: none;
+}
+
+.EEZL-collapse-sect-left ul li{
+  padding: 20px 0px;
+}
+
+.EEZL-collapse-sect-left ul li a {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 130%;
+  color: rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+}
+
+.EEZL-collapse-sect-left ul li a:focus-within{
+  color: #000000;
+}
+
+.FAQ h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 200%;
+  color: rgba(0, 0, 0, 0.3);
+  border: none;
+  border-bottom: 1px solid rgba(32, 84, 165, 0.3);
+}
+
+.accordion {
+  background-color: #ffffff;
+  outline: none;
+  padding: 40px 18px;
+  width: 100%;
+  transition: 0.4s;
+  border: none;
+  border-bottom: 1px solid rgba(32, 84, 165, 0.3);
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 200%;
+  color: #3D3652;
+  padding-left: 30px;
+
+}
+
+.FAQ .panel P{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 200%;
+  color: #000000;
+  max-width: 1060px;
+  width: 100%;
+  padding-bottom: 25px;
+}
+
+.FAQ .active, .accordion:hover{
+  background: #F7F5FF;
+  outline: none;
+  border-bottom: none;
+  border: none;
+}
+
+.FAQ .active, .accordion:focus-within{
+  outline: none;
+}
+
+.accordion:before {
+  content: '\002B';
+  color: #000000;
+  font-weight: 100;
+  float: right;
+  font-size: 48px;
+  margin-left: 5px;
+}
+
+.FAQ .active:before {
+  content: "\2212";
+}
+
+.panel {
+padding: 0 35px;
+background-color: white;
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.2s ease-out;
+background: #F7F5FF; 
+}
+
+
+
+
+/*====@MEDIA SCREEN=====*/
+/*====@MEDIA SCREEN=====*/
+/*====@MEDIA SCREEN=====*/
+
+
+/*================2560PX==================*/
+
+@media (min-width: 2000px) and (max-width: 2560px){}
+
+/*========================================*/
+
+
+/*=================1920px=================*/
+
+@media (min-width: 1920px) and (max-width: 2559px){}
+
+/*========================================*/
+  
+  
+/*================1440PX==================*/
+  
+@media (min-width: 1440px) and (max-width: 1919px) {
+  
+  /*---.how-can-we-help-----*/
+  
+  .how-can-we-help {
+      padding: 30px 50px;
+  }
+  
+  .how-can-we-help-left h1 {
+      font-size: 66px;
+      line-height: 118.6%;
+  }
+  
+  
+  /*---EEZL-collapse-sect---*/
+  
+  .EEZL-collapse-sect-left ul li{
+      padding: 15px 0px;
+  }
+  
+  .EEZL-collapse-sect-left ul li a{
+      font-size: 30px;
+  }
+  
+  .FAQ h1{
+      font-size: 30px;
+  }
+  
+  
+  /*---accordion---*/
+  
+  .accordion{
+      font-size: 35px;
+      padding: 30px 18px;
+  }
+  
+}
+
+
+@media (max-width: 1440px){}
+
+/*========================================*/
+  
+  
+  
+/*================1360PX==================*/
+  
+@media (min-width: 1360px) and (max-width: 1439px) {
+  
+  /*---.how-can-we-help-----*/
+  
+  .how-can-we-help {
+      padding: 30px 50px;
+  }
+  
+  .how-can-we-help-left h1 {
+      font-size: 64px;
+      line-height: 118.6%;
+  }
+  
+  /*---EEZL-collapse-sect---*/
+  
+  .EEZL-collapse-sect-left ul li{
+      padding: 15px 0px;
+  }
+  
+  .EEZL-collapse-sect-left ul li a{
+      font-size: 30px;
+  }
+  
+  .FAQ h1{
+      font-size: 30px;
+  }
+  
+  
+  /*---accordion---*/
+  
+  .accordion{
+      font-size: 33px;
+      padding: 22px 18px; 
+  }
+  
+  .FAQ .panel P {
+      font-size: 22px;
+  }
+  
+  
+}
+  
+/*========================================*/  
+  
+
+/*=================1280PX=================*/
+@media (min-width: 1280px) and (max-width: 1359px){
+  
+  /*---.how-can-we-help-----*/
+  
+  .how-can-we-help {
+      padding: 30px 50px;
+  }
+  
+  .how-can-we-help-left h1 {
+      font-size: 60px;
+      line-height: 118.6%;
+  }
+  
+  /*---EEZL-collapse-sect---*/
+  
+  .EEZL-collapse-sect-left ul li{
+      padding: 15px 0px;
+  }
+  
+  .EEZL-collapse-sect-left ul li a{
+      font-size: 28px;
+  }
+  
+  .FAQ h1{
+      font-size: 28px;
+  }
+  
+  /*---accordion---*/
+  
+  .accordion{
+      font-size: 30px;
+      padding: 20px 30px;
+  }
+  
+  .accordion:before{
+      font-size: 45px;
+  }
+  
+  .FAQ .panel P {
+      font-size: 20px;
+  }
+  
+  
+}
+
+/*========================================*/
+
+
+/*================1024PX==================*/
+@media (min-width: 1024px) and (max-width: 1279px){
+  
+  /*---.how-can-we-help-----*/
+  
+  .how-can-we-help {
+      padding: 30px 50px;
+  }
+  
+  .how-can-we-help-left h1 {
+      font-size: 44px;
+      line-height: 118.6%;
+  }
+  
+  /*---EEZL-collapse-sect---*/
+  
+  .EEZL-collapse-sect-left ul li{
+      padding: 10px 0px;
+  }
+  
+  .EEZL-collapse-sect-left ul li a{
+      font-size: 22px;
+  }
+  
+  .FAQ h1{
+      font-size: 25px;
+  }
+  
+  
+  /*---accordion---*/
+  
+  .accordion{
+      font-size: 25px;
+      padding: 15px 18px;
+  }
+  
+  .accordion:before{
+      font-size: 40px;
+  }
+  
+  .FAQ .panel{
+      padding-left: 20px;
+  }
+  
+  .FAQ .panel P {
+      font-size: 17px;
+  }
+  
+  
+}
+/*========================================*/
+
+
+/*================812PX==================*/
+@media (min-width: 812px) and (max-width: 1023px){
+  
+  /*---.how-can-we-help-----*/
+  
+  .how-can-we-help {
+      padding: 30px 50px;
+  }
+  
+  .how-can-we-help-left h1 {
+      font-size: 34px;
+      line-height: 118.6%;
+  }
+  
+  /*---EEZL-collapse-sect---*/
+  
+  .EEZL-collapse-sect-left ul li{
+      padding: 8px 0px;
+  }
+  
+  .EEZL-collapse-sect-left ul li a{
+      font-size: 18px;
+  }
+  
+  .FAQ h1{
+      font-size: 18px;
+  }
+  
+  /*---accordion---*/
+  
+  .accordion{
+      font-size: 18px;
+      padding: 15px 15px;
+  }
+  
+  .accordion:before{
+      font-size: 30px;
+  }
+  
+  
+  .FAQ .panel P {
+      font-size: 13px;
+  }
+  
+  .panel{
+      padding: 0px 15px;
+  }
+  
+}
+/*========================================*/
+
+
+/*================768PX==================*/
+@media (min-width: 768px) and (max-width: 811px){
+  
+  /*---.how-can-we-help-----*/
+  
+  .how-can-we-help {
+      padding: 30px 50px;
+  }
+  
+  .how-can-we-help-left h1 {
+      font-size: 30px;
+      line-height: 118.6%;
+  }
+  
+  /*---EEZL-collapse-sect---*/
+  
+  .EEZL-collapse-sect-left ul li{
+      padding: 8px 0px;
+  }
+  
+  .EEZL-collapse-sect-left ul li a{
+      font-size: 17px;
+  }
+  
+  .FAQ h1{
+      font-size: 17px;
+  }
+  
+  /*---accordion---*/
+  
+  .accordion{
+      font-size: 17px;
+      padding: 15px 15px;
+  }
+  
+  .accordion:before{
+      font-size: 30px;
+  }
+  
+  .FAQ .panel P {
+      font-size: 11px;
+  }
+  
+  .panel{
+      padding: 0px 15px;
+  }
+}
+/*========================================*/
+
+
+/*=================736PX==================*/
+@media (min-width: 736px) and (max-width: 767px){
+  
+  /*---.how-can-we-help-----*/
+  
+  .how-can-we-help {
+      padding: 30px 50px;
+  }
+  
+  .how-can-we-help-left{
+      text-align: center;
+      padding-bottom: 25px;
+      padding-top: 25px;
+  }
+  
+  .how-can-we-help-right{
+      text-align: center;
+      padding-top: 25px;
+      padding-bottom: 25px;
+  }
+  
+  .how-can-we-help-left h1 {
+      font-size: 60px;
+      line-height: 118.6%;
+  }
+  
+  
+  /*----EEZL-collapse-sect----*/
+  
+  .EEZL-collapse-sect {
+      margin-top: 40px;
+  }
+  
+  .EEZL-collapse-sect-left{
+      text-align: center;
+  }
+  
+  .EEZL-collapse-sect-left ul li {
+      padding: 10px 0px;
+  }
+  
+  .EEZL-collapse-sect-left ul li a{
+      font-size: 25px;
+  }
+  
+  /*---accordion---*/
+  
+  .FAQ h1{
+      font-size: 25px;
+      padding-left: 10px;
+  }
+  
+  .accordion{
+      font-size: 22px;
+      padding: 15px 15px;
+  }
+  
+  .accordion:before{
+      font-size: 35px;
+  }
+  
+  .FAQ .panel P {
+      font-size: 16px;
+  }
+  
+  .panel{
+      padding: 0px 15px;
+  }
+}
+/*========================================*/
+
+
+
+
+/*=================667PX==================*/
+@media (min-width: 667px) and (max-width: 735px){
+  
+  /*---.how-can-we-help-----*/
+  
+  .how-can-we-help {
+      padding: 30px 50px;
+  }
+  
+  .how-can-we-help-left{
+      text-align: center;
+      padding-bottom: 25px;
+      padding-top: 20px;
+  }
+  
+  .how-can-we-help-right{
+      text-align: center;
+      padding-top: 25px;
+      padding-bottom: 25px;
+  }
+  
+  .how-can-we-help-left h1 {
+      font-size: 53px;
+      line-height: 118.6%;
+  }
+  
+  
+  /*----EEZL-collapse-sect----*/
+  
+  .EEZL-collapse-sect {
+      margin-top: 40px;
+  }
+  
+  .EEZL-collapse-sect-left{
+      text-align: center;
+  }
+  
+  .EEZL-collapse-sect-left ul li {
+      padding: 10px 0px;
+  }
+  
+  .EEZL-collapse-sect-left ul li a{
+      font-size: 25px;
+  }
+  
+  /*---accordion---*/
+  
+  .FAQ h1{
+      font-size: 25px;
+      padding-left: 10px;
+  }
+  
+  .accordion{
+      font-size: 21px;
+      padding: 15px 10px;
+  }
+  
+  .accordion:before{
+      font-size: 35px;
+  }
+  
+  .FAQ .panel P {
+      font-size: 16px;
+  }
+  
+  .panel{
+      padding: 0px 15px;
+  }
+  
+}
+/*========================================*/
+
+
+
+
+/*===================540PX=================*/
+@media (min-width: 540px) and (max-width: 666px){
+  
+  .EEZL-container {
+      padding: 0 2rem;
+  }
+  
+  /*---.how-can-we-help-----*/
+  
+  .how-can-we-help {
+      padding: 30px 50px;
+  }
+  
+  .how-can-we-help-left{
+      text-align: center;
+      padding-bottom: 15px;
+      padding-top: 10px;
+  }
+  
+  .how-can-we-help-right{
+      text-align: center;
+      padding-top: 15px;
+      padding-bottom: 15px;
+  }
+  
+  .how-can-we-help-left h1 {
+      font-size: 43px;
+      line-height: 118.6%;
+  }
+  
+  /*----EEZL-collapse-sect----*/
+  
+  .EEZL-collapse-sect {
+      margin-top: 40px;
+  }
+  
+  .EEZL-collapse-sect-left{
+      text-align: center;
+  }
+  
+  .EEZL-collapse-sect-left ul li {
+      padding: 10px 0px;
+  }
+  
+  .EEZL-collapse-sect-left ul li a{
+      font-size: 22px;
+  }
+  
+  /*---accordion---*/
+  
+  .FAQ h1{
+      font-size: 22px;
+      padding-left: 10px;
+  }
+  
+  .accordion{
+      font-size: 16px;
+      padding: 15px 10px;
+  }
+  
+  .accordion:before{
+      font-size: 30px;
+  }
+  
+  .FAQ .panel P {
+      font-size: 12px;
+  }
+  
+  .panel{
+      padding: 0px 15px;
+  }
+  
+}
+/*=========================================*/
+
+
+/*=================425PX=================*/
+@media (min-width: 425px) and (max-width: 539px){
+  
+  .EEZL-container {
+      padding: 0 1rem;
+  }
+  
+  /*---.how-can-we-help-----*/
+  
+  .how-can-we-help {
+      padding: 20px 10px;
+  }
+  
+  .how-can-we-help-left{
+      text-align: center;
+      padding-bottom: 15px;
+      padding-top: 10px;
+  }
+  
+  .how-can-we-help-right{
+      text-align: center;
+      padding-top: 15px;
+      padding-bottom: 15px;
+  }
+  
+  .how-can-we-help-left h1 {
+      font-size: 32px;
+      line-height: 118.6%;
+  }
+  
+  /*----EEZL-collapse-sect----*/
+  
+  .EEZL-collapse-sect {
+      margin-top: 30px;
+  }
+  
+  .EEZL-collapse-sect-left{
+      text-align: center;
+  }
+  
+  .EEZL-collapse-sect-left ul li {
+      padding: 5px 0px;
+  }
+  
+  .EEZL-collapse-sect-left ul li a{
+      font-size: 20px;
+  }
+  
+  /*---accordion---*/
+  
+  .FAQ h1{
+      font-size: 20px;
+      padding-left: 10px;
+  }
+  
+  .accordion{
+      font-size: 13px;
+      padding: 15px 10px;
+  }
+  
+  .accordion:before{
+      font-size: 30px;
+  }
+  
+  .FAQ .panel P {
+      font-size: 11px;
+  }
+  
+  .panel{
+      padding: 0px 15px;
+  }
+  
+  
+}
+/*=========================================*/
+
+
+
+/*===============414PX+411PX===============*/
+@media (min-width: 411px) and (max-width: 424px){
+  
+  .EEZL-container {
+      padding: 0 1rem;
+  }
+  
+  /*---.how-can-we-help-----*/
+  
+  .how-can-we-help {
+      padding: 20px 10px;
+  }
+  
+  .how-can-we-help-left{
+      text-align: center;
+      padding-bottom: 15px;
+      padding-top: 10px;
+  }
+  
+  .how-can-we-help-right{
+      text-align: center;
+      padding-top: 15px;
+      padding-bottom: 15px;
+  }
+  
+  .how-can-we-help-left h1 {
+      font-size: 32px;
+      line-height: 118.6%;
+  }
+  
+  
+  /*----EEZL-collapse-sect----*/
+  
+  .EEZL-collapse-sect {
+      margin-top: 30px;
+  }
+  
+  .EEZL-collapse-sect-left{
+      text-align: center;
+  }
+  
+  .EEZL-collapse-sect-left ul li {
+      padding: 5px 0px;
+  }
+  
+  .EEZL-collapse-sect-left ul li a{
+      font-size: 20px;
+  }
+  
+  /*---accordion---*/
+  
+  .FAQ h1{
+      font-size: 20px;
+      padding-left: 10px;
+  }
+  
+  .accordion{
+      font-size: 12px;
+      padding: 15px 10px;
+  }
+  
+  .accordion:before{
+      font-size: 30px;
+  }
+  
+  .FAQ .panel P {
+      font-size: 10px;
+  }
+  
+  .panel{
+      padding: 0px 15px;
+  }
+}
+/*=========================================*/
+
+
+/*=================375PX===================*/
+@media (min-width: 375px) and (max-width: 410px){
+  
+  .EEZL-container {
+      padding: 0 1rem;
+  }
+  
+  /*---.how-can-we-help-----*/
+  
+  .how-can-we-help {
+      padding: 20px 10px;
+  }
+  
+  .how-can-we-help-left{
+      text-align: center;
+      padding-bottom: 15px;
+      padding-top: 10px;
+  }
+  
+  .how-can-we-help-right{
+      text-align: center;
+      padding-top: 15px;
+      padding-bottom: 15px;
+  }
+  
+  .how-can-we-help-left h1 {
+      font-size: 28px;
+      line-height: 118.6%;
+  }
+  
+  /*----EEZL-collapse-sect----*/
+  
+  .EEZL-collapse-sect {
+      margin-top: 30px;
+  }
+  
+  .EEZL-collapse-sect-left{
+      text-align: center;
+  }
+  
+  .EEZL-collapse-sect-left ul li {
+      padding: 5px 0px;
+  }
+  
+  .EEZL-collapse-sect-left ul li a{
+      font-size: 20px;
+  }
+  
+  /*---accordion---*/
+  
+  .FAQ h1{
+      font-size: 20px;
+      padding-left: 5px;
+  }
+  
+  .accordion{
+      font-size: 12px;
+      padding: 15px 5px;
+      letter-spacing: -0.25px;
+  }
+  
+  .accordion:before{
+      font-size: 25px;
+  }
+  
+  .FAQ .panel P {
+      font-size: 10px;
+  }
+  
+  .panel{
+      padding: 0px 5px;
+  }
+  
+  
+}
+/*=========================================*/
+
+
+
+/*===================360PX==================*/
+@media (min-width: 360px) and (max-width: 374px){
+  .EEZL-container {
+      padding: 0 1rem;
+  }
+  
+  /*---.how-can-we-help-----*/
+  
+  .how-can-we-help {
+      padding: 20px 10px;
+  }
+  
+  .how-can-we-help-left{
+      text-align: center;
+      padding-bottom: 15px;
+      padding-top: 10px;
+  }
+  
+  .how-can-we-help-right{
+      text-align: center;
+      padding-top: 15px;
+      padding-bottom: 15px;
+  }
+  
+  .how-can-we-help-left h1 {
+      font-size: 25px;
+      line-height: 118.6%;
+  }
+  
+  /*----EEZL-collapse-sect----*/
+  
+  .EEZL-collapse-sect {
+      margin-top: 30px;
+  }
+  
+  .EEZL-collapse-sect-left{
+      text-align: center;
+  }
+  
+  .EEZL-collapse-sect-left ul li {
+      padding: 5px 0px;
+  }
+  
+  .EEZL-collapse-sect-left ul li a{
+      font-size: 20px;
+  }
+  
+  /*---accordion---*/
+  
+  .FAQ h1{
+      font-size: 20px;
+      padding-left: 5px;
+  }
+  
+  .accordion{
+      font-size: 11px;
+      padding: 15px 5px;
+      letter-spacing: -0.25px;
+  }
+  
+  .accordion:before{
+      font-size: 25px;
+  }
+  
+  .FAQ .panel P {
+      font-size: 9px;
+  }
+  
+  .panel{
+      padding: 0px 5px;
+  }
+  
+  
+}
+/*=========================================*/
+
+
+
+
+/*=================320PX===================*/
+@media (min-width: 320px) and (max-width: 359px){
+  
+  .EEZL-container {
+      padding: 0 1rem;
+  }
+  
+  /*---.how-can-we-help-----*/
+  
+  .how-can-we-help {
+      padding: 20px 10px;
+  }
+  
+  .how-can-we-help-left{
+      text-align: center;
+      padding-bottom: 10px;
+      padding-top: 10px;
+  }
+  
+  .how-can-we-help-right{
+      text-align: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  
+  .how-can-we-help-left h1 {
+      font-size: 30px;
+      line-height: 118.6%;
+  }
+  
+  
+  /*----EEZL-collapse-sect----*/
+  
+  .EEZL-collapse-sect {
+      margin-top: 30px;
+  }
+  
+  .EEZL-collapse-sect-left{
+      text-align: center;
+  }
+  
+  .EEZL-collapse-sect-left ul li {
+      padding: 5px 0px;
+  }
+  
+  .EEZL-collapse-sect-left ul li a{
+      font-size: 15px;
+  }
+  
+  /*---accordion---*/
+  
+  .FAQ h1{
+      font-size: 15px;
+      padding-left: 5px;
+  }
+  
+  .accordion{
+      font-size: 10px;
+      padding: 10px 5px;
+      letter-spacing: -0.25px;
+  }
+  
+  .accordion:before{
+      font-size: 15px;
+  }
+  
+  .FAQ .panel P {
+      font-size: 8px;
+  }
+  
+  .panel{
+      padding: 0px 5px;
+  }
+  
+  
+}
+/*=========================================*/
+
+
+/*==================280PX==================*/
+@media (min-width: 0px) and (max-width: 319px){
+  
+  .EEZL-container {
+      padding: 0 0.5rem;
+  }
+  
+  /*---.how-can-we-help-----*/
+  
+  .how-can-we-help {
+      padding: 20px 10px;
+  }
+  
+  .how-can-we-help-left{
+      text-align: center;
+      padding-bottom: 5px;
+      padding-top: 0px;
+  }
+  
+  .how-can-we-help-right{
+      text-align: center;
+      padding-top: 5px;
+      padding-bottom: 0px;
+  }
+  
+  .how-can-we-help-left h1 {
+      font-size: 28px;
+      line-height: 118.6%;
+  }
+  
+  /*----EEZL-collapse-sect----*/
+  
+  .EEZL-collapse-sect {
+      margin-top: 30px;
+  }
+  
+  .EEZL-collapse-sect-left{
+      text-align: center;
+  }
+  
+  .EEZL-collapse-sect-left ul li {
+      padding: 5px 0px;
+  }
+  
+  .EEZL-collapse-sect-left ul li a{
+      font-size: 13px;
+  }
+  
+  /*---accordion---*/
+  
+  .FAQ h1{
+      font-size: 13px;
+      padding-left: 5px;
+  }
+  
+  .accordion{
+      font-size: 9px;
+      padding: 10px 0px;
+      padding-left: 5px;
+      letter-spacing: -0.5px;
+  }
+  
+  .accordion:before{
+      font-size: 15px;
+  }
+  
+  .FAQ .panel P {
+      font-size: 8px;
+  }
+  
+  .panel{
+      padding: 0px 5px;
+  }
+  
+  
+}
+/*=========================================*/
+
+
+
+
+
+
+/*====================================*/
+/*============END-EEZL-FAQ============*/
+/*====================================*/
+
+
+
+
+/*====================================*/
+/*==========Hackathon-Explore=========*/
+/*====================================*/
+
+
+.HACKATHON{
+  background: linear-gradient(265.09deg, #3E17FF -4.46%, #7D17FF 100%);
+  border-radius: 32px;
+  height: auto;
+  padding: 40px 50px 40px 80px;
+}
+
+.HACKATHON-left{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.HACKATHON-left h1{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 118.6%;
+  color: #FFFFFF;
+  padding-bottom: 16px;
+}
+
+.HACKATHON-left h1 span{
+  color: #FFA600;
+}
+
+.HACKATHON-left p{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  letter-spacing: -0.50px;
+  line-height: 160%;
+  color: #FFFFFF;
+}
+
+
+/*----subscribe-sect----*/
+
+.subscribe-sect{
+  background: #F3F0FA;
+  border-radius: 16px;
+  height: auto;
+  margin-top: 50px;
+  padding: 25px 25px 25px 50px;
+  
+}
+
+.subscribe-left{
+  padding-top: 20px;
+}
+
+.subscribe-left h1{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 160%;
+  letter-spacing: 0.03em;
+  color: #412D7A;
+}
+
+.subscribe-right{
+  text-align: right;
+}
+
+.subscribe-right .subscribe-mail{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 160%;
+  letter-spacing: 0.03em;
+  color: #636363;
+  border-radius: 8px;
+  border: none;
+  outline: none;padding: 20px 30px;
+  margin-right: 10px;
+  width: 407px;
+}
+
+.subscribe-right button a{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.002em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  
+}
+
+.subscribe-right button{
+  padding: 24px 52px;
+  background: #FFA600;
+  border: 3px solid #FFA600;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+.hackathon-tabs{
+  margin-top: 60px;
+}
+
+
+
+/* Style the tab */
+.hackathon-tabs .tab {
+  overflow: hidden;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(32, 84, 165, 0.3);
+}
+
+/* Style the buttons inside the tab */
+
+.hackathon-tabs {
+  padding: 0px 0px;
+  width: 100%;
+}
+
+
+.hackathon-tabs .tab button {
+  color: #8656EF;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px 20px;
+  transition: 0.3s;
+  background: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 160%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #9EAAAC;
+  margin-right: 70px;
+}
+
+/* Change background color of buttons on hover */
+.hackathon-tabs .tab button:hover {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 160%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #8656EF;
+  border-bottom: 1px solid #8656EF;
+}
+
+
+/* Create an active/current tablink class */
+.hackathon-tabs .tab button.active {
+  background-color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 160%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #8656EF;
+  border-bottom: 1px solid #8656EF;;
+  
+}
+
+/* Style the tab content */
+.hackathon-tabs .tabcontent {
+  display: none;
+  padding: 6px 0px;
+  border-top: none;
+}
+
+
+
+/*-----Happening-Now-----*/
+
+.Happening-Now{
+  min-height: 910px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center;
+  
+}
+
+.Happening-Now-img{
+  margin-left: -80px;
+}
+
+.Happening-Now-text{
+  padding-top: 60px;
+}
+
+.Happening-Now-text h1{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  color: #000000;
+}
+
+.Happening-Now-text h1 a{
+  color: #8656EF;
+  text-decoration: underline;
+}
+
+
+
+
+/*-----Upcoming----*/
+
+.Upcoming{
+  margin-top: 40px;
+}
+
+.Upcoming-card{
+  
+  border-radius: 8px;
+}
+
+.Upcoming-card-1{
+  
+}
+
+.Upcoming-card-header{
+  min-height: 214px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.Upcoming-card-1-header{
+  background: #4C5FA2;
+  padding: 0px 50px;
+}
+
+.Upcoming-card-2-header{
+  background: #2E9BB4;
+  padding: 0px 62px;
+}
+
+.Upcoming-card-2-header-btn{}
+
+.Upcoming-card-2-header-btn button{
+  border: 1px solid #F4F4F4;
+  box-sizing: border-box;
+  border-radius: 40px;
+  background: transparent;
+  position: absolute;
+  top: 3%;
+  right: 7%;
+}
+
+.Upcoming-card-2-header-btn button a{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  padding: 2px 6px;
+}
+
+
+/*---Upcoming-card-body---*/
+
+.Upcoming-card-body{
+  background: #FFFFFF;
+  border: 1px solid #E1E8FA;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 16px rgba(180, 190, 215, 0.14);
+  border-radius: 0px 0px 8px 8px;
+}
+
+.Upcoming-card-body-top h1{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 160%;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.Upcoming-card-body-top h2{
+  font-family: 'Rajdhani', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15.6px;
+  line-height: 160%;
+  letter-spacing: 0.03em;
+  color: #64648A;
+  padding-top: 3px;
+  text-align: right;
+}
+
+.Upcoming-card-body-top{
+  padding-top: 25px;
+  padding-bottom: 18px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.Upcoming-card-1 .Upcoming-card-body-top{
+  border-bottom: 1px solid #E1E8FA;
+}
+
+.Upcoming-card-body-content{
+  padding: 25px 25px;
+}
+
+.Upcoming-card-body-content p{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0.01em;
+  color: #000000;
+  max-width: 455px;
+}
+
+.Upcoming-card-body-btn{
+  margin-top: 27px;
+}
+
+.Upcoming-card-body-btn .PROJECT-btn a{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.002em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.Upcoming-card-body-btn .BOUNTY-btn a{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.002em;
+  text-transform: uppercase;
+  color: #D2D2D2;
+}
+
+.Upcoming-card-body-btn .PROJECT-btn {
+  background: #FFA600;
+  border: 3px solid #FFA600;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+  padding: 18px 32px;
+}
+
+.Upcoming-card-body-btn .BOUNTY-btn {
+  background: #FFFFFF;
+  border: 3px solid #D2D2D2;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border-radius: 8px;
+  padding: 18px 32px;
+  margin-left: 14px;
+}
+
+.Peoject-Manger-sect{
+  padding-top: 27px;
+  padding-bottom: 10px;
+}
+
+.Peoject-Manger-sect h3{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.Peoject-Manger-sect img{
+  padding-left: 11px;
+}
+
+.Upcoming-card-footer{
+  background: #F7F9FA;
+  border-radius: 0px 0px 8px 8px;
+  min-height: 60px;
+  text-align: center;
+  padding-top: 17px;
+}
+
+
+
+/*---Completed---*/
+
+.Completed{
+  min-height: 910px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center;
+  
+}
+
+.Completed-img{
+  margin-left: -80px;
+}
+
+.Completed-text{
+  padding-top: 60px;
+}
+
+.Completed-text h1{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  color: #000000;
+}
+
+.Completed-text h1 a{
+  color: #8656EF;
+  text-decoration: underline;
+}
+
+.Completed-logo{
+  border-bottom: 1px solid #E1E8FA;
+  max-width: 456px;
+  position: absolute;
+  top: 26.5%;
+  padding-bottom: 142px;
+}
+
+
+/*---Join-us-sect----*/
+
+.Join-us-sect{
+  background: #FF941A;
+  height: auto;
+  margin-top: 88px;
+}
+
+.Join-us-content{
+  max-width: 1032px;
+  margin: auto;
+}
+
+.Join-us-left{}
+
+.Join-us-left h1{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 32px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  padding: 36px 0px;
+}
+
+.Join-us-right{
+  text-align: right;
+}
+
+.Join-us-right button{
+  background: #FFFFFF;
+  border-radius: 70px;
+  border: none;
+  padding: 10px 50px;
+  margin: 46px 0px;
+}
+
+.Join-us-right button a{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+.join-us-bg-img{
+  position: absolute;
+  top: 19%;
+  right: 5%;
+}
+
+
+
+
+
+/*------hackthon-pop-up-body------*/
+
+.hackthon-pop-up{
+  padding: 405px 205px;
+  padding-bottom: 520px;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+}
+
+.hackthon-pop-up-content{
+  background: #ffffff;
+  max-width: 1440px;
+  padding: 70px 60px;
+  margin: auto;
+}
+
+.pop-up-header{}
+
+.pop-up-header h1{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 140%;
+  text-align: center;
+  color: #3D3652;
+  max-width: 1079px;
+  margin: auto;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.pop-up-header h2{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 160%;
+  text-align: center;
+  color: #5A5A5A;
+  max-width: 884px;
+  width: 100%;
+  margin: auto;
+  
+}
+
+
+.pop-up-body{
+  padding-top: 50px;
+}
+
+.pop-up-body .icon-img{
+  text-align: center;
+}
+
+.pop-up-body .icon-text{
+  padding-top: 40px;
+}
+  
+.pop-up-body .icon-text h1{
+      font-family: 'Open Sans', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 118.6%;
+      text-align: center;
+      color: #000000;
+  }
+
+
+
+
+/*---pop-up-2column---*/
+
+.pop-up-2column{
+  margin-top: 80px;
+}
+
+.bookmark{
+  border-top: 1px solid rgba(32, 84, 165, 0.3);
+  padding-top: 53px;
+  padding-bottom: 63px;
+}
+
+.bag{
+  border-top: 1px solid rgba(32, 84, 165, 0.3);
+  padding-top: 52px;
+  padding-bottom: 60px;
+}
+
+
+.book{
+  padding-top: 52px;
+  padding-bottom: 62px;
+  border-top: 1px solid rgba(32, 84, 165, 0.3);
+  border-bottom: 1px solid rgba(32, 84, 165, 0.3);
+}
+
+.thams-up{
+  padding-top: 53px;
+  padding-bottom: 58px;
+  border-top: 1px solid rgba(32, 84, 165, 0.3);
+}
+.tea-cup{
+  padding-top: 52px;
+  padding-bottom: 60px;
+  border-top: 1px solid rgba(32, 84, 165, 0.3);
+}
+
+.headphone{
+  padding-top: 52px;
+  padding-bottom: 62px;
+  border-top: 1px solid rgba(32, 84, 165, 0.3);
+  border-bottom: 1px solid rgba(32, 84, 165, 0.3);
+}
+
+
+
+.pop-up-column .pop-up-column-row img{
+  margin-right: 45px;
+}
+
+.pop-up-column .pop-up-column-row h1{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 118.6%;
+  color: #000000;
+  margin-left: 30px;
+}
+
+
+
+.pop-up-Read-the-rules-sect{}
+
+.pop-up-rules-sect-text{}
+
+.pop-up-rules-sect-text h1{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400l;
+  font-size: 18px;
+  line-height: 118.6%;
+  color: #000000;
+  padding: 40px 7px;
+  border-bottom: 1px solid rgba(32, 84, 165, 0.3);
+}
+
+.pop-up-rules-sect-text h1 a{
+  color: #6F3FF5;
+}
+
+
+.pop-up-Dan-Brooks-sect{
+  margin-top: 25px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(32, 84, 165, 0.3);
+}
+  
+.Dan-Brooks-text {
+  padding-top: 10px;
+  max-width: 779px;
+}
+
+.Dan-Brooks-text h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #5A5A5A;
+}
+
+.Dan-Brooks-text h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 160%;
+  padding-top: 10px;
+  color: #000000;
+}
+
+
+
+/*---Still-not-sure-sect---*/
+
+.Still-not-sure-sect{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.Still-not-sure-sect h1{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: -0.002em;
+  color: #FF5722;
+}
+
+.Still-not-sure-sect h2{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 24px;
+  letter-spacing: -0.002em;
+  text-transform: uppercase;
+  color: #000000;
+  padding-bottom: 36px;
+  padding-top: 22px;
+}
+
+.Still-not-sure-sect button{
+  background: #ffffff;
+  border: 3px solid #8656EF;
+  box-sizing: border-box;
+  border-radius: 12px;
+  padding: 18px 40px;
+}
+
+.Still-not-sure-sect button a{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: -0.002em;
+  text-transform: uppercase;
+  color: #8656EF;
+}
+
+
+.pop-up-close{
+  position: absolute;
+  top: 16%;
+  right: 15%;
+}
+
+.hackthon-pop-up{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
+
+
+/*----END-hackthon-pop-up-body----*/
+
+
+
+
+
+/*====@MEDIA SCREEN=====*/
+/*====@MEDIA SCREEN=====*/
+/*====@MEDIA SCREEN=====*/
+
+
+/*================2560PX==================*/
+
+@media (min-width: 2000px) and (max-width: 2560px){
+  .pop-up-close{
+  position: absolute;
+  top: 17%;
+  right: 24%;
+}
+
+}
+
+/*========================================*/
+
+
+/*=================1920px=================*/
+
+@media (min-width: 1920px) and (max-width: 2559px){}
+
+/*========================================*/
+  
+  
+/*================1440PX==================*/
+  
+@media (min-width: 1440px) and (max-width: 1919px) {
+  
+  
+  .HACKATHON {
+      padding: 30px 40px 30px 60px;
+  }
+
+.HACKATHON-left h1{
+  font-size: 65px;
+  line-height: 118.6%;
+}
+
+.HACKATHON-left p{
+  font-size: 30px;
+}
+
+  
+  /*----subscribe-sect----*/
+  
+  .subscribe-left{
+      padding-top: 15px;
+  }
+  
+  .subscribe-left h1{
+      font-size: 22px;
+  }
+  
+  .subscribe-right .subscribe-mail{
+      font-size: 20px;
+      padding: 15px 20px;
+      width: 370px;
+  }
+  
+  .subscribe-right button{
+      padding: 15px 30px;
+  }
+  
+  
+  /*-----Upcoming----*/
+  
+  .Upcoming-card-body-top h1{
+      font-size: 20px;
+  }
+  
+  .Upcoming-card-body-top h2{
+      font-size: 13px;
+  }
+  
+  .Upcoming-card-body-top h2 img{
+      height: 13px;
+      padding-right: 3px;
+  }
+  
+  .Upcoming-card-body-content p {
+      font-size: 15px;
+  }
+  
+  .Upcoming-card-body-btn .PROJECT-btn {
+      padding: 15px 22px;
+  }
+  .Upcoming-card-body-btn .BOUNTY-btn{
+      padding: 15px 22px;
+      margin-left: 10px;
+  }
+
+  
+  
+  /*------hackthon-pop-up-body------*/
+  
+  .hackthon-pop-up {
+      padding: 300px 100px;
+      padding-bottom: 640px;
+      
+  }
+  
+  
+  
+  
+.pop-up-body{
+  padding-top: 40px;
+}
+
+.pop-up-body .icon-text{
+  padding-top: 30px;
+}
+  
+.pop-up-body .icon-text h1{
+      font-size: 22px;
+      line-height: 118.6%;
+  }
+
+
+  
+  .pop-up-column .pop-up-column-row img {
+      margin-right: 20px;
+  }
+
+  .pop-up-column .pop-up-column-row h1 {
+      font-size: 20px;
+      margin-left: 20px;
+  }
+  
+  
+  .pop-up-2column {
+      margin-top: 80px;
+  }
+
+.bookmark{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.bag{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.book{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.thams-up{
+  padding-top: 50px;
+  padding-bottom: 46px;
+}
+.tea-cup{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.headphone{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+  
+  
+  .pop-up-Dan-Brooks-sect {
+      margin-top: 25px;
+  }
+
+  .Dan-Brooks-text {
+      max-width: 720px;
+      padding-top: 5px;
+  }
+
+  .Dan-Brooks-text h1 {
+      font-size: 16px;
+      line-height: 160%;
+  }
+
+  .Dan-Brooks-text h2 {
+      font-size: 20px;
+      line-height: 160%;
+      padding-top: 5px;
+  }
+  
+  .pop-up-close {
+      position: absolute;
+      top: 12%;
+      right: 9%;
+  }
+
+  
+}
+
+
+@media (max-width: 1440px){
+  
+  .hackthon-pop-up {
+      padding: 300px 100px;
+      padding-bottom: 590px;
+      
+  }
+  
+  .pop-up-close {
+      position: absolute;
+      top: 12%;
+      right: 9%;
+  }
+
+  
+}
+
+/*========================================*/
+  
+  
+  
+/*================1360PX==================*/
+  
+@media (min-width: 1360px) and (max-width: 1439px) {
+  
+  .HACKATHON {
+      padding: 30px 40px 30px 60px;
+  }
+
+.HACKATHON-left h1{
+  font-size: 62px;
+  line-height: 118.6%;
+}
+
+.HACKATHON-left p{
+  font-size: 26px;
+}
+  
+  
+  /*----subscribe-sect----*/
+  
+  .subscribe-left{
+      padding-top: 15px;
+  }
+  
+  .subscribe-left h1{
+      font-size: 21px;
+  }
+  
+  .subscribe-right .subscribe-mail{
+      font-size: 18px;
+      padding: 15px 20px;
+      width: 350px;
+  }
+  
+  .subscribe-right button a{
+      font-size: 20px;
+  }
+  
+  .subscribe-right button{
+      padding: 15px 30px;
+  }
+  
+  
+  
+  /*-----Happening-Now----*/
+  
+  .Happening-Now {
+      min-height: 700px;
+  }
+  
+  
+  
+  /*-----Upcoming----*/
+  
+  .Upcoming-card-header {
+      min-height: 185px;
+  }
+  .Upcoming-card-2-header-btn button{
+      position: absolute;
+      top: 2%;
+      right: 7%;
+  }
+
+  
+  .Upcoming-card-body-top h1{
+      font-size: 18px;
+  }
+  
+  .Upcoming-card-body-top h2{
+      font-size: 11px;
+  }
+  
+  .Upcoming-card-body-top h2 img{
+      height: 11px;
+      padding-right: 3px;
+  }
+  
+  .Upcoming-card-body-content p {
+      font-size: 15px;
+  }
+  
+  .Upcoming-card-body-btn .PROJECT-btn {
+      padding: 15px 22px;
+  }
+  .Upcoming-card-body-btn .BOUNTY-btn{
+      padding: 15px 22px;
+      margin-left: 10px;
+  }
+
+  
+
+  /*---Completed-logo---*/
+  
+  .Completed-logo{
+      padding-bottom: 85px;
+  }
+  
+  
+  
+  /*------hackthon-pop-up-body------*/
+  
+  .hackthon-pop-up {
+      padding: 300px 100px;
+      padding-bottom: 400px;
+      
+  }
+  
+  .pop-up-header h1{
+      font-size: 38px;
+  }
+  
+  
+    
+.pop-up-body{
+  padding-top: 40px;
+}
+
+.pop-up-body .icon-text{
+  padding-top: 20px;
+}
+  
+.pop-up-body .icon-text h1{
+      font-size: 20px;
+      line-height: 118.6%;
+  }
+  
+  
+  
+  
+
+.pop-up-column .pop-up-column-row img {
+      margin-right: 15px;
+      height: 30px;
+  }
+
+  .pop-up-column .pop-up-column-row h1 {
+      font-size: 19px;
+      margin-left: 20px;
+  }
+  
+  .pop-up-2column {
+      margin-top: 80px;
+  }
+
+.bookmark{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.bag{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.book{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.thams-up{
+  padding-top: 50px;
+  padding-bottom: 49.5px;
+}
+.tea-cup{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.headphone{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+  
+  
+  
+  .pop-up-Dan-Brooks-sect {
+      margin-top: 25px;
+  }
+
+  .Dan-Brooks-text {
+      max-width: 720px;
+      padding-top: 5px;
+  }
+
+  .Dan-Brooks-text h1 {
+      font-size: 16px;
+      line-height: 160%;
+  }
+
+  .Dan-Brooks-text h2 {
+      font-size: 20px;
+      line-height: 160%;
+      padding-top: 5px;
+  }
+  
+  
+  .pop-up-close {
+      position: absolute;
+      top: 13%;
+      right: 9%;
+  }
+  
+  
+  
+}
+  
+/*========================================*/  
+  
+
+/*=================1280PX=================*/
+@media (min-width: 1280px) and (max-width: 1359px){
+  
+  
+  
+  
+  .HACKATHON {
+      padding: 30px 40px 30px 60px;
+  }
+
+.HACKATHON-left h1{
+  font-size: 55px;
+  line-height: 118.6%;
+  padding-bottom: 10px;
+}
+
+.HACKATHON-left p{
+  font-size: 24px;
+}
+  
+  
+  /*----subscribe-sect----*/
+  
+  .subscribe-left{
+      padding-top: 15px;
+  }
+  
+  .subscribe-left h1{
+      font-size: 20px;
+  }
+  
+  .subscribe-right .subscribe-mail{
+      font-size: 18px;
+      padding: 15px 20px;
+      width: 330px;
+  }
+  
+  .subscribe-right button a{
+      font-size: 19px;
+  }
+  
+  .subscribe-right button{
+      padding: 15px 30px;
+  }
+  
+  
+  
+  
+  /*-----Happening-Now----*/
+  
+  .Happening-Now {
+      min-height: 700px;
+  }
+  
+  /*-----Upcoming----*/
+  
+  .Upcoming-card-header {
+      min-height: 155px;
+  }
+  .Upcoming-card-2-header-btn button{
+      position: absolute;
+      top: 2%;
+      right: 7%;
+  }
+
+  
+  .Upcoming-card-body-top h1{
+      font-size: 17px;
+  }
+  
+  .Upcoming-card-body-top h2{
+      font-size: 11px;
+      padding-top: 5px;
+  }
+  
+  .Upcoming-card-body-top h2 img{
+      height: 11px;
+      padding-right: 3px;
+  }
+  
+  .Upcoming-card-body-content p {
+      font-size: 15px;
+  }
+  
+  .Upcoming-card-body-btn .PROJECT-btn {
+      padding: 15px 22px;
+  }
+  .Upcoming-card-body-btn .BOUNTY-btn{
+      padding: 15px 22px;
+      margin-left: 5px;
+  }
+  
+  .Upcoming-card-body-btn .PROJECT-btn  a{
+      font-size: 14px;
+  }
+  
+  .Upcoming-card-body-btn .BOUNTY-btn  a{
+      font-size: 14px;
+  }
+
+
+  /*---Completed---*/
+  .Completed-logo{
+      width: 25%;
+      padding-bottom: 120px;
+  }
+  
+  
+  /*---Join-us-Sect---*/
+  
+  .Join-us-left h1{
+      font-size: 24px;
+  }
+  
+  
+  
+  
+  /*------hackthon-pop-up-body------*/
+  
+  .hackthon-pop-up {
+      padding: 300px 80px;
+      padding-bottom: 470px;
+      
+  }
+  
+  .pop-up-header h1{
+      font-size: 39px;
+  }
+  
+  .hackthon-pop-up-content {
+      padding: 50px 30px;
+  }
+  
+  
+       
+.pop-up-body{
+  padding-top: 40px;
+}
+
+.pop-up-body .icon-text{
+  padding-top: 20px;
+}
+  
+.pop-up-body .icon-text h1{
+      font-size: 20px;
+      line-height: 118.6%;
+  }
+
+
+ 
+.pop-up-column .pop-up-column-row img {
+      margin-right: 15px;
+      height: 30px;
+  }
+
+  .pop-up-column .pop-up-column-row h1 {
+      font-size: 19px;
+      margin-left: 20px;
+  }
+  
+  
+  .pop-up-2column {
+      margin-top: 80px;
+  }
+
+.bookmark{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.bag{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.book{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.thams-up{
+  padding-top: 50px;
+  padding-bottom: 49px;
+}
+.tea-cup{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.headphone{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+  
+  .pop-up-rules-sect-text h1 {
+      font-size: 18px;
+      line-height: 118.6%;
+      padding: 30px 7px;
+  }
+
+   
+  
+  .pop-up-Dan-Brooks-sect {
+      margin-top: 25px;
+  }
+
+  .Dan-Brooks-text {
+      max-width: 720px;
+      padding-top: 5px;
+  }
+
+  .Dan-Brooks-text h1 {
+      font-size: 16px;
+      line-height: 160%;
+  }
+
+  .Dan-Brooks-text h2 {
+      font-size: 20px;
+      line-height: 160%;
+      padding-top: 5px;
+  }
+  
+  .pop-up-close {
+      position: absolute;
+      top: 13%;
+      right: 8%;
+  }
+  
+  
+}
+
+/*========================================*/
+
+
+/*================1024PX==================*/
+@media (min-width: 1024px) and (max-width: 1279px){
+  
+  
+  
+  .HACKATHON {
+      padding: 30px 40px 30px 60px;
+  }
+
+.HACKATHON-left h1{
+  font-size: 50px;
+  line-height: 118.6%;
+  padding-bottom: 10px;
+}
+
+.HACKATHON-left p{
+  font-size: 19px;
+}
+
+  
+  /*----subscribe-sect----*/
+  
+  .subscribe-sect {
+      padding: 25px 25px 25px 30px;
+
+  }
+  
+  .subscribe-left{
+      padding-top: 12px;
+  }
+  
+  .subscribe-left h1{
+      font-size: 16px;
+  }
+  
+  .subscribe-right .subscribe-mail{
+      font-size: 16px;
+      padding: 12px 15px;
+      width: 265px;
+      margin-right: 5px;
+  }
+  
+  .subscribe-right button a{
+      font-size: 16px;
+  }
+  
+  .subscribe-right button{
+      padding: 10px 20px;
+  }
+  
+  
+  /* Style the tab */
+.hackathon-tabs .tab {
+  overflow: hidden;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(32, 84, 165, 0.3);
+}
+
+/* Style the buttons inside the tab */
+
+.hackathon-tabs {
+  padding: 0px 0px;
+}
+
+
+.hackathon-tabs .tab button {
+  font-size: 18px;
+  line-height: 160%;
+  margin-right: 30px;
+}
+
+/* Change background color of buttons on hover */
+.hackathon-tabs .tab button:hover {
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0.03em;
+  border-bottom: 1px solid #8656EF;
+}
+
+
+/* Create an active/current tablink class */
+.hackathon-tabs .tab button.active {
+  font-size: 18px;
+  line-height: 160%;
+  border-bottom: 1px solid #8656EF;;
+  
+}
+
+/* Style the tab content */
+.hackathon-tabs .tabcontent {
+  display: none;
+  padding: 6px 0px;
+  border-top: none;
+}
+
+
+  /*---Happening-Now---*/
+  
+  .Happening-Now {
+      min-height: 700px;
+  }
+  
+  
+  /*-----Upcoming----*/
+  
+  .Upcoming-card-header {
+      min-height: 130px;
+  }
+  
+  .Upcoming-card-1-header {
+      padding: 0px 30px;
+  }
+  
+  .Upcoming-card-2-header {
+      padding: 0px 30px;
+  }
+  
+  .Upcoming-card-2-header-btn button a {
+      font-size: 9px;
+  }
+  
+  .Upcoming-card-2-header-btn button{
+      position: absolute;
+      top: 1%;
+      right: 8%;
+  }
+  
+  .Upcoming-card-body-top {
+      margin-left: 15px;
+      margin-right: 15px;
+  }
+  
+  .Upcoming-card-body-content {
+      padding: 25px 15px;
+  }
+  
+  
+  
+  
+  .Upcoming-card-body-top h1{
+      font-size: 21px;
+  }
+  
+  .Upcoming-card-body-top h2{
+      font-size: 18px;
+      padding-top: 5px;
+  }
+  
+  .Upcoming-card-body-top h2 img{
+      height: 15px;
+      padding-right: 4px;
+  }
+  
+  .Upcoming-card-body-content p {
+      font-size: 11px;
+  }
+  
+  .Upcoming-card-body-btn .PROJECT-btn {
+      padding: 10px 12px;
+      width: 100%;
+  }
+  .Upcoming-card-body-btn .BOUNTY-btn{
+      padding: 10px 12px;
+      width: 100%;
+      margin-left: 0px;
+      margin-top: 10px;
+  }
+  
+  .Upcoming-card-body-btn .PROJECT-btn  a{
+      font-size: 14px;
+  }
+  
+  .Upcoming-card-body-btn .BOUNTY-btn  a{
+      font-size: 14px;
+  }
+
+  .Peoject-Manger-sect h3 {
+      font-size: 16px;
+  }
+
+  
+  
+  
+  /*----Completed----*/
+  
+  .Completed-logo{
+      width: 25%;
+  }
+  
+  /*---Join-us-Sect---*/
+  
+  .Join-us-left h1{
+      font-size: 19px;
+  }
+  
+  
+  
+  
+  
+  /*------hackthon-pop-up-body------*/
+  
+  .hackthon-pop-up {
+      padding: 350px 80px;
+      padding-bottom: 750px;
+      
+  }
+  
+  .pop-up-header h1{
+      font-size: 30px;
+  }
+  
+  .pop-up-header h2{
+      font-size: 23px;
+  }
+  
+  .hackthon-pop-up-content {
+      padding: 50px 30px;
+  }
+  
+  
+       
+.pop-up-body{
+  padding-top: 40px;
+}
+
+.pop-up-body .icon-text{
+  padding-top: 20px;
+}
+  
+.pop-up-body .icon-text h1{
+      font-size: 15px;
+      line-height: 118.6%;
+  }
+
+
+  
+    
+.pop-up-column .pop-up-column-row img {
+      margin-right: 10px;
+      height: 20px;
+  }
+
+  .pop-up-column .pop-up-column-row h1 {
+      font-size: 14px;
+      margin-left: 20px;
+  }
+  
+  
+  .pop-up-2column {
+      margin-top: 80px;
+  }
+
+.bookmark{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.bag{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+.book{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.thams-up{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.tea-cup{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.headphone{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+  
+  
+  
+  .pop-up-rules-sect-text h1 {
+      font-size: 16px;
+      line-height: 118.6%;
+      padding: 30px 7px;
+  }
+  
+  
+  .pop-up-Dan-Brooks-sect {
+      margin-top: 25px;
+      padding-bottom: 30px;
+  }
+
+  .Dan-Brooks-text {
+      max-width: 720px;
+      padding-top: 0px;
+  }
+
+  .Dan-Brooks-text h1 {
+      font-size: 12px;
+      line-height: 160%;
+  }
+
+  .Dan-Brooks-text h2 {
+      font-size: 14px;
+      line-height: 160%;
+      padding-top: 2px;
+  }
+  
+  
+  /*---Still-not-sure-sect---*/
+
+.Still-not-sure-sect{
+  margin-top: 40px;
+}
+
+.Still-not-sure-sect h1{
+  font-size: 21px;
+  line-height: 24px;
+}
+
+.Still-not-sure-sect h2{
+  font-size: 32px;
+  line-height: 24px;
+  padding-bottom: 32px;
+  padding-top: 20px;
+}
+
+.Still-not-sure-sect button{
+  padding: 13px 30px;
+}
+
+.Still-not-sure-sect button a{
+  font-size: 20px;
+  line-height: 24px;
+}
+
+
+  
+  .pop-up-close {
+      position: absolute;
+      top: 14.5%;
+      right: 9%;
+  }
+  
+  .pop-up-close img{
+      height: 60px;
+  }
+  
+}
+/*========================================*/
+
+
+/*================812PX==================*/
+@media (min-width: 812px) and (max-width: 1023px){
+  
+  
+  
+  .HACKATHON {
+      padding: 50px;
+  }
+  .HACKATHON-left{
+      padding-bottom: 50px;
+      text-align: center;
+  }
+  
+  .HACKATHON-right{
+      text-align: center;
+  }
+  
+  /*----subscribe-sect----*/
+  
+  .subscribe-sect {
+      padding: 25px;
+
+  }
+  
+  .subscribe-left{
+      text-align: center;
+      padding-bottom: 30px;
+  }
+  
+  .subscribe-right{
+      text-align: center;
+  }
+  
+  
+  
+  
+  /* Style the tab */
+.hackathon-tabs .tab {
+  overflow: hidden;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(32, 84, 165, 0.3);
+}
+
+/* Style the buttons inside the tab */
+
+.hackathon-tabs {
+  padding: 0px 0px;
+}
+
+.hackathon-tabs .tab button {
+  font-size: 18px;
+  line-height: 160%;
+  margin-right: 30px;
+}
+
+/* Change background color of buttons on hover */
+.hackathon-tabs .tab button:hover {
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0.03em;
+  border-bottom: 1px solid #8656EF;
+}
+  
+/* Create an active/current tablink class */
+.hackathon-tabs .tab button.active {
+  font-size: 18px;
+  line-height: 160%;
+  border-bottom: 1px solid #8656EF;;
+  
+}
+
+/* Style the tab content */
+.hackathon-tabs .tabcontent {
+  display: none;
+  padding: 6px 0px;
+  border-top: none;
+}
+
+
+  
+      
+  /*---Happening-Now--*/
+  
+  .Happening-Now-img {
+      margin-left: -40px;
+  }
+  
+  .Happening-Now {
+      min-height: 700px;
+  }
+  
+  /*---Upcoming---*/
+  
+  .Upcoming-card{
+      margin-bottom: 50px;
+  }
+  .Upcoming-card-body-top h2 img{
+      padding-right: 5px;
+  }
+  
+  
+  /*---Completed---*/
+  
+  .Completed-img {
+      margin-left: -40px;
+  }
+  
+  .Completed-logo{
+      width: 22%;
+      top: 29%;
+      padding-bottom: 105px;
+  }
+  
+  /*---Join-us-Sect---*/
+  
+  .Join-us-sect{
+      margin-top: 50px;
+  }
+  
+  .Join-us-left h1{
+      font-size: 14px;
+      line-height: 27px;
+      padding: 26px 0px;
+  }
+  
+  .join-us-bg-img {
+      position: absolute;
+      top: 7%;
+      right: 5%;
+  }
+  
+  .Join-us-right button {
+      margin: 30px 20px;
+  }
+  
+  
+  
+  
+  
+  /*------hackthon-pop-up-body------*/
+  
+  .hackthon-pop-up {
+      padding: 350px 40px;
+      padding-bottom: 960px;
+      
+  }
+  
+  .pop-up-header h1{
+      font-size: 25px;
+  }
+  
+  .pop-up-header h2{
+      font-size: 19px;
+  }
+  
+  .hackthon-pop-up-content {
+      padding: 50px 40px;
+  }
+  
+  
+          
+.pop-up-body{
+  padding-top: 20px;
+}
+  
+.pop-up-body .icon-img img{
+      width: 80%;
+  }
+
+.pop-up-body .icon-text{
+  padding-top: 10px;
+}
+  
+.pop-up-body .icon-text h1{
+      font-size: 12px;
+      line-height: 118.6%;
+  }
+
+     
+.bookmark{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.bag{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+.book{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: none;
+}
+
+.thams-up{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.tea-cup{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.headphone{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+  
+  .pop-up-rules-sect-text h1 {
+      font-size: 14px;
+      line-height: 118.6%;
+      padding: 20px 7px;
+  }
+  
+  .pop-up-Dan-Brooks-sect{
+      text-align: center;
+      padding-bottom: 25px;
+  }
+  
+  .Dan-Brooks-text h1 {
+      font-size: 17px;
+  }
+  
+  
+  /*---Still-not-sure-sect---*/
+
+.Still-not-sure-sect{
+  margin-top: 40px;
+}
+
+.Still-not-sure-sect h1{
+  font-size: 21px;
+  line-height: 24px;
+}
+
+.Still-not-sure-sect h2{
+  font-size: 28px;
+  line-height: 24px;
+  padding-bottom: 30px;
+  padding-top: 18px;
+}
+
+.Still-not-sure-sect button{
+  padding: 13px 30px;
+}
+
+.Still-not-sure-sect button a{
+  font-size: 20px;
+  line-height: 24px;
+}
+
+
+  .pop-up-close {
+      position: absolute;
+      top: 12%;
+      right: 8%;
+  }
+  
+  .pop-up-close img{
+      height: 50px;
+  }
+  
+  
+}
+/*========================================*/
+
+
+/*================768PX==================*/
+@media (min-width: 768px) and (max-width: 811px){
+  
+  
+  
+  
+  .HACKATHON {
+      padding: 50px;
+  }
+  .HACKATHON-left{
+      padding-bottom: 50px;
+      text-align: center;
+  }
+  
+  .HACKATHON-right{
+      text-align: center;
+  }
+  
+  
+  .HACKATHON-left h1{
+      font-size: 65px;
+  }
+  
+  .HACKATHON-left p{
+      font-size: 30px;
+  }
+  
+  
+  /*----subscribe-sect----*/
+  
+  .subscribe-sect {
+      padding: 25px;
+
+  }
+  
+  .subscribe-left{
+      text-align: center;
+      padding-bottom: 30px;
+  }
+  
+  .subscribe-right{
+      text-align: center;
+  }
+  
+  .subscribe-left h1 {
+      font-size: 23px;
+  }
+  
+  .subscribe-right .subscribe-mail{
+      width: 350px;
+      font-size: 18px;
+  }
+  
+  .subscribe-right button a{
+      font-size: 18px;
+  }
+  
+  .subscribe-right button {
+      padding: 18px 24px;
+  }
+  
+  
+  
+  /* Style the tab */
+.hackathon-tabs .tab {
+  overflow: hidden;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(32, 84, 165, 0.3);
+}
+
+/* Style the buttons inside the tab */
+
+.hackathon-tabs {
+  padding: 0px 0px;
+}
+
+
+.hackathon-tabs .tab button {
+  font-size: 18px;
+  line-height: 160%;
+  margin-right: 30px;
+}
+
+/* Change background color of buttons on hover */
+.hackathon-tabs .tab button:hover {
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0.03em;
+  border-bottom: 1px solid #8656EF;
+}
+
+
+/* Create an active/current tablink class */
+.hackathon-tabs .tab button.active {
+  font-size: 18px;
+  line-height: 160%;
+  border-bottom: 1px solid #8656EF;;
+  
+}
+
+/* Style the tab content */
+.hackathon-tabs .tabcontent {
+  display: none;
+  padding: 6px 0px;
+  border-top: none;
+}
+
+
+  
+  /*---Happening-Now--*/
+  
+  .Happening-Now-img {
+      margin-left: -40px;
+  }
+  
+  .Happening-Now {
+      min-height: 700px;
+  }
+  
+  
+  /*---Upcoming---*/
+  
+  .Upcoming-card{
+      margin-bottom: 50px;
+  }
+  .Upcoming-card-body-top h2 img{
+      padding-right: 5px;
+  }
+  
+  /*---Completed---*/
+  
+  .Completed-img {
+      margin-left: -40px;
+  }
+  
+  .Completed-logo{
+      width: 22%;
+      top: 29%;
+      padding-bottom: 115px;
+  }
+  
+  
+  /*---Join-us-Sect---*/
+  
+  .Join-us-sect{
+      margin-top: 60px;
+  }
+  
+  .Join-us-left h1{
+      font-size: 13px;
+      line-height: 27px;
+      padding: 26px 0px;
+  }
+  
+  .join-us-bg-img {
+      position: absolute;
+      top: 7%;
+      right: 5%;
+  }
+  
+  .Join-us-right button {
+      padding: 5px 35px;
+      margin: 33px 20px;
+  }
+  
+  
+  
+  /*------hackthon-pop-up-body------*/
+  
+  .hackthon-pop-up {
+      padding: 350px 40px;
+      padding-bottom: 905px;
+      
+  }
+  
+  .pop-up-header h1{
+      font-size: 23px;
+  }
+  
+  .pop-up-header h2{
+      font-size: 18px;
+  }
+  
+  .hackthon-pop-up-content {
+      padding: 50px 40px;
+  }
+  
+            
+.pop-up-body{
+  padding-top: 20px;
+}
+  
+.pop-up-body .icon-img img{
+      width: 80%;
+  }
+
+.pop-up-body .icon-text{
+  padding-top: 10px;
+}
+  
+.pop-up-body .icon-text h1{
+      font-size: 11px;
+      line-height: 118.6%;
+  }
+
+
+     
+.bookmark{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.bag{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+.book{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: none;
+}
+
+.thams-up{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.tea-cup{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.headphone{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+  
+  .pop-up-column .pop-up-column-row img {
+      margin-right: 25px;
+  }
+  
+  
+  
+  
+  .pop-up-rules-sect-text h1 {
+      font-size: 13px;
+      line-height: 118.6%;
+      padding: 20px 7px;
+  }
+  
+  
+  .pop-up-Dan-Brooks-sect{
+      text-align: center;
+      padding-bottom: 20px;
+  }
+  
+  .Dan-Brooks-text h1 {
+      font-size: 16px;
+  }
+  
+  
+  /*---Still-not-sure-sect---*/
+
+.Still-not-sure-sect{
+  margin-top: 40px;
+}
+
+.Still-not-sure-sect h1{
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.Still-not-sure-sect h2{
+  font-size: 28px;
+  line-height: 24px;
+  padding-bottom: 30px;
+  padding-top: 18px;
+}
+
+.Still-not-sure-sect button{
+  padding: 10px 25px;
+}
+
+.Still-not-sure-sect button a{
+  font-size: 18px;
+  line-height: 24px;
+}
+
+  
+  
+  .pop-up-close {
+      position: absolute;
+      top: 12%;
+      right: 7%;
+  }
+  
+  .pop-up-close img{
+      height: 50px;
+  }
+  
+  
+}
+/*========================================*/
+
+
+/*=================736PX==================*/
+@media (min-width: 736px) and (max-width: 767px){
+  
+  
+  
+  
+  .HACKATHON {
+      padding: 50px;
+  }
+  .HACKATHON-left{
+      padding-bottom: 50px;
+      text-align: center;
+  }
+  
+  .HACKATHON-right{
+      text-align: center;
+  }
+  
+  
+  .HACKATHON-left h1{
+      font-size: 65px;
+  }
+  
+  .HACKATHON-left p{
+      font-size: 28px;
+  }
+  
+  
+  /*----subscribe-sect----*/
+  
+  .subscribe-sect {
+      padding: 25px;
+
+  }
+  
+  .subscribe-left{
+      text-align: center;
+      padding-bottom: 30px;
+  }
+  
+  .subscribe-right{
+      text-align: center;
+  }
+  
+  .subscribe-left h1 {
+      font-size: 23px;
+  }
+  
+  .subscribe-right .subscribe-mail{
+      width: 350px;
+      font-size: 18px;
+  }
+  
+  .subscribe-right button a{
+      font-size: 18px;
+  }
+  
+  .subscribe-right button {
+      padding: 18px 24px;
+  }
+  
+  
+  
+  /* Style the tab */
+.hackathon-tabs .tab {
+  overflow: hidden;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(32, 84, 165, 0.3);
+}
+
+/* Style the buttons inside the tab */
+
+.hackathon-tabs {
+  padding: 0px 0px;
+}
+
+
+.hackathon-tabs .tab button {
+  font-size: 18px;
+  line-height: 160%;
+  margin-right: 30px;
+}
+
+/* Change background color of buttons on hover */
+.hackathon-tabs .tab button:hover {
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0.03em;
+  border-bottom: 1px solid #8656EF;
+}
+
+
+/* Create an active/current tablink class */
+.hackathon-tabs .tab button.active {
+  font-size: 18px;
+  line-height: 160%;
+  border-bottom: 1px solid #8656EF;;
+  
+}
+
+/* Style the tab content */
+.hackathon-tabs .tabcontent {
+  display: none;
+  padding: 6px 0px;
+  border-top: none;
+}
+
+
+  
+  
+  /*---Happening-Now--*/
+  .Happening-Now-img {
+      margin-left: -40px;
+  }
+  
+  .Happening-Now {
+      min-height: 690px;
+  }
+  
+  /*---Upcoming---*/
+  
+  .Upcoming-card{
+      margin-bottom: 50px;
+  }
+  
+  .Upcoming-card-body-top h1{
+      text-align: center;
+  }
+  
+  .Upcoming-card-body-top h2{
+      text-align: center;
+      font-size: 16px;
+  }
+  .Upcoming-card-body-top h2 img{
+      padding-right: 5px;
+
+  }
+  
+  
+  
+  
+  /*---Completed---*/
+  
+  .Completed-img {
+      margin-left: -40px;
+  }
+  
+  .Completed-logo{
+      width: 22%;
+      top: 29%;
+      padding-bottom: 105px;
+  }
+  
+  
+  /*---Join-us-Sect---*/
+  
+  .Join-us-sect{
+      margin-top: 60px;
+  }
+  
+  .Join-us-content{
+      text-align: center;
+  }
+  
+  .Join-us-left h1{
+      font-size: 30px;
+  }
+  
+  .Join-us-right {
+      text-align: center;
+  }
+  
+  .Join-us-right button{
+      width: 80%;
+  }
+  
+  .join-us-bg-img {
+      position: absolute;
+      top: 36%;
+      right: 5%;
+  }
+  
+  
+  /*------hackthon-pop-up-body------*/
+  
+  .hackthon-pop-up {
+      padding: 260px 40px;
+      padding-bottom: 1420px;
+      
+  }
+  
+  .pop-up-header h1{
+      font-size: 21px;
+  }
+  
+  .pop-up-header h2{
+      font-size: 17px;
+  }
+  
+  .hackthon-pop-up-content {
+      padding: 50px 40px;
+  }
+  
+  .pop-up-body{
+  padding-top: 50px;
+}
+
+  .pop-up-body .icon-img img{
+      width: 70%;
+  }
+
+
+.pop-up-body .icon-text{
+  padding-top: 10px;
+}
+  
+.pop-up-body .icon-text h1{
+      font-size: 10px;
+      line-height: 118.6%;
+  }
+
+
+     
+.bookmark{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.bag{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+.book{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: none;
+}
+
+.thams-up{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.tea-cup{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.headphone{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+  
+  
+  .pop-up-column .pop-up-column-row img {
+      margin-right: 25px;
+  }
+  
+  .pop-up-column .pop-up-column-row h1{
+      font-size: 20px;
+  }
+  
+  
+  .pop-up-rules-sect-text h1 {
+      font-size: 13px;
+      line-height: 118.6%;
+      padding: 20px 7px;
+  }
+  
+  .pop-up-Dan-Brooks-sect{
+      text-align: center;
+      padding-bottom: 20px;
+  }
+  
+  .Dan-Brooks-text h1 {
+      font-size: 17px;
+  }
+  
+  
+  /*---Still-not-sure-sect---*/
+
+.Still-not-sure-sect{
+  margin-top: 40px;
+}
+
+.Still-not-sure-sect h1{
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.Still-not-sure-sect h2{
+  font-size: 26px;
+  line-height: 24px;
+  padding-bottom: 30px;
+  padding-top: 18px;
+}
+
+.Still-not-sure-sect button{
+  padding: 10px 25px;
+}
+
+.Still-not-sure-sect button a{
+  font-size: 18px;
+  line-height: 24px;
+}
+
+  .pop-up-close {
+      position: absolute;
+      top: 8%;
+      right: 8%;
+  }
+  
+  .pop-up-close img{
+      height: 50px;
+  }
+  
+  
+}
+/*========================================*/
+
+
+
+
+/*=================667PX==================*/
+@media (min-width: 667px) and (max-width: 735px){
+  
+  
+  
+  .HACKATHON {
+      padding: 50px;
+  }
+  .HACKATHON-left{
+      padding-bottom: 50px;
+      text-align: center;
+  }
+  
+  .HACKATHON-right{
+      text-align: center;
+  }
+  
+  
+  .HACKATHON-left h1{
+      font-size: 60px;
+  }
+  
+  .HACKATHON-left p{
+      font-size: 25px;
+  }
+  
+  /*----subscribe-sect----*/
+  
+  .subscribe-sect {
+      padding: 25px;
+
+  }
+  
+  .subscribe-left{
+      text-align: center;
+      padding-bottom: 30px;
+  }
+  
+  .subscribe-right{
+      text-align: center;
+  }
+  
+  .subscribe-left h1 {
+      font-size: 27px;
+  }
+  
+  .subscribe-right .subscribe-mail{
+      width: 350px;
+      font-size: 18px;
+  }
+  
+  .subscribe-right button a{
+      font-size: 18px;
+  }
+  
+  .subscribe-right button {
+      padding: 18px 24px;
+  }
+  
+  
+  
+  /* Style the tab */
+.hackathon-tabs .tab {
+  overflow: hidden;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(32, 84, 165, 0.3);
+}
+
+/* Style the buttons inside the tab */
+
+.hackathon-tabs {
+  padding: 0px 0px;
+}
+
+
+.hackathon-tabs .tab button {
+  font-size: 18px;
+  line-height: 160%;
+  margin-right: 10px;
+}
+
+/* Change background color of buttons on hover */
+.hackathon-tabs .tab button:hover {
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0.03em;
+  border-bottom: 1px solid #8656EF;
+}
+
+
+/* Create an active/current tablink class */
+.hackathon-tabs .tab button.active {
+  font-size: 18px;
+  line-height: 160%;
+  border-bottom: 1px solid #8656EF;;
+  
+}
+
+/* Style the tab content */
+.hackathon-tabs .tabcontent {
+  display: none;
+  padding: 6px 0px;
+  border-top: none;
+}
+
+
+  
+  /*---Happening-Now---*/
+  
+  .Happening-Now-img {
+      margin-left: -45px;
+  }
+  
+  
+  /*---Upcoming---*/
+  
+  .Upcoming-card{
+      margin-bottom: 50px;
+  }
+  
+  .Upcoming-card-body-top h1{
+      text-align: center;
+  }
+  
+  .Upcoming-card-body-top h2{
+      text-align: center;
+      font-size: 16px;
+  }
+  .Upcoming-card-body-top h2 img{
+      padding-right: 5px;
+
+  }
+  
+      
+  /*---Completed----*/
+  
+  .Completed-logo {
+      border-bottom: 1px solid #E1E8FA;
+      max-width: 456px;
+      position: absolute;
+      top: 5%;
+      left: 17%;
+      padding-bottom: 142px;
+  }
+  
+  .Completed-img {
+      margin-left: -45px;
+  }
+  
+  
+  
+  /*---Join-us-Sect---*/
+  
+  .Join-us-sect{
+      margin-top: 50px;
+  }
+  
+  .Join-us-content{
+      text-align: center;
+  }
+  
+  .Join-us-right {
+      text-align: center;
+  }
+  
+  .Join-us-right button{
+      width: 80%;
+  }
+  
+  .join-us-bg-img {
+      position: absolute;
+      top: 36%;
+      right: 5%;
+  }
+  
+  
+  /*------hackthon-pop-up-body------*/
+  
+  .hackthon-pop-up {
+      padding: 350px 40px;
+      padding-bottom: 1550px;
+      
+  }
+  
+  .pop-up-header h1{
+      font-size: 19px;
+      padding-bottom: 15px;
+  }
+  
+  .pop-up-header h2{
+      font-size: 14px;
+  }
+  
+  .hackthon-pop-up-content {
+      padding: 50px 40px;
+  }
+  
+  
+  .pop-up-body{
+  padding-top: 30px;
+}
+
+  
+  .pop-up-body .icon-img img{
+      width: 70%;
+  }
+
+  
+
+.pop-up-body .icon-text{
+  padding-top: 10px;
+}
+  
+.pop-up-body .icon-text h1{
+      font-size: 9px;
+      line-height: 118.6%;
+  }
+
+  
+  
+.bookmark{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.bag{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+.book{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: none;
+}
+
+.thams-up{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.tea-cup{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.headphone{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+  
+  .pop-up-column .pop-up-column-row img {
+      margin-right: 25px;
+  }
+  
+  .pop-up-column .pop-up-column-row h1{
+      font-size: 18px;
+      margin-left: 18px;
+  }
+  
+  
+  
+  .pop-up-rules-sect-text h1 {
+      font-size: 18px;
+      line-height: 168.6%;
+      padding: 25px 7px;
+  }
+  
+  .pop-up-Dan-Brooks-sect{
+      text-align: center;
+      padding-bottom: 20px;
+  }
+  
+  .Dan-Brooks-text h1 {
+      font-size: 16px;
+  }
+  
+  
+  
+  /*---Still-not-sure-sect---*/
+
+.Still-not-sure-sect{
+  margin-top: 30px;
+}
+
+.Still-not-sure-sect h1{
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.Still-not-sure-sect h2{
+  font-size: 24px;
+  line-height: 24px;
+  padding-bottom: 25px;
+  padding-top: 10px;
+}
+
+.Still-not-sure-sect button{
+  padding: 8px 22px;
+}
+
+.Still-not-sure-sect button a{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+  
+  .pop-up-close {
+      position: absolute;
+      top: 10%;
+      right: 8%;
+  }
+  
+  .pop-up-close img{
+      height: 50px;
+  }
+  
+  
+  
+}
+/*========================================*/
+
+
+
+
+/*===================540PX=================*/
+@media (min-width: 540px) and (max-width: 666px){
+  
+  .HACKATHON {
+      padding: 50px;
+  }
+  
+  .HACKATHON-left{
+      padding-bottom: 40px;
+      text-align: center;
+  }
+  
+  .HACKATHON-right{
+      text-align: center;
+  }
+  
+  .HACKATHON-left h1{
+      font-size: 47px;
+  }
+  
+  .HACKATHON-left p{
+      font-size: 20px;
+  }
+  
+  
+  /*----subscribe-sect----*/
+  
+  .subscribe-sect {
+      padding: 25px;
+
+  }
+  
+  .subscribe-left{
+      text-align: center;
+      padding-bottom: 30px;
+  }
+  
+  .subscribe-right{
+      text-align: center;
+  }
+  
+  .subscribe-left h1 {
+      font-size: 23px;
+  }
+  
+  .subscribe-right .subscribe-mail{
+      width: 100%;
+      font-size: 18px;
+      margin-right: 0px;
+      margin-bottom: 22px;
+  }
+  
+  .subscribe-right button a{
+      font-size: 18px;
+  }
+  
+  .subscribe-right button {
+      padding: 18px 24px;
+      width: 100%;
+  }
+  
+  
+  
+  /* Style the tab */
+.hackathon-tabs .tab {
+  overflow: hidden;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(32, 84, 165, 0.3);
+}
+
+/* Style the buttons inside the tab */
+
+.hackathon-tabs {
+  padding: 0px 0px;
+}
+
+
+.hackathon-tabs .tab button {
+  font-size: 15px;
+  line-height: 160%;
+  margin-right: 0px;
+}
+
+/* Change background color of buttons on hover */
+.hackathon-tabs .tab button:hover {
+  font-size: 15px;
+  line-height: 160%;
+  letter-spacing: 0.03em;
+  border-bottom: 1px solid #8656EF;
+}
+
+
+/* Create an active/current tablink class */
+.hackathon-tabs .tab button.active {
+  font-size: 15px;
+  line-height: 160%;
+  border-bottom: 1px solid #8656EF;;
+  
+}
+
+/* Style the tab content */
+.hackathon-tabs .tabcontent {
+  display: none;
+  padding: 6px 0px;
+  border-top: none;
+}
+
+  
+      
+  /*---Happening-Now---*/
+  
+  .Happening-Now-img {
+      margin-left: -45px;
+  }
+  
+  .Happening-Now-text {
+      padding-top: 45px;
+  }
+  
+  .Happening-Now-text h1{
+      font-size: 16px;
+  }
+  .Happening-Now {
+      min-height: 690px;
+  }
+  
+  
+  
+  /*---Upcoming---*/
+  
+  .Upcoming-card{
+      margin-bottom: 50px;
+  }
+  
+  .Upcoming-card-body-top h1{
+      text-align: center;
+  }
+  
+  .Upcoming-card-body-top h2{
+      text-align: center;
+      font-size: 16px;
+  }
+  .Upcoming-card-body-top h2 img{
+      padding-right: 5px;
+
+  }
+  
+  
+  /*---Completed----*/
+  
+  .Completed-logo {
+      border-bottom: 1px solid #E1E8FA;
+      max-width: 456px;
+      position: absolute;
+      top: 5%;
+      left: 9%;
+      padding-bottom: 60px;
+  }
+  
+  .Completed-img {
+      margin-left: -70px;
+  }
+  
+  .Completed-text {
+      padding-top: 45px;
+  }
+  
+  .Completed-text h1{
+      font-size: 16px;
+  }
+  
+  
+  
+  /*---Join-us-Sect---*/
+  
+  .Join-us-sect{
+      margin-top: 50px;
+  }
+  
+  .Join-us-content{
+      text-align: center;
+  }
+  
+  .Join-us-left h1{
+      font-size: 22px;
+  }
+  
+  .Join-us-right {
+      text-align: center;
+  }
+  
+  .Join-us-right button{
+      width: 80%;
+      margin: 20px 0px;
+  }
+  
+  .join-us-bg-img {
+      position: absolute;
+      top: 36%;
+      right: 5%;
+  }
+  
+  
+  
+  
+  /*------hackthon-pop-up-body------*/
+  
+  .hackthon-pop-up {
+      padding: 300px 40px;
+      padding-bottom: 1050px;
+      
+  }
+  
+  .pop-up-header h1{
+      font-size: 20px;
+      padding-bottom: 15px;
+  }
+  
+  .pop-up-header h2{
+      font-size: 13px;
+  }
+  
+  .hackthon-pop-up-content {
+      padding: 50px 40px;
+  }
+      
+  .pop-up-body {
+      padding-top: 00px;
+  }
+  
+  .pop-up-body .icon-img{
+      margin-top: 40px;
+  }
+
+  .pop-up-body .icon-text {
+      padding-top: 10px;
+  }
+  
+  .pop-up-body .icon-text h1{
+      font-size: 18px;
+      line-height: 118.6%;
+  }
+
+
+  .pop-up-2column {
+      margin-top: 50px;
+  }
+  
+.bookmark{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.bag{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+.book{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: none;
+}
+
+.thams-up{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.tea-cup{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.headphone{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+  
+  .pop-up-column .pop-up-column-row img {
+      margin-right: 10px;
+      height: 25px;
+  }
+  
+  .pop-up-column .pop-up-column-row h1{
+      font-size: 14px;
+      margin-left: 14px;
+  }
+  
+  
+  .pop-up-rules-sect-text h1 {
+      font-size: 15px;
+      line-height: 168.6%;
+      padding: 20px 7px;
+  }
+  
+  .pop-up-Dan-Brooks-sect{
+      text-align: center;
+      padding-bottom: 20px;
+  }
+  
+  .Dan-Brooks-text h1 {
+      font-size: 14px;
+  }
+  
+  
+  
+/*---Still-not-sure-sect---*/
+
+.Still-not-sure-sect{
+  margin-top: 30px;
+}
+
+.Still-not-sure-sect h1{
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.Still-not-sure-sect h2{
+  font-size: 25px;
+  line-height: 30px;
+  padding-bottom: 25px;
+  padding-top: 10px;
+}
+
+.Still-not-sure-sect button{
+  padding: 8px 22px;
+}
+
+.Still-not-sure-sect button a{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+  .pop-up-close {
+      position: absolute;
+      top: 9.2%;
+      right: 9%;
+  }
+  
+  .pop-up-close img{
+      height: 50px;
+  }
+  
+  
+  
+  
+}
+/*=========================================*/
+
+
+/*=================425PX=================*/
+@media (min-width: 425px) and (max-width: 539px){
+  
+  .HACKATHON {
+      padding: 20px;
+  }
+  
+  .HACKATHON-left{
+      padding-bottom: 30px;
+      text-align: center;
+  }
+  
+  .HACKATHON-right{
+      text-align: center;
+  }
+  
+  .HACKATHON-left h1{
+      font-size: 35px;
+  }
+  
+  .HACKATHON-left p{
+      font-size: 17px;
+  }
+  
+  /*----subscribe-sect----*/
+  
+  .subscribe-sect {
+      padding: 25px;
+
+  }
+  
+  .subscribe-left{
+      text-align: center;
+      padding-bottom: 30px;
+  }
+  
+  .subscribe-right{
+      text-align: center;
+  }
+  
+  .subscribe-left h1 {
+      font-size: 20px;
+  }
+  
+  .subscribe-right .subscribe-mail{
+      width: 100%;
+      padding: 15px;
+      font-size: 15px;
+      margin-right: 0px;
+      margin-bottom: 22px;
+  }
+  
+  .subscribe-right button a{
+      font-size: 15px;
+  }
+  
+  .subscribe-right button {
+      padding: 12px;
+      width: 100%;
+  }
+  
+  
+  
+  /* Style the tab */
+.hackathon-tabs .tab {
+  overflow: hidden;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(32, 84, 165, 0.3);
+}
+
+/* Style the buttons inside the tab */
+
+.hackathon-tabs {
+  padding: 0px 0px;
+}
+
+
+.hackathon-tabs .tab button {
+  font-size: 12px;
+  padding: 10px;
+  line-height: 100%;
+  margin-right: 0px;
+}
+
+/* Change background color of buttons on hover */
+.hackathon-tabs .tab button:hover {
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0.0em;
+  border-bottom: 1px solid #8656EF;
+}
+
+
+/* Create an active/current tablink class */
+.hackathon-tabs .tab button.active {
+  font-size: 12px;
+  line-height: 100%;
+  border-bottom: 1px solid #8656EF;;
+  
+}
+
+/* Style the tab content */
+.hackathon-tabs .tabcontent {
+  display: none;
+  padding: 6px 0px;
+  border-top: none;
+}
+
+  
+  
+  
+  
+  /*---Happening-Now---*/
+  
+  .Happening-Now-img {
+      margin-left: -30px;
+  }
+  
+  .Happening-Now-text {
+      padding-top: 45px;
+  }
+  
+  .Happening-Now-text h1{
+      font-size: 19px;
+  }
+  
+  .Happening-Now {
+      min-height: 650px;
+  }
+  
+  
+  /*---Upcoming---*/
+  
+  .Upcoming-card{
+      margin-bottom: 50px;
+  }
+  
+  .Upcoming-card-header{
+      min-height: 190px;
+  }
+  
+  .Upcoming-card-1-header{
+      padding: 0px 25px;
+  }
+  .Upcoming-card-2-header{
+      padding: 0px 25px;
+  }
+  
+  .Upcoming-card-2-header-btn button{
+      position: absolute;
+      top: 2%;
+      right: 8%;
+  }
+  
+  .Upcoming-card-body-top h1{
+      text-align: center;
+  }
+  
+  .Upcoming-card-body-top h2{
+      text-align: center;
+      font-size: 16px;
+  }
+  .Upcoming-card-body-top h2 img{
+      padding-right: 5px;
+
+  }
+  
+  .Upcoming-card-body-content {
+      padding: 5px 15px;
+  }
+  
+  .Upcoming-card-body-content p{
+      text-align: center;
+  }
+  
+  .Upcoming-card-body-btn .PROJECT-btn {
+      padding: 10px 12px;
+      width: 100%;
+  }
+  .Upcoming-card-body-btn .BOUNTY-btn{
+      padding: 10px 12px;
+      width: 100%;
+      margin-left: 0px;
+      margin-top: 10px;
+  }
+   
+  .Peoject-Manger-sect{
+      text-align: center;
+  }
+  
+  
+  
+  /*---Completed----*/
+  
+  .Completed-logo {
+      border-bottom: 1px solid #E1E8FA;
+      max-width: 350px;
+      position: absolute;
+      top: 5%;
+      left: 5.5%;
+      padding-bottom: 60px;
+  }
+  
+  .Completed-img {
+      margin-left: -30px;
+  }
+  
+  .Completed-text {
+      padding-top: 45px;
+  }
+  
+  .Completed-text h1{
+      font-size: 16px;
+  }
+  
+  
+  
+  /*---Join-us-Sect---*/
+  
+  .Join-us-sect{
+      margin-top: 50px;
+  }
+  
+  .Join-us-content{
+      text-align: center;
+  }
+  
+  .Join-us-left h1{
+      font-size: 19px;
+      padding: 20px 0px;
+  }
+  
+  .Join-us-right {
+      text-align: center;
+  }
+  
+  .Join-us-right button{
+      width: 80%;
+      margin: 20px 0px;
+  }
+  
+  .join-us-bg-img {
+      position: absolute;
+      top: 46%;
+      right: 5%;
+  }
+  
+  .join-us-bg-img .Rectangle-89{
+      height: 22px;
+      margin-left: 5px;
+  }
+  .join-us-bg-img .Rectangle-90{
+      height: 35px;
+  }
+  
+  
+  
+  
+  /*------hackthon-pop-up-body------*/
+  
+  .hackthon-pop-up {
+      padding: 300px 40px;
+      padding-bottom: 1020px;
+      
+  }
+  
+  .pop-up-header h1{
+      font-size: 17px;
+      padding-bottom: 15px;
+  }
+  
+  .pop-up-header h2{
+      font-size: 11px;
+  }
+  
+  .hackthon-pop-up-content {
+      padding: 50px 15px;
+  }
+  
+  
+  
+  .pop-up-body {
+      padding-top: 0px;
+  }
+  
+  .pop-up-body .icon-img{
+      margin-top: 40px;
+  }
+  
+  
+
+  .pop-up-body .icon-text {
+      padding-top: 10px;
+  }
+  
+  
+  .pop-up-body .icon-text h1{
+      font-size: 14px;
+      line-height: 118.6%;
+  }
+
+
+  
+  
+  .pop-up-2column {
+      margin-top: 40px;
+  }
+  
+.bookmark{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bag{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.book{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: none;
+}
+
+.thams-up{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.tea-cup{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.headphone{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+  
+  .pop-up-column .pop-up-column-row img {
+      margin-right: 10px;
+      height: 18px;
+  }
+  
+  .pop-up-column .pop-up-column-row h1{
+      font-size: 12px;
+      margin-left: 8px;
+  }
+  
+  
+  
+  .pop-up-rules-sect-text h1 {
+      font-size: 13px;
+      line-height: 168.6%;
+      padding: 20px 7px;
+  }
+  
+  .pop-up-Dan-Brooks-sect{
+      text-align: center;
+      padding-bottom: 20px;
+  }
+  
+  .Dan-Brooks-text h1 {
+      font-size: 16px;
+  }
+  
+  
+  /*---Still-not-sure-sect---*/
+
+.Still-not-sure-sect{
+  margin-top: 30px;
+}
+
+.Still-not-sure-sect h1{
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.Still-not-sure-sect h2{
+  font-size: 25px;
+  line-height: 30px;
+  padding-bottom: 25px;
+  padding-top: 10px;
+}
+
+.Still-not-sure-sect button{
+  padding: 8px 22px;
+}
+
+.Still-not-sure-sect button a{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+  
+  
+  .pop-up-close {
+      position: absolute;
+      top: 9.8%;
+      right: 12%;
+  }
+  
+  .pop-up-close img{
+      height: 40px;
+  }
+  
+}
+/*=========================================*/
+
+
+
+/*===============414PX+411PX===============*/
+@media (min-width: 411px) and (max-width: 424px){
+  
+  .HACKATHON {
+      padding: 20px;
+  }
+  
+  .HACKATHON-left{
+      padding-bottom: 30px;
+      text-align: center;
+  }
+  
+  .HACKATHON-right{
+      text-align: center;
+  }
+  
+  .HACKATHON-left h1{
+      font-size: 35px;
+  }
+  
+  .HACKATHON-left p{
+      font-size: 15px;
+  }
+  
+  
+  /*----subscribe-sect----*/
+  
+  .subscribe-sect {
+      padding: 25px;
+
+  }
+  
+  .subscribe-left{
+      text-align: center;
+      padding-bottom: 30px;
+  }
+  
+  .subscribe-right{
+      text-align: center;
+  }
+  
+  .subscribe-left h1 {
+      font-size: 19px;
+  }
+  
+  .subscribe-right .subscribe-mail{
+      width: 100%;
+      padding: 15px;
+      font-size: 15px;
+      margin-right: 0px;
+      margin-bottom: 22px;
+  }
+  
+  .subscribe-right button a{
+      font-size: 15px;
+  }
+  
+  .subscribe-right button {
+      padding: 12px;
+      width: 100%;
+  }
+  
+  
+  /* Style the tab */
+.hackathon-tabs .tab {
+  overflow: hidden;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(32, 84, 165, 0.3);
+}
+
+/* Style the buttons inside the tab */
+
+.hackathon-tabs {
+  padding: 0px 0px;
+}
+
+
+.hackathon-tabs .tab button {
+  font-size: 12px;
+  padding: 10px;
+  line-height: 100%;
+  margin-right: 0px;
+}
+
+/* Change background color of buttons on hover */
+.hackathon-tabs .tab button:hover {
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0.0em;
+  border-bottom: 1px solid #8656EF;
+}
+
+
+/* Create an active/current tablink class */
+.hackathon-tabs .tab button.active {
+  font-size: 12px;
+  line-height: 100%;
+  border-bottom: 1px solid #8656EF;;
+  
+}
+
+/* Style the tab content */
+.hackathon-tabs .tabcontent {
+  display: none;
+  padding: 6px 0px;
+  border-top: none;
+}
+
+  
+  
+      
+  
+  /*---Happening-Now---*/
+  
+  .Happening-Now-img {
+      margin-left: -30px;
+  }
+  
+  .Happening-Now-text {
+      padding-top: 45px;
+  }
+  
+  .Happening-Now-text h1{
+      font-size: 19px;
+  }
+  
+  .Happening-Now {
+      min-height: 650px;
+  }
+  
+  
+  
+  /*---Upcoming---*/
+  
+  .Upcoming-card{
+      margin-bottom: 50px;
+  }
+  
+  .Upcoming-card-header{
+      min-height: 170px;
+  }
+  
+  .Upcoming-card-1-header{
+      padding: 0px 25px;
+  }
+  .Upcoming-card-2-header{
+      padding: 0px 25px;
+  }
+  
+  .Upcoming-card-2-header-btn button{
+      position: absolute;
+      top: 2%;
+      right: 8%;
+  }
+  
+  .Upcoming-card-body-top h1{
+      text-align: center;
+  }
+  
+  .Upcoming-card-body-top h2{
+      text-align: center;
+      font-size: 16px;
+  }
+  .Upcoming-card-body-top h2 img{
+      padding-right: 5px;
+
+  }
+  
+  .Upcoming-card-body-content {
+      padding: 5px 15px;
+  }
+  
+  .Upcoming-card-body-content p{
+      text-align: center;
+      font-size: 17px;
+  }
+  
+  .Upcoming-card-body-btn .PROJECT-btn {
+      padding: 10px 12px;
+      width: 100%;
+  }
+  .Upcoming-card-body-btn .BOUNTY-btn{
+      padding: 10px 12px;
+      width: 100%;
+      margin-left: 0px;
+      margin-top: 10px;
+  }
+   
+  .Peoject-Manger-sect{
+      text-align: center;
+  }
+  
+  
+  
+  /*---Completed----*/
+  
+  .Completed-logo {
+      border-bottom: 1px solid #E1E8FA;
+      max-width: 350px;
+      position: absolute;
+      top: 5%;
+      left: 4%;
+      padding-bottom: 60px;
+  }
+  
+  .Completed-img {
+      margin-left: -30px;
+  }
+  
+  .Completed-text {
+      padding-top: 45px;
+  }
+  
+  .Completed-text h1{
+      font-size: 16px;
+  }
+  
+  
+  
+  /*---Join-us-Sect---*/
+  .Join-us-sect{
+      margin-top: 50px;
+  }
+  
+  
+  .Join-us-content{
+      text-align: center;
+  }
+  
+  .Join-us-left h1{
+      font-size: 18px;
+      padding: 20px 0px;
+  }
+  
+  .Join-us-right {
+      text-align: center;
+  }
+  
+  .Join-us-right button{
+      width: 80%;
+      margin: 20px 0px;
+  }
+  
+  .join-us-bg-img {
+      position: absolute;
+      top: 46%;
+      right: 5%;
+  }
+  
+  .join-us-bg-img .Rectangle-89{
+      height: 22px;
+      margin-left: 5px;
+  }
+  .join-us-bg-img .Rectangle-90{
+      height: 35px;
+  }
+  
+  
+  
+  
+  /*------hackthon-pop-up-body------*/
+  
+  .hackthon-pop-up {
+      padding: 300px 40px;
+      padding-bottom: 1000px;
+      
+  }
+  
+  .pop-up-header h1{
+      font-size: 16px;
+      padding-bottom: 15px;
+  }
+  
+  .pop-up-header h2{
+      font-size: 10px;
+  }
+  
+  .hackthon-pop-up-content {
+      padding: 50px 10px;
+  }
+  
+  
+  .pop-up-body {
+      padding-top: 0px;
+  }
+  
+  .pop-up-body .icon-img{
+      margin-top: 40px;
+  }
+  
+  .pop-up-body .icon-text {
+      padding-top: 10px;
+  }
+  
+  
+  .pop-up-body .icon-text h1{
+      font-size: 14px;
+      line-height: 118.6%;
+  }
+
+  
+  
+  .pop-up-2column {
+      margin-top: 40px;
+  }
+  
+.bookmark{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bag{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.book{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: none;
+}
+
+.thams-up{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.tea-cup{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.headphone{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+  
+  .pop-up-column .pop-up-column-row img {
+      margin-right: 10px;
+      height: 18px;
+  }
+  
+  .pop-up-column .pop-up-column-row h1{
+      font-size: 12px;
+      margin-left: 8px;
+  }
+  
+  
+  
+  .pop-up-rules-sect-text h1 {
+      font-size: 13px;
+      line-height: 168.6%;
+      padding: 20px 7px;
+  }
+  
+  .pop-up-Dan-Brooks-sect{
+      text-align: center;
+      padding-bottom: 15px;
+  }
+  
+  .Dan-Brooks-text h1 {
+      font-size: 16px;
+  }
+  
+  
+  /*---Still-not-sure-sect---*/
+
+.Still-not-sure-sect{
+  margin-top: 30px;
+}
+
+.Still-not-sure-sect h1{
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.Still-not-sure-sect h2{
+  font-size: 25px;
+  line-height: 30px;
+  padding-bottom: 25px;
+  padding-top: 10px;
+}
+
+.Still-not-sure-sect button{
+  padding: 8px 22px;
+}
+
+.Still-not-sure-sect button a{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+  
+  .pop-up-close {
+      position: absolute;
+      top: 10%;
+      right: 12%;
+  }
+  
+  .pop-up-close img{
+      height: 40px;
+  }
+  
+  
+}
+/*=========================================*/
+
+
+/*=================375PX===================*/
+@media (min-width: 375px) and (max-width: 410px){
+  
+  .HACKATHON {
+      padding: 20px;
+  }
+  
+  .HACKATHON-left{
+      padding-bottom: 30px;
+      text-align: center;
+  }
+  
+  .HACKATHON-right{
+      text-align: center;
+  }
+  
+  .HACKATHON-left h1{
+      font-size: 33px;
+  }
+  
+  .HACKATHON-left p{
+      font-size: 13px;
+  }
+  
+  
+  /*----subscribe-sect----*/
+  
+  .subscribe-sect {
+      padding: 15px;
+
+  }
+  
+  .subscribe-left{
+      text-align: center;
+      padding-bottom: 30px;
+  }
+  
+  .subscribe-right{
+      text-align: center;
+  }
+  
+  .subscribe-left h1 {
+      font-size: 17px;
+  }
+  
+  .subscribe-right .subscribe-mail{
+      width: 100%;
+      padding: 15px;
+      font-size: 15px;
+      margin-right: 0px;
+      margin-bottom: 22px;
+  }
+  
+  .subscribe-right button a{
+      font-size: 15px;
+  }
+  
+  .subscribe-right button {
+      padding: 12px;
+      width: 100%;
+  }
+  
+  
+  
+  
+  /* Style the tab */
+.hackathon-tabs .tab {
+  overflow: hidden;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(32, 84, 165, 0.3);
+}
+
+/* Style the buttons inside the tab */
+
+.hackathon-tabs {
+  padding: 0px 0px;
+}
+
+
+.hackathon-tabs .tab button {
+  font-size: 10px;
+  padding: 10px;
+  line-height: 100%;
+  margin-right: 0px;
+}
+
+/* Change background color of buttons on hover */
+.hackathon-tabs .tab button:hover {
+  font-size: 10px;
+  line-height: 100%;
+  letter-spacing: 0.0em;
+  border-bottom: 1px solid #8656EF;
+}
+
+
+/* Create an active/current tablink class */
+.hackathon-tabs .tab button.active {
+  font-size: 10px;
+  line-height: 100%;
+  border-bottom: 1px solid #8656EF;;
+  
+}
+
+/* Style the tab content */
+.hackathon-tabs .tabcontent {
+  display: none;
+  padding: 6px 0px;
+  border-top: none;
+}
+
+  
+  
+  
+  /*---Happening-Now---*/
+  
+  .Happening-Now-img {
+      margin-left: -30px;
+  }
+  
+  .Happening-Now-text {
+      padding-top: 45px;
+  }
+  
+  .Happening-Now-text h1{
+      font-size: 17px;
+  }
+  
+  .Happening-Now {
+      min-height: 650px;
+  }
+  
+  
+  
+  /*---Upcoming---*/
+  
+  .Upcoming-card{
+      margin-bottom: 50px;
+  }
+  
+  .Upcoming-card-header{
+      min-height: 160px;
+  }
+  
+  .Upcoming-card-1-header{
+      padding: 0px 25px;
+  }
+  .Upcoming-card-2-header{
+      padding: 0px 25px;
+  }
+  
+  .Upcoming-card-2-header-btn button{
+      position: absolute;
+      top: 2%;
+      right: 8%;
+  }
+  
+  .Upcoming-card-body-top h1{
+      text-align: center;
+  }
+  
+  .Upcoming-card-body-top h2{
+      text-align: center;
+      font-size: 16px;
+  }
+  .Upcoming-card-body-top h2 img{
+      padding-right: 5px;
+
+  }
+  
+  .Upcoming-card-body-content {
+      padding: 5px 15px;
+  }
+  
+  .Upcoming-card-body-content p{
+      text-align: center;
+      font-size: 16px;
+  }
+  
+  .Upcoming-card-body-btn .PROJECT-btn {
+      padding: 10px 12px;
+      width: 100%;
+  }
+  .Upcoming-card-body-btn .BOUNTY-btn{
+      padding: 10px 12px;
+      width: 100%;
+      margin-left: 0px;
+      margin-top: 10px;
+  }
+   
+  .Peoject-Manger-sect{
+      text-align: center;
+  }
+  
+  
+  
+  /*---Completed----*/
+  
+  .Completed-logo {
+      border-bottom: 1px solid #E1E8FA;
+      max-width: 320px;
+      position: absolute;
+      top: 5%;
+      left: 4%;
+      padding-bottom: 60px;
+  }
+  
+  .Completed-img {
+      margin-left: -30px;
+  }
+  
+  .Completed-text {
+      padding-top: 45px;
+  }
+  
+  .Completed-text h1{
+      font-size: 17px;
+  }
+  
+  
+  
+  
+  /*---Join-us-Sect---*/
+  
+  .Join-us-sect{
+      margin-top: 50px;
+  }
+  
+  .Join-us-content{
+      text-align: center;
+  }
+  
+  .Join-us-left h1{
+      font-size: 16px;
+      line-height: 26px;
+      padding: 20px 0px;
+  }
+  
+  .Join-us-right {
+      text-align: center;
+  }
+  
+  .Join-us-right button{
+      width: 80%;
+      margin: 20px 0px;
+  }
+  
+  .join-us-bg-img {
+      position: absolute;
+      top: 46%;
+      right: 5%;
+  }
+  
+  .join-us-bg-img .Rectangle-89{
+      height: 22px;
+      margin-left: 5px;
+  }
+  .join-us-bg-img .Rectangle-90{
+      height: 35px;
+  }
+  
+  
+  
+  /*------hackthon-pop-up-body------*/
+  
+  .hackthon-pop-up {
+      padding: 200px 40px;
+      padding-bottom: 250px;
+      
+  }
+  
+  .pop-up-header h1{
+      font-size: 15px;
+      padding-bottom: 15px;
+  }
+  
+  .pop-up-header h2{
+      font-size: 9px;
+  }
+  
+  .hackthon-pop-up-content {
+      padding: 50px 10px;
+  }
+  
+  
+  
+  .pop-up-body {
+      padding-top: 0px;
+  }
+  
+  .pop-up-body .icon-img{
+      margin-top: 40px;
+  }
+  
+  .pop-up-body .icon-text {
+      padding-top: 10px;
+  }
+  
+  
+  .pop-up-body .icon-text h1{
+      font-size: 34px;
+      line-height: 118.6%;
+  }
+
+  
+  
+  .pop-up-2column {
+      margin-top: 40px;
+  }
+  
+.bookmark{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bag{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.book{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: none;
+}
+
+.thams-up{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.tea-cup{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.headphone{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+  
+  
+  
+  .pop-up-column .pop-up-column-row img {
+      margin-right: 10px;
+      height: 15px;
+  }
+  
+  .pop-up-column .pop-up-column-row h1{
+      font-size: 10px;
+      margin-left: 8px;
+  }
+  
+  
+  .pop-up-rules-sect-text h1 {
+      font-size: 11px;
+      line-height: 168.6%;
+      padding: 20px 7px;
+  }
+  
+  
+  .pop-up-Dan-Brooks-sect{
+      text-align: center;
+      padding-bottom: 15px;
+  }
+  
+  .Dan-Brooks-text h1 {
+      font-size: 14px;
+  }
+  
+
+  
+  /*---Still-not-sure-sect---*/
+
+.Still-not-sure-sect{
+  margin-top: 30px;
+}
+
+.Still-not-sure-sect h1{
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.Still-not-sure-sect h2{
+  font-size: 22px;
+  line-height: 30px;
+  padding-bottom: 25px;
+  padding-top: 10px;
+}
+
+.Still-not-sure-sect button{
+  padding: 8px 22px;
+}
+
+.Still-not-sure-sect button a{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+  
+  .pop-up-close {
+      position: absolute;
+      top: 6.8%;
+      right: 12%;
+  }
+  
+  .pop-up-close img{
+      height: 40px;
+  }
+  
+  
+  
+  
+}
+/*=========================================*/
+
+
+
+/*===================360PX==================*/
+@media (min-width: 360px) and (max-width: 374px){
+  
+  .HACKATHON {
+      padding: 20px;
+  }
+  
+  .HACKATHON-left{
+      padding-bottom: 30px;
+      text-align: center;
+  }
+  
+  .HACKATHON-right{
+      text-align: center;
+  }
+  
+  .HACKATHON-left h1{
+      font-size: 29px;
+  }
+  
+  .HACKATHON-left p{
+      font-size: 13px;
+  }
+  
+  /*----subscribe-sect----*/
+  
+  .subscribe-sect {
+      padding: 15px;
+
+  }
+  
+  .subscribe-left{
+      text-align: center;
+      padding-bottom: 20px;
+  }
+  
+  .subscribe-right{
+      text-align: center;
+  }
+  
+  .subscribe-left h1 {
+      font-size: 16px;
+  }
+  
+  .subscribe-right .subscribe-mail{
+      width: 100%;
+      padding: 15px;
+      font-size: 15px;
+      margin-right: 0px;
+      margin-bottom: 15px;
+  }
+  
+  .subscribe-right button a{
+      font-size: 15px;
+  }
+  
+  .subscribe-right button {
+      padding: 12px;
+      width: 100%;
+  }
+  
+  
+  
+  /* Style the tab */
+.hackathon-tabs .tab {
+  overflow: hidden;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(32, 84, 165, 0.3);
+}
+
+/* Style the buttons inside the tab */
+
+.hackathon-tabs {
+  padding: 0px 0px;
+}
+
+
+.hackathon-tabs .tab button {
+  font-size: 9.5px;
+  padding: 10px;
+  line-height: 100%;
+  margin-right: 0px;
+}
+
+/* Change background color of buttons on hover */
+.hackathon-tabs .tab button:hover {
+  font-size: 9.5px;
+  line-height: 100%;
+  font-weight: 600;
+  letter-spacing: 0.0em;
+  border-bottom: 1px solid #8656EF;
+}
+
+
+/* Create an active/current tablink class */
+.hackathon-tabs .tab button.active {
+  font-size: 9.5px;
+  line-height: 100%;
+  font-weight: 600;
+  border-bottom: 1px solid #8656EF;;
+  
+}
+
+/* Style the tab content */
+.hackathon-tabs .tabcontent {
+  display: none;
+  padding: 6px 0px;
+  border-top: none;
+}
+
+  
+  
+  
+  
+  /*---Happening-Now---*/
+  
+  .Happening-Now-img {
+      margin-left: -30px;
+  }
+  
+  .Happening-Now-text {
+      padding-top: 45px;
+  }
+  
+  .Happening-Now-text h1{
+      font-size: 17px;
+  }
+  
+  .Happening-Now {
+      min-height: 650px;
+  }
+  
+  /*---Upcoming---*/
+  
+  .Upcoming-card{
+      margin-bottom: 50px;
+  }
+  
+  .Upcoming-card-header{
+      min-height: 150px;
+  }
+  
+  .Upcoming-card-1-header{
+      padding: 0px 25px;
+  }
+  .Upcoming-card-2-header{
+      padding: 0px 25px;
+  }
+  
+  .Upcoming-card-2-header-btn button a {
+      font-size: 9px;
+  }
+
+  
+  .Upcoming-card-2-header-btn button{
+      position: absolute;
+      top: 1%;
+      right: 8%;
+  }
+  
+  .Upcoming-card-body-top h1{
+      text-align: center;
+      font-size: 20px;
+  }
+  
+  .Upcoming-card-body-top h2{
+      text-align: center;
+      font-size: 16px;
+  }
+  .Upcoming-card-body-top h2 img{
+      padding-right: 5px;
+
+  }
+  
+  .Upcoming-card-body-content {
+      padding: 5px 15px;
+  }
+  
+  .Upcoming-card-body-content p{
+      text-align: center;
+      font-size: 15px;
+  }
+  
+  .Upcoming-card-body-btn .PROJECT-btn {
+      padding: 10px 12px;
+      width: 100%;
+  }
+  .Upcoming-card-body-btn .BOUNTY-btn{
+      padding: 10px 12px;
+      width: 100%;
+      margin-left: 0px;
+      margin-top: 10px;
+  }
+   
+  .Peoject-Manger-sect{
+      text-align: center;
+  }
+  
+  .Peoject-Manger-sect h3 {
+      font-size: 16px;
+  }
+  
+  .Upcoming-card-footer img{
+      width: 80%;
+  }
+  
+  
+  
+  /*---Completed----*/
+  
+  .Completed-logo {
+      border-bottom: 1px solid #E1E8FA;
+      max-width: 300px;
+      position: absolute;
+      top: 5%;
+      left: 4%;
+      padding-bottom: 60px;
+  }
+  
+  .Completed-img {
+      margin-left: -30px;
+  }
+  
+  .Completed-text {
+      padding-top: 45px;
+  }
+  
+  .Completed-text h1{
+      font-size: 17px;
+  }
+  
+  
+  
+  /*---Join-us-Sect---*/
+  .Join-us-sect{
+      margin-top: 50px;
+  }
+  
+  
+  .Join-us-content{
+      text-align: center;
+  }
+  
+  .Join-us-left h1{
+      font-size: 15px;
+      line-height: 26px;
+      padding: 20px 0px;
+  }
+  
+  .Join-us-right {
+      text-align: center;
+  }
+  
+  .Join-us-right button{
+      width: 80%;
+      margin: 20px 0px;
+  }
+  
+  .join-us-bg-img {
+      position: absolute;
+      top: 39%;
+      right: 5%;
+  }
+  
+  .join-us-bg-img .Rectangle-89{
+      height: 22px;
+      margin-left: 5px;
+  }
+  .join-us-bg-img .Rectangle-90{
+      height: 35px;
+  }
+  
+  
+  
+  /*------hackthon-pop-up-body------*/
+  
+  .hackthon-pop-up {
+      padding: 200px 40px;
+      padding-bottom: 280px;
+      
+  }
+  
+  .pop-up-header h1{
+      font-size: 14px;
+      padding-bottom: 15px;
+  }
+  
+  .pop-up-header h2{
+      font-size: 9px;
+  }
+  
+  .hackthon-pop-up-content {
+      padding: 50px 10px;
+  }
+  
+  
+  
+  .pop-up-body {
+      padding-top: 0px;
+  }
+  
+  .pop-up-body .icon-img{
+      margin-top: 40px;
+  }
+  
+  .pop-up-body .icon-text {
+      padding-top: 10px;
+  }
+  
+  .pop-up-body .icon-text h1{
+      font-size: 32px;
+      line-height: 118.6%;
+  }
+
+  
+  
+  .pop-up-2column {
+      margin-top: 40px;
+  }
+  
+.bookmark{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bag{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.book{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: none;
+}
+
+.thams-up{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.tea-cup{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.headphone{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+  
+  .pop-up-column .pop-up-column-row img {
+      margin-right: 10px;
+      height: 15px;
+  }
+  
+  .pop-up-column .pop-up-column-row h1{
+      font-size: 10px;
+      margin-left: 8px;
+  }
+  
+  
+  .pop-up-rules-sect-text h1 {
+      font-size: 10px;
+      line-height: 168.6%;
+      padding: 20px 7px;
+  }
+  
+  .pop-up-Dan-Brooks-sect{
+      text-align: center;
+      padding-bottom: 15px;
+  }
+  
+  .Dan-Brooks-text h1 {
+      font-size: 13px;
+  }
+  .Dan-Brooks-text h2{
+      font-size: 22px;
+  }
+  
+  
+  /*---Still-not-sure-sect---*/
+
+.Still-not-sure-sect{
+  margin-top: 30px;
+}
+
+.Still-not-sure-sect h1{
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.Still-not-sure-sect h2{
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 25px;
+  padding-top: 10px;
+}
+
+.Still-not-sure-sect button{
+  padding: 8px 22px;
+}
+
+.Still-not-sure-sect button a{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+  
+  
+  .pop-up-close {
+      position: absolute;
+      top: 6.8%;
+      right: 12%;
+  }
+  
+  .pop-up-close img{
+      height: 40px;
+  }
+  
+  
+}
+/*=========================================*/
+
+
+
+
+/*=================320PX===================*/
+@media (min-width: 320px) and (max-width: 359px){
+  
+  
+  
+  .HACKATHON {
+      padding: 20px;
+  }
+  
+  .HACKATHON-left{
+      padding-bottom: 30px;
+      text-align: center;
+  }
+  
+  .HACKATHON-right{
+      text-align: center;
+  }
+  
+  .HACKATHON-left h1{
+      font-size: 25px;
+  }
+  
+  .HACKATHON-left p{
+      font-size: 11px;
+  }
+  
+  
+  /*----subscribe-sect----*/
+  
+  .subscribe-sect {
+      padding: 10px;
+
+  }
+  
+  .subscribe-left{
+      text-align: center;
+      padding-bottom: 20px;
+  }
+  
+  .subscribe-right{
+      text-align: center;
+  }
+  
+  .subscribe-left h1 {
+      font-size: 16px;
+  }
+  
+  .subscribe-right .subscribe-mail{
+      width: 100%;
+      padding: 15px;
+      font-size: 15px;
+      margin-right: 0px;
+      margin-bottom: 15px;
+  }
+  
+  .subscribe-right button a{
+      font-size: 15px;
+  }
+  
+  .subscribe-right button {
+      padding: 12px;
+      width: 100%;
+  }
+  
+  
+  /* Style the tab */
+.hackathon-tabs .tab {
+  overflow: hidden;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(32, 84, 165, 0.3);
+}
+
+/* Style the buttons inside the tab */
+
+.hackathon-tabs {
+  padding: 0px 0px;
+}
+
+
+.hackathon-tabs .tab button {
+  font-size: 8px;
+  padding: 8px;
+  line-height: 100%;
+  margin-right: 0px;
+}
+
+/* Change background color of buttons on hover */
+.hackathon-tabs .tab button:hover {
+  font-size: 8px;
+  line-height: 100%;
+  letter-spacing: 0.0em;
+  border-bottom: 1px solid #8656EF;
+}
+
+
+/* Create an active/current tablink class */
+.hackathon-tabs .tab button.active {
+  font-size: 8px;
+  line-height: 100%;
+  border-bottom: 1px solid #8656EF;;
+  
+}
+
+/* Style the tab content */
+.hackathon-tabs .tabcontent {
+  display: none;
+  padding: 6px 0px;
+  border-top: none;
+}
+
+  
+  
+  /*---Happening-Now---*/
+  
+  .Happening-Now-img {
+      margin-left: -30px;
+  }
+  
+  .Happening-Now-text {
+      padding-top: 45px;
+  }
+  
+  .Happening-Now-text h1{
+      font-size: 16px;
+  }
+  
+  .Happening-Now {
+      min-height: 650px;
+  }
+  
+  /*---Upcoming---*/
+  
+  .Upcoming-card{
+      margin-bottom: 50px;
+  }
+  
+  .Upcoming-card-header{
+      min-height: 110px;
+  }
+  
+  .Upcoming-card-1-header{
+      padding: 0px 25px;
+  }
+  .Upcoming-card-2-header{
+      padding: 0px 25px;
+  }
+  
+  .Upcoming-card-2-header-btn button a {
+      font-size: 9px;
+  }
+
+  
+  .Upcoming-card-2-header-btn button{
+      position: absolute;
+      top: 1%;
+      right: 8%;
+  }
+  
+  .Upcoming-card-body-top h1{
+      text-align: center;
+      font-size: 17px;
+  }
+  
+  .Upcoming-card-body-top h2{
+      text-align: center;
+      font-size: 13px;
+  }
+  .Upcoming-card-body-top h2 img{
+      padding-right: 5px;
+      height: 12px;
+
+  }
+  
+  .Upcoming-card-body-content {
+      padding: 5px 15px;
+  }
+  
+  .Upcoming-card-body-content p{
+      text-align: center;
+      font-size: 11px;
+  }
+  
+  .Upcoming-card-body-btn .PROJECT-btn {
+      padding: 10px 12px;
+      width: 100%;
+  }
+  .Upcoming-card-body-btn .BOUNTY-btn{
+      padding: 10px 12px;
+      width: 100%;
+      margin-left: 0px;
+      margin-top: 10px;
+  }
+   
+  .Peoject-Manger-sect{
+      text-align: center;
+  }
+  
+  .Peoject-Manger-sect h3 {
+      font-size: 19px;
+  }
+  
+  .Upcoming-card-footer img{
+      width: 80%;
+  }
+  
+  .Upcoming-card-footer {
+      min-height: 50px;
+      padding-top: 12px;
+  }
+  
+  
+  
+  /*---Completed----*/
+  
+  .Completed-logo {
+      border-bottom: 1px solid #E1E8FA;
+      max-width: 300px;
+      position: absolute;
+      top: 5%;
+      left: 4%;
+      padding-bottom: 60px;
+  }
+  
+  .Completed-img {
+      margin-left: -30px;
+  }
+  
+  .Completed-text {
+      padding-top: 45px;
+  }
+  
+  .Completed-text h1{
+      font-size: 17px;
+  }
+  
+  
+  
+  /*---Join-us-sect---*/
+  
+  .Join-us-sect{
+      margin-top: 50px;
+  }
+  
+  .Join-us-content{
+      text-align: center;
+  }
+  
+  .Join-us-left h1{
+      font-size: 16px;
+      line-height: 26px;
+      padding: 20px 0px;
+  }
+  
+  .Join-us-right {
+      text-align: center;
+  }
+  
+  .Join-us-right button{
+      width: 80%;
+      margin: 20px 0px;
+  }
+  
+  .join-us-bg-img {
+      position: absolute;
+      top: 46%;
+      right: 5%;
+  }
+  
+  .join-us-bg-img .Rectangle-89{
+      height: 22px;
+      margin-left: 5px;
+  }
+  .join-us-bg-img .Rectangle-90{
+      height: 35px;
+  }
+  
+  
+  
+  
+  /*------hackthon-pop-up-body------*/
+  
+  .hackthon-pop-up {
+      padding: 250px 40px;
+      padding-bottom: 420px;
+      
+  }
+  
+  .pop-up-header h1{
+      font-size: 12px;
+      padding-bottom: 15px;
+  }
+  
+  .pop-up-header h2{
+      font-size: 9px;
+  }
+  
+  .hackthon-pop-up-content {
+      padding: 50px 10px;
+  }
+  
+  
+  .pop-up-body {
+      padding-top: 0px;
+  }
+  
+  .pop-up-body .icon-img{
+      margin-top: 40px;
+  }
+  
+  .pop-up-body .icon-text {
+      padding-top: 10px;
+  }
+  
+  .pop-up-body .icon-text h1{
+      font-size: 26px;
+      line-height: 118.6%;
+  }
+
+  
+  
+  .pop-up-2column {
+      margin-top: 40px;
+  }
+  
+.bookmark{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.bag{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+.book{
+  padding-top: 20px;
+  padding-bottom: 15px;
+  border-bottom: none;
+}
+
+.thams-up{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.tea-cup{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.headphone{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+  
+  .pop-up-column .pop-up-column-row img {
+      margin-right: 6px;
+      height: 11px;
+  }
+  
+  .pop-up-column .pop-up-column-row h1{
+      font-size: 8px;
+      margin-left: 5px;
+  }
+  
+  
+  .pop-up-rules-sect-text h1 {
+      font-size: 9px;
+      line-height: 168.6%;
+      padding: 15px 7px;
+  }
+
+  .pop-up-Dan-Brooks-sect{
+      text-align: center;
+      padding-bottom: 15px;
+  }
+  
+  .Dan-Brooks-text h1 {
+      font-size: 11px;
+  }
+  .Dan-Brooks-text h2{
+      font-size: 20px;
+  }
+  
+  
+  
+  /*---Still-not-sure-sect---*/
+
+.Still-not-sure-sect{
+  margin-top: 20px;
+}
+
+.Still-not-sure-sect h1{
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.Still-not-sure-sect h2{
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 25px;
+  padding-top: 8px;
+}
+
+.Still-not-sure-sect button{
+  padding: 8px 22px;
+}
+
+.Still-not-sure-sect button a{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+  
+  
+  
+  .pop-up-close {
+      position: absolute;
+      top: 8.5%;
+      right: 14%;
+  }
+  
+  .pop-up-close img{
+      height: 40px;
+  }
+  
+  
+  
+  
+}
+/*=========================================*/
+
+
+/*==================280PX==================*/
+@media (min-width: 0px) and (max-width: 319px){
+  
+  
+  
+  .HACKATHON {
+      padding: 20px;
+  }
+  
+  .HACKATHON-left{
+      padding-bottom: 30px;
+      text-align: center;
+  }
+  
+  .HACKATHON-right{
+      text-align: center;
+  }
+  
+  .HACKATHON-left h1{
+      font-size: 20px;
+  }
+  
+  .HACKATHON-left p{
+      font-size: 9px;
+  }
+  
+  
+  /*----subscribe-sect----*/
+  
+  .subscribe-sect {
+      padding: 15px;
+
+  }
+  
+  .subscribe-left{
+      text-align: center;
+      padding-bottom: 20px;
+  }
+  
+  .subscribe-right{
+      text-align: center;
+  }
+  
+  .subscribe-left h1 {
+      font-size: 14px;
+  }
+  
+  .subscribe-right .subscribe-mail{
+      width: 100%;
+      padding: 10px;
+      font-size: 12px;
+      margin-right: 0px;
+      margin-bottom: 15px;
+  }
+  
+  .subscribe-right button a{
+      font-size: 12px;
+  }
+  
+  .subscribe-right button {
+      padding: 5px;
+      width: 100%;
+  }
+  
+  
+  
+  /* Style the tab */
+.hackathon-tabs .tab {
+  overflow: hidden;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(32, 84, 165, 0.3);
+}
+
+/* Style the buttons inside the tab */
+
+.hackathon-tabs {
+  padding: 0px 0px;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+
+.hackathon-tabs .tab button {
+  font-size: 7px;
+  padding: 5px;
+  line-height: 100%;
+  margin-right: 0px;
+  text-align: center;
+  
+}
+
+/* Change background color of buttons on hover */
+.hackathon-tabs .tab button:hover {
+  font-size: 7px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  border-bottom: 1px solid #8656EF;
+}
+
+
+/* Create an active/current tablink class */
+.hackathon-tabs .tab button.active {
+  font-size: 7px;
+  line-height: 100%;
+  border-bottom: 1px solid #8656EF;;
+  
+}
+
+/* Style the tab content */
+.hackathon-tabs .tabcontent {
+  display: none;
+  padding: 6px 0px;
+  border-top: none;
+}
+
+  
+  
+  
+  /*---Happening-Now---*/
+  
+  .Happening-Now-img {
+      margin-left: -30px;
+  }
+  
+  .Happening-Now-text {
+      padding-top: 45px;
+  }
+  
+  .Happening-Now-text h1{
+      font-size: 13px;
+  }
+  
+  
+  /*---Upcoming---*/
+  
+  .Upcoming-card{
+      margin-bottom: 50px;
+  }
+  
+  .Upcoming-card-header{
+      min-height: 100px;
+  }
+  
+  .Upcoming-card-1-header{
+      padding: 0px 25px;
+  }
+  .Upcoming-card-2-header{
+      padding: 0px 25px;
+  }
+  
+  .Upcoming-card-2-header-btn button a {
+      font-size: 7px;
+  }
+
+  
+  .Upcoming-card-2-header-btn button{
+      position: absolute;
+      top: 1.5%;
+      right: 10%;
+  }
+  
+  .Upcoming-card-body-top h1{
+      text-align: center;
+      font-size: 13px;
+  }
+  
+  .Upcoming-card-body-top h2{
+      text-align: center;
+      font-size: 12px;
+  }
+  .Upcoming-card-body-top h2 img{
+      padding-right: 5px;
+      height: 12px;
+
+  }
+  
+  .Upcoming-card-body-content {
+      padding: 5px 15px;
+  }
+  
+  .Upcoming-card-body-content p{
+      text-align: center;
+      font-size: 9px;
+  }
+  
+  .Upcoming-card-body-btn .PROJECT-btn {
+      padding: 10px 12px;
+      width: 100%;
+  }
+  .Upcoming-card-body-btn .BOUNTY-btn{
+      padding: 10px 12px;
+      width: 100%;
+      margin-left: 0px;
+      margin-top: 10px;
+  }
+   
+  .Peoject-Manger-sect{
+      text-align: center;
+  }
+  
+  .Peoject-Manger-sect h3 {
+      font-size: 17px;
+  }
+  
+  .Upcoming-card-footer img{
+      width: 80%;
+  }
+  
+  .Upcoming-card-footer {
+      min-height: 40px;
+      padding-top: 7px;
+  }
+
+  
+  /*---Completed----*/
+  
+  .Happening-Now {
+      min-height: 500px;
+  }
+  
+  .Completed-logo {
+      border-bottom: 1px solid #E1E8FA;
+      max-width: 150px;
+      height: 80px;
+      position: absolute;
+      top: 8%;
+      left: 20%;
+      padding-bottom: 15px;
+  }
+  
+  .Completed-img {
+      margin-left: -30px;
+  }
+  
+  .Completed-text {
+      padding-top: 45px;
+  }
+  
+  .Completed-text h1{
+      font-size: 13px;
+  }
+  
+  /*---.Join-us-sect---*/
+  
+  .Join-us-sect{
+      margin-top: 50px;
+  }
+  
+  .Join-us-content{
+      text-align: center;
+  }
+  
+  .Join-us-left h1{
+      font-size: 14px;
+      line-height: 26px;
+      padding: 20px 0px;
+  }
+  
+  .Join-us-right {
+      text-align: center;
+  }
+  
+  .Join-us-right button{
+      padding: 10px 20px;
+      width: 80%;
+      margin: 20px 0px;
+  }
+  
+  .join-us-bg-img {
+      position: absolute;
+      top: 46%;
+      right: 5%;
+  }
+  
+  .join-us-bg-img .Rectangle-89{
+      height: 22px;
+      margin-left: 5px;
+  }
+  .join-us-bg-img .Rectangle-90{
+      height: 35px;
+  }
+  
+  
+  
+  
+  /*------hackthon-pop-up-body------*/
+  
+  .hackthon-pop-up {
+      padding: 240px 40px;
+      
+  }
+  
+  .pop-up-header h1{
+      font-size: 10px;
+      padding-bottom: 15px;
+  }
+  
+  .pop-up-header h2{
+      font-size: 7px;
+  }
+  
+  .hackthon-pop-up-content {
+      padding: 50px 10px;
+  }
+  
+  
+  .pop-up-body {
+      padding-top: 0px;
+  }
+  
+  .pop-up-body .icon-img{
+      margin-top: 40px;
+  }
+  
+  .pop-up-body .icon-text {
+      padding-top: 10px;
+  }
+  
+  .pop-up-body .icon-text h1{
+      font-size: 21px;
+      line-height: 118.6%;
+  }
+
+  
+  
+  .pop-up-2column {
+      margin-top: 40px;
+  }
+  
+.bookmark{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.bag{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+.book{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: none;
+}
+
+.thams-up{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.tea-cup{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.headphone{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+  
+  .pop-up-column .pop-up-column-row img {
+      margin-right: 6px;
+      height: 11px;
+  }
+  
+  .pop-up-column .pop-up-column-row h1{
+      font-size: 7px;
+      margin-left: 5px;
+  }
+  
+  
+  
+  .pop-up-rules-sect-text h1 {
+      font-size: 9px;
+      line-height: 168.6%;
+      padding: 10px 7px;
+  }
+  
+  
+  .pop-up-Dan-Brooks-sect{
+      text-align: center;
+      padding-bottom: 15px;
+  }
+  
+  .Dan-Brooks-text h1 {
+      font-size: 10px;
+  }
+  .Dan-Brooks-text h2{
+      font-size: 18px;
+  }
+  
+  
+    /*---Still-not-sure-sect---*/
+
+.Still-not-sure-sect{
+  margin-top: 20px;
+}
+
+.Still-not-sure-sect h1{
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.Still-not-sure-sect h2{
+  font-size: 15px;
+  line-height: 25px;
+  padding-bottom: 25px;
+  padding-top: 3px;
+}
+
+.Still-not-sure-sect button{
+  padding: 4px 12px;
+}
+
+.Still-not-sure-sect button a{
+  font-size: 12px;
+  line-height: 24px;
+}
+
+  
+  .pop-up-close {
+      position: absolute;
+      top: 9%;
+      right: 17%;
+  }
+  
+  .pop-up-close img{
+      height: 30px;
+  }
+  
+  
+}
+/*=========================================*/
+
+
+
+
+
+
+/*====================================*/
+/*========END-Hackathon-Explore=======*/
+/*====================================*/
