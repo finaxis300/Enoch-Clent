@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Ezeolabs-Hackathon-Explore</title>
+	<script src="js/jquery.min.js"></script>
+	<!-- Fav Icons -->
+	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+	<link rel="icon" href="images/favicon.png" type="image/x-icon">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+	<!-- Stylesheets -->
+	<link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/header-footer.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/ezero.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
+    
+  
+</head>
+
+<body>
+    
+	<div class="ezeo-container-fluid">
+		<div class="row">
+		  <header class="banner-main">
+			<div class="header-menu-main">
+			  <div class="Ezeo-container">
+				<div class="header-menu">
+				  <div class="header-menu-left">
+					<div class="barnd-logo">
+					  <a href="/">
+						<img src="images/Logo.png" alt="logo" class="img-fluid" />
+					  </a>
+					</div>
+				  </div>
+				  <div class="header-menu-right">
+					<div class="menu-right" id="menubar">
+					  <ul class="hover-menu">
+						<li><a href="javascript:void(0);">How it works</a></li>
+						<li class="dropdown">
+						  <a href="javascript:void(0);">
+							Earn
+							<i class="fa fa-chevron-down"></i>
+						  </a>
+						  <div class="dropdown-content">
+							
+						  </div>
+						</li>
+						<li class="dropdown">
+						  <a href="javascript:void(0);">Hackathon</a>
+						 
+						</li>
+						<li class="">
+						  <a href="javascript:void(0);">Support Projects 
+							<!-- <i class="fa fa-chevron-down"></i> -->
+						  </a>
+						  <div class="dropdown-content dropdown-content-list">
+							
+						  </div>
+						</li>
+						<li class="dropdown">
+						  <a href="javascript:void(0);">Team</a>
+						  
+						</li>
+						<li class="dropdown">
+						  <a href="javascript:void(0);">FAQs</a>
+						  
+						</li>
+						<li><a href="#" class="btn ezeo-startbtn">GET STARTED</a></li>
+					  </ul>
+					</div>
+					
+				  </div>
+				</div>
+			  </div>
+			  <div class="toggle-menu">
+					  <div onclick="togglediv('menubar','menu-toggle');" class="d-inline-block">
+						<i class="fa fa-bars" aria-hidden="true" id="menu-toggle"></i>
+					  </div>
+					</div>
+			</div>
+		  </header>
+		</div>
+		
+		<div class="row">
+			<div class="enoch-contact-head">
+				<div class="Ezeo-container">
+				<h2>Please get in touch and our expert support team will answer all your questions.</h2>
+				</div>
+			</div>
+		</div>
+		<div class="contactus-block">
+			<div class="Ezeo-container">
+				<div class="row">
+					<div class="col-lg-7">
+						<div class="enoch-contactblock-lft">
+							<h3>Choose your role to get in touch with us</h3>
+							<p>Complete the form below and we will contact you to discuss your quey. Your information will be kept confidential.</p>
+							<div class="contactblock-tabs">
+								<ul class="contacttab">
+									<li><a href="javascript:void(0);" class="contacttablinks" onclick="contactfunc(event, 'contibutors')" id="defaultOpen">CONTRIBUTORs</a></li>
+									<li><a href="javascript:void(0);" class="contacttablinks" onclick="contactfunc(event, 'Supporters')">Supporters</a></li>
+									<li><a href="javascript:void(0);" class="contacttablinks" onclick="contactfunc(event, 'partners')">PARTNERS</a></li>
+									<li><a href="javascript:void(0);" class="contacttablinks" onclick="contactfunc(event, 'media')">MEDIA</a></li>
+								</ul>
+
+								<div id="contibutors" class="contacttabcontent">
+									<div class="contact-tab-head">This text will explain the selected tab. in one or two lines.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut magna aliqua. </div>
+									<div class="enoch-contact-form">
+										
+										<div class="enoch-contact-form">
+											<form>
+												<div class="floating-form">
+													<div class="row">
+														<div class="col-md-6">
+															<div class="floating-label">      
+															  <input class="floating-input" type="text" placeholder=" ">
+															  <span class="highlight"></span>
+															  <label>Name<span>*</span></label>
+															</div>
+														</div>
+														<div class="col-md-6">
+															<div class="floating-label">      
+															  <input class="floating-input" type="text" placeholder=" ">
+															  <span class="highlight"></span>
+															  <label>Business Email<span>*</span></label>
+															</div>
+														</div>
+														<div class="col-md-6">
+															<div class="floating-label">      
+															  <input class="floating-input" type="text" placeholder=" ">
+															  <span class="highlight"></span>
+															  <label>Phone number<span>*</span></label>
+															</div>
+														</div>
+														<div class="col-md-6">
+															<div class="floating-label">      
+															  <div class="position-relative">
+																	<div class="contact-drop-box">
+																		<a href="javascript:void(0)" onclick="Project()" id="contactCountry" class="contact-droplist">Country<span>* </span> </a>
+																	</div>
+																	<div id="contact-Project-DropdownList" class="contact-dropdown-content">										
+																		<ul class="contact-drop-scrollable contact-custom-wd">
+																			<li><span><img src="images/country1.png" alt="afganistan" class="img-fluid mr-2"/></span><div class="contact-inner">Afganistan</div></li>
+																			<li><span><img src="images/country2.png" alt="Aland Islands" class="img-fluid mr-2"/></span><div class="contact-inner">Aland Islands</div> </li>
+																			<li><span><img src="images/country3.png" alt="Albania" class="img-fluid mr-2"/></span><div class="contact-inner">Albania</div></li>
+																			<li><span><img src="images/country4.png" alt="Algeria" class="img-fluid mr-2"/></span><div class="contact-inner"> Algeria</div></li>
+																			<li><span><img src="images/country5.png" alt="American Samoa" class="img-fluid mr-2"/></span><div class="contact-inner"> American Samoa</div></li>
+																			<li><span><img src="images/country6.png" alt="Andorra" class="img-fluid mr-2"/></span><div class="contact-inner"> Andorra</div></li>
+																			
+																			
+																		</ul>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col-md-12">
+															<div class="floating-label">      
+															  <div class="position-relative">
+																	<div class="contact-drop-box">
+																		<a href="javascript:void(0)" onclick="selectSkills()" id="contactSkills" class="contact-droplist">Select Skills<span>* </span> </a>
+																	</div>
+																	<div id="contact-skills-DropdownList" class="contact-dropdown-content skill-zindex">										
+																		<ul class="contact-drop-scrollable contact-custom-wd">
+																			<li><div class="contact-inner">Blockchain</div></li>
+																			<li><div class="contact-inner">Big Data</div> </li>
+																			<li><div class="contact-inner">DevOps</div></li>
+																			<li><div class="contact-inner"> Product design</div></li>
+																			<li><div class="contact-inner"> Digital Marketing</div></li>
+																			<li><div class="contact-inner"> Front End Development</div></li>
+																			<li><div class="contact-inner"> Backend Development</div></li>
+																			<li><div class="contact-inner"> Branding</div></li>
+																			<li><div class="contact-inner"> Legal & Complinace</div></li>
+																			<li><div class="contact-inner"> hello</div></li>
+																			<li><div class="contact-inner"> hello</div></li>
+																			<li><div class="contact-inner"> hello</div></li>
+																			<li><div class="contact-inner"> hello</div></li>
+																			<li><div class="contact-inner"> hello</div></li>
+																			<li><div class="contact-inner"> hello</div></li>
+																			<li><div class="contact-inner"> hello</div></li>
+																			<li><div class="contact-inner"> hello</div></li>
+																			<li><div class="contact-inner"> hello</div></li>
+																			
+																			
+																		</ul>
+																	</div>
+																</div>
+																<p class="conatct-skill-txt">This text will explain about the above dropdown section.</p>
+															</div>
+															
+														</div>
+														<div class="col-md-12">
+															<textarea placeholder="Write your message" class="floating-input"></textarea>
+														</div>
+														<div class="col-md-12">
+															<label class="coontactcheckbox-container">I agree to the Terms & Conditions and Privacy Policy
+															  <input type="checkbox">
+															  <span class="contactcheckmark"></span>
+															</label>
+														</div>
+														<div class="col-md-12">
+															<div class="contact-gcaptcha">
+																<img src="images/gcaptcha.png" alt="g-captcha" class="img-fluid"/>
+															</div>
+														</div>
+														<div class="col-md-12"><button type="submnit" class="contact-submit-btn">SUBMIT NOW</div>
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+
+								<div id="Supporters" class="contacttabcontent">
+									<div class="contact-tab-head">This text will explain the selected tab. in one or two lines.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut magna aliqua. </div>
+									<div class="enoch-contact-form">
+										
+										<div class="enoch-contact-form">
+											<form>
+												<div class="floating-form">
+													<div class="row">
+														<div class="col-md-6">
+															<div class="floating-label">      
+															  <input class="floating-input" type="text" placeholder=" ">
+															  <span class="highlight"></span>
+															  <label>Name<span>*</span></label>
+															</div>
+														</div>
+														<div class="col-md-6">
+															<div class="floating-label">      
+															  <input class="floating-input" type="text" placeholder=" ">
+															  <span class="highlight"></span>
+															  <label>Business Email<span>*</span></label>
+															</div>
+														</div>
+														<div class="col-md-6">
+															<div class="floating-label">      
+															  <input class="floating-input" type="text" placeholder=" ">
+															  <span class="highlight"></span>
+															  <label>Phone number<span>*</span></label>
+															</div>
+														</div>
+														<div class="col-md-6">
+															<div class="floating-label">      
+															  <div class="position-relative">
+																	<div class="contact-drop-box">
+																		<a href="javascript:void(0)" onclick="contactCountry()" id="contactCountry2" class="contact-droplist">Country<span>* </span> </a>
+																	</div>
+																	<div id="contactCountry-DropdownList2" class="contact-dropdown-content">										
+																		<ul class="contact-drop-scrollable contact-custom-wd">
+																			<li><span><img src="images/country1.png" alt="afganistan" class="img-fluid mr-2"/></span><div class="contact-inner">Afganistan</div></li>
+																			<li><span><img src="images/country2.png" alt="Aland Islands" class="img-fluid mr-2"/></span><div class="contact-inner">Aland Islands</div> </li>
+																			<li><span><img src="images/country3.png" alt="Albania" class="img-fluid mr-2"/></span><div class="contact-inner">Albania</div></li>
+																			<li><span><img src="images/country4.png" alt="Algeria" class="img-fluid mr-2"/></span><div class="contact-inner"> Algeria</div></li>
+																			<li><span><img src="images/country5.png" alt="American Samoa" class="img-fluid mr-2"/></span><div class="contact-inner"> American Samoa</div></li>
+																			<li><span><img src="images/country6.png" alt="Andorra" class="img-fluid mr-2"/></span><div class="contact-inner"> Andorra</div></li>
+																			
+																			
+																		</ul>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col-md-12">
+															<div class="floating-label">      
+															  <div class="position-relative">
+																	<div class="contact-drop-box">
+																		<a href="javascript:void(0)" onclick="selectIM()" id="contactIM" class="contact-droplist">I am a<span>* </span> </a>
+																	</div>
+																	<div id="contact-IM-DropdownList" class="contact-dropdown-content skill-zindex">										
+																		<ul class="contact-drop-scrollable contact-custom-wd">
+																			<li><div class="contact-inner">Individual investors</div></li>
+																			<li><div class="contact-inner">Business Angels</div> </li>
+																			<li><div class="contact-inner">Angel Groups</div></li>
+																			<li><div class="contact-inner"> Venture Capitalists</div></li>
+																			<li><div class="contact-inner"> Accelerators & Incubators</div></li>
+																			<li><div class="contact-inner"> Family Offices</div></li>
+																			<li><div class="contact-inner"> Corporate Investors</div></li>
+																																																							
+																		</ul>
+																	</div>
+																</div>
+																<p class="conatct-skill-txt">This text will explain about the above dropdown section.</p>
+															</div>
+															
+														</div>
+														<div class="col-md-12">
+															<textarea placeholder="Write your message" class="floating-input"></textarea>
+														</div>
+														<div class="col-md-12">
+															<label class="coontactcheckbox-container">I agree to the Terms & Conditions and Privacy Policy
+															  <input type="checkbox">
+															  <span class="contactcheckmark"></span>
+															</label>
+														</div>
+														<div class="col-md-12">
+															<div class="contact-gcaptcha">
+																<img src="images/gcaptcha.png" alt="g-captcha" class="img-fluid"/>
+															</div>
+														</div>
+														<div class="col-md-12"><button type="submnit" class="contact-submit-btn">SUBMIT NOW</div>
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+
+								<div id="partners" class="contacttabcontent">
+									<div class="contact-tab-head">This text will explain the selected tab. in one or two lines.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut magna aliqua. </div>
+									<div class="enoch-contact-form">
+										
+										<div class="enoch-contact-form">
+											<form>
+												<div class="floating-form">
+													<div class="row">
+														<div class="col-md-6">
+															<div class="floating-label">      
+															  <input class="floating-input" type="text" placeholder=" ">
+															  <span class="highlight"></span>
+															  <label>Name<span>*</span></label>
+															</div>
+														</div>
+														<div class="col-md-6">
+															<div class="floating-label">      
+															  <input class="floating-input" type="text" placeholder=" ">
+															  <span class="highlight"></span>
+															  <label>Business Email<span>*</span></label>
+															</div>
+														</div>
+														<div class="col-md-6">
+															<div class="floating-label">      
+															  <input class="floating-input" type="text" placeholder=" ">
+															  <span class="highlight"></span>
+															  <label>Phone number<span>*</span></label>
+															</div>
+														</div>
+														<div class="col-md-6">
+															<div class="floating-label">      
+															  <div class="position-relative">
+																	<div class="contact-drop-box">
+																		<a href="javascript:void(0)" onclick="partnersCountry()" id="contactCountry3" class="contact-droplist">Country<span>* </span> </a>
+																	</div>
+																	<div id="contactCountry2-DropdownList2" class="contact-dropdown-content">										
+																		<ul class="contact-drop-scrollable contact-custom-wd">
+																			<li><span><img src="images/country1.png" alt="afganistan" class="img-fluid mr-2"/></span><div class="contact-inner">Afganistan</div></li>
+																			<li><span><img src="images/country2.png" alt="Aland Islands" class="img-fluid mr-2"/></span><div class="contact-inner">Aland Islands</div> </li>
+																			<li><span><img src="images/country3.png" alt="Albania" class="img-fluid mr-2"/></span><div class="contact-inner">Albania</div></li>
+																			<li><span><img src="images/country4.png" alt="Algeria" class="img-fluid mr-2"/></span><div class="contact-inner"> Algeria</div></li>
+																			<li><span><img src="images/country5.png" alt="American Samoa" class="img-fluid mr-2"/></span><div class="contact-inner"> American Samoa</div></li>
+																			<li><span><img src="images/country6.png" alt="Andorra" class="img-fluid mr-2"/></span><div class="contact-inner"> Andorra</div></li>
+																			
+																			
+																		</ul>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col-md-12">
+															<div class="floating-label">      
+															  <div class="position-relative">
+																	<div class="contact-drop-box">
+																		<a href="javascript:void(0)" onclick="selectIndustry()" id="contactIndustry" class="contact-droplist">Select Industry<span>* </span> </a>
+																	</div>
+																	<div id="contact-selectIndustry-DropdownList" class="contact-dropdown-content skill-zindex">										
+																		<ul class="contact-drop-scrollable contact-custom-wd">
+																			<li><div class="contact-inner">Fintech</div></li>
+																			<li><div class="contact-inner">E-Commerce</div> </li>
+																			<li><div class="contact-inner">Software</div></li>
+																			<li><div class="contact-inner"> Healthcare</div></li>
+																			<li><div class="contact-inner"> Identity Management</div></li>
+																			<li><div class="contact-inner"> Insurance</div></li>
+																			<li><div class="contact-inner"> Cybersecurity</div></li>
+																			<li><div class="contact-inner"> Transportation</div></li>
+																			<li><div class="contact-inner"> Blockchain Network</div></li>
+																																																							
+																		</ul>
+																	</div>
+																</div>
+																<p class="conatct-skill-txt">This text will explain about the above dropdown section.</p>
+															</div>
+															
+														</div>
+														<div class="col-md-12">
+															<textarea placeholder="Write your message" class="floating-input"></textarea>
+														</div>
+														<div class="col-md-12">
+															<label class="coontactcheckbox-container">I agree to the Terms & Conditions and Privacy Policy
+															  <input type="checkbox">
+															  <span class="contactcheckmark"></span>
+															</label>
+														</div>
+														<div class="col-md-12">
+															<div class="contact-gcaptcha">
+																<img src="images/gcaptcha.png" alt="g-captcha" class="img-fluid"/>
+															</div>
+														</div>
+														<div class="col-md-12"><button type="submnit" class="contact-submit-btn">SUBMIT NOW</div>
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+								<div id="media" class="contacttabcontent">
+									<div class="contact-tab-head">This text will explain the selected tab. in one or two lines.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut magna aliqua. </div>
+									<div class="enoch-contact-form">
+										
+										<div class="enoch-contact-form">
+											<form>
+												<div class="floating-form">
+													<div class="row">
+														<div class="col-md-6">
+															<div class="floating-label">      
+															  <input class="floating-input" type="text" placeholder=" ">
+															  <span class="highlight"></span>
+															  <label>Name<span>*</span></label>
+															</div>
+														</div>
+														<div class="col-md-6">
+															<div class="floating-label">      
+															  <input class="floating-input" type="text" placeholder=" ">
+															  <span class="highlight"></span>
+															  <label>Business Email<span>*</span></label>
+															</div>
+														</div>
+														<div class="col-md-6">
+															<div class="floating-label">      
+															  <input class="floating-input" type="text" placeholder=" ">
+															  <span class="highlight"></span>
+															  <label>Phone number<span>*</span></label>
+															</div>
+														</div>
+														<div class="col-md-6">
+															<div class="floating-label">      
+															  <div class="position-relative">
+																	<div class="contact-drop-box">
+																		<a href="javascript:void(0)" onclick="mediaCountry()" id="mediaCountry" class="contact-droplist">Country<span>*</span></a>
+																	</div>
+																	<div id="mediaCountry-DropdownList2" class="contact-dropdown-content">										
+																		<ul class="contact-drop-scrollable contact-custom-wd">
+																			<li><span><img src="images/country1.png" alt="afganistan" class="img-fluid mr-2"/></span><div class="contact-inner">Afganistan</div></li>
+																			<li><span><img src="images/country2.png" alt="Aland Islands" class="img-fluid mr-2"/></span><div class="contact-inner">Aland Islands</div> </li>
+																			<li><span><img src="images/country3.png" alt="Albania" class="img-fluid mr-2"/></span><div class="contact-inner">Albania</div></li>
+																			<li><span><img src="images/country4.png" alt="Algeria" class="img-fluid mr-2"/></span><div class="contact-inner"> Algeria</div></li>
+																			<li><span><img src="images/country5.png" alt="American Samoa" class="img-fluid mr-2"/></span><div class="contact-inner"> American Samoa</div></li>
+																			<li><span><img src="images/country6.png" alt="Andorra" class="img-fluid mr-2"/></span><div class="contact-inner"> Andorra</div></li>
+																			
+																			
+																		</ul>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col-md-12">
+															<div class="floating-label">      
+															  <div class="position-relative">
+																	<div class="contact-drop-box">
+																		<a href="javascript:void(0)" onclick="selectmedia()" id="selectmedia" class="contact-droplist">Select Industry<span>* </span> </a>
+																	</div>
+																	<div id="contact-selectmedia-DropdownList" class="contact-dropdown-content skill-zindex">										
+																		<ul class="contact-drop-scrollable contact-custom-wd">
+																			<li><div class="contact-inner">Facebook</div></li>
+																			<li><div class="contact-inner">Email</div> </li>
+																			<li><div class="contact-inner">TV/News</div></li>
+																			<li><div class="contact-inner"> Advertisment</div></li>
+																			<li><div class="contact-inner"> Twitter</div></li>
+																			<li><div class="contact-inner"> Linkidien</div></li>
+																																																							
+																		</ul>
+																	</div>
+																</div>
+																<p class="conatct-skill-txt">This text will explain about the above dropdown section.</p>
+															</div>
+															
+														</div>
+														<div class="col-md-12">
+															<textarea placeholder="Write your message" class="floating-input"></textarea>
+														</div>
+														<div class="col-md-12">
+															<label class="coontactcheckbox-container">I agree to the Terms & Conditions and Privacy Policy
+															  <input type="checkbox">
+															  <span class="contactcheckmark"></span>
+															</label>
+														</div>
+														<div class="col-md-12">
+															<div class="contact-gcaptcha">
+																<img src="images/gcaptcha.png" alt="g-captcha" class="img-fluid"/>
+															</div>
+														</div>
+														<div class="col-md-12"><button type="submnit" class="contact-submit-btn">SUBMIT NOW</div>
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-5">
+						<div class="enoch-contactblock-right">
+							<div class="enoch-contactblock-right-block1">
+								<h3>Backed by the best</h3>
+								<ul>
+									<li><img src="images/c-logo1.png" alt="concenesys" class="img-fluid"/></li>
+								</ul>
+								<h3>Support for major blockchains</h3>
+								<ul>
+									<li><img src="images/c-logo2.png" alt="concenesys" class="img-fluid"/></li>
+									<li><img src="images/c-logo3.png" alt="concenesys" class="img-fluid"/></li>
+									<li><img src="images/c-logo4.png" alt="concenesys" class="img-fluid"/></li>
+								</ul>
+								<h3>Fungible and non-fungible token support: Ethereum and Binance</h3>
+								<ul>
+									<li><img src="images/c-logo5.png" alt="concenesys" class="img-fluid"/></li>
+									<li><img src="images/c-logo6.png" alt="concenesys" class="img-fluid"/></li>
+									
+								</ul>
+							</div>
+							<div class="enoch-contactblock-right-block2">
+								<div class="contactblock-right-txt">SEE FAQS</div>
+								<div class="contactblock-right-img"><img src="images/see-faq.png" alt="faq" class="img-fluid"/></div>
+							</div>
+							<div class="enoch-contactblock-right-block2 hlpcenter-bg">
+								<div class="contactblock-right-txt">Help Center</div>
+								<div class="contactblock-right-img"><img src="images/helcenter.png" alt="help-center" class="img-fluid"/></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="Ezeo-container">
+		    <div class="conatctus-locations">
+				<div class="conatctus-locations-hd">
+					<h2>Our Locations</h2>
+					<p>Lusarn Network is a Layer-2 scaling enterprise solution that provides instant, low cost, and secure transactions on Ethereum.</p>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="conatctus-locations-block">
+							<div class="location-img"><img src="images/uk.png" alt="uk" class="img-fluid"/></div>
+							<div class="location-bottom">
+							<h3>St Peter Port, Guernsey<span>(british overseas territory <img src="images/united-kingdom.png" alt="united-kingdom" class="united-kingdom"/>)</span></h3>
+							<p>HEAD OFFICE</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="conatctus-locations-block">
+							<div class="location-img"><img src="images/india.png" alt="uk" class="img-fluid"/></div>
+							<div class="location-bottom">
+							<h3>PUNE, INDIA</h3>
+							<p>Engineering</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="conatctus-locations-block">
+							<div class="location-img"><img src="images/captown.png" alt="uk" class="img-fluid"/></div>
+							<div class="location-bottom">
+							<h3>CAPE TOWN, SOUTH AFRICA</h3>
+							<p>BUSINESS OPRATIONS</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="Join-us-sect">
+		    <div class="Ezeo-container">
+		        <div class="col-md-10 offset-md-1">
+		            <div class="Join-us-content">
+		                <div class="row">
+		                    <div class="col-md-6">
+		                        <div class="Join-us-left">
+		                            <h1>We are looking for talented people who will join our team</h1>
+		                        </div>
+		                    </div>
+		                    <div class="col-md-6">
+		                        <div class="Join-us-right">
+		                            <button><a href="#">JOIN US</a></button>
+		                        </div>
+		                    </div>
+		                </div>
+		                
+		            </div>
+		        </div>
+		        <div class="join-us-bg-img">
+		            <img src="Images/Framebox.png" alt="" class="img-fluid">
+		            
+
+		        </div>
+		    </div>
+		    
+		</div>
+		
+
+		<div class="row">
+			<div class="col-lg-12 p-0">
+				<div class="footer-main center-align">
+					<div class="Ezeo-container">
+						<div class="footer-content">
+							<div class="row">
+								<div class="col-lg-12">
+									<div class="row">
+										<div class="col-md-3">
+											<div class="ezeo-footer-logoblock">
+												<div class="footer-logo"><img src="images/Logo.png" alt="footer logo" class="img-fluid"/></div>																																			
+												<div class="below-logo">
+													<p>
+														Element Zero Labs is committed to the ecology and research of PoS and staking blockchains, focusing on the development of high-quality PoS projects, and providing state of the art tools, services and research reports.
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="ezeo-footer-list">
+												<h3 class="footer-head">Participate</h3>
+												<ul class="footer-menu p-0">
+													<li><a href="javascript:void(0);">How it works</a></li>
+													<li><a href="javascript:void(0);">Staking </a></li>
+													<li><a href="javascript:void(0);">Hackathon</a></li>
+													<li><a href="javascript:void(0);">Bounties</a></li>
+													<li><a href="javascript:void(0);">Support Projects</a></li>
+													<li><a href="javascript:void(0);">Ambassadors Progrram</a><span class="ezeo-comming">Coming</span></li>
+													<li><a href="javascript:void(0);">Lunch Partners Program </a><span class="ezeo-comming">Coming</span></li>
+												</ul>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="ezeo-footer-list">
+												<h3 class="footer-head">Company</h3>
+												<ul class="footer-menu p-0">
+													<li><a href="javascript:void(0);">Our Mission</a></li>
+													<li><a href="javascript:void(0);">Team</a></li>
+													<li><a href="javascript:void(0);">Career</a><span><img src="images/hire-icon.png" alt="hire-icon" class="ml-1 mr-1 img-fluid"/><a href="#">we are hiring</a></span></li>
+													
+												</ul>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="ezeo-footer-list">
+												<h3 class="footer-head">Support</h3>
+												<ul class="footer-menu p-0">
+													<li><a href="javascript:void(0);">Contact us</a></li>
+													<li><a href="javascript:void(0);">FAQ</a></li>
+													
+												</ul>
+											</div>
+										</div>
+										
+									</div>
+									<div class="row">
+										<div class="ezeo-footer-bottom">
+											<div class="ezeo-footer-bottom-lft">
+												Copyright &copy; 2021 Element Zero Labs, Inc. All rights reserved.
+											</div>
+											<div class="ezeo-footer-bottom-right">
+												<ul class="ezeo-social-media">
+													<li><a href="#"><img src="images/social-icon1.png" alt="social media" class="img-fluid"/></a></li>
+													<li><a href="#"><img src="images/social-icon2.png" alt="social media" class="img-fluid"/></a></li>
+													<li><a href="#"><img src="images/social-icon3.png" alt="social media" class="img-fluid"/></a></li>
+													<li><a href="#"><img src="images/social-icon4.png" alt="social media" class="img-fluid"/></a></li>
+													<li><a href="#"><img src="images/social-icon5.png" alt="social media" class="img-fluid"/></a></li>
+													<li><a href="#"><img src="images/social-icon6.png" alt="social media" class="img-fluid"/></a></li>
+													<li><a href="#"><img src="images/social-icon7.png" alt="social media" class="img-fluid"/></a></li>
+												</ul>
+												<p>
+													<span class="mr-3"><a href="#">Legal Disclaimer </a></span><span class="mr-3"><a href="#">Cookies & Privacy Policy </a></span><span><a href="#">   Copyright Policy</a></span>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				
+				</div>
+				
+			</div>
+			<div class="cookies-cls">
+			<div class="Ezeo-container">
+				<div class="cookies-cls-bottm">
+					<div class="cookies-cls-bottm-lft">
+						<div><img src="images/cookis.png" alt="cookis" class="img-fluid"/></div>
+						<p>We use cookies to improve user experience, and analyze website traffic. For these reasons, we may share your site usage data with our analytics partners. By clicking "Accept & Procced" you consent to store on your device all the technologies described in our <a href="#">Cookie Policy.</a></p>
+					</div>
+					<div class="cookies-cls-bottm-right">
+					<a href="#" class="btn cookies-btn">Accept & Proceed</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+    </div>
+
+
+	<script type="text/javascript">
+
+
+		function popupFunction() {
+			var popup = document.getElementById("myPopup");
+			popup.classList.toggle("show");
+		}
+
+		/*for toggle menu*/
+		function togglediv(id, icon) {
+			var id = document.getElementById(id);
+			id.classList.toggle('active');
+			var cross = document.getElementById(icon);
+			cross.classList.toggle('fa-times');
+			cross.classList.toggle('fa-bars');
+		}
+		
+	</script>
+	
+	<script>
+	/*for toggle sub menu*/
+		function subtogglediv(id, icon) {
+			var id = document.getElementById(id);
+			id.classList.toggle('active');
+			var cross = document.getElementById(icon);
+			cross.classList.toggle('fa-times');
+			cross.classList.toggle('fa-bars');
+		}
+		</script>
+		
+    <script>
+        function contactfunc(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("contacttabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("contacttablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+    
+    <script type="text/javascript">
+
+
+		
+		/*dropbox select*/
+		
+		function Project() {
+
+	var popupD = document.getElementById("contact-Project-DropdownList");
+	popupD.classList.toggle("show");
+  
+}
+var listItems2 = document.getElementById("contact-Project-DropdownList").querySelectorAll(".contact-dropdown-content ul li .contact-inner");
+listItems2.forEach(function(item) {
+          item.onclick = function(e) {
+            document.getElementById('contactCountry').innerHTML = this.innerHTML;
+          }
+        });
+		
+		/*skill dropdown*/
+		function selectSkills() {
+
+	var skills = document.getElementById("contact-skills-DropdownList");
+	skills.classList.toggle("show");
+  
+}
+var skills2 = document.getElementById("contact-skills-DropdownList").querySelectorAll(".contact-dropdown-content ul li .contact-inner");
+skills2.forEach(function(item) {
+          item.onclick = function(e) {
+            document.getElementById('contactSkills').innerHTML = this.innerHTML;
+          }
+        });
+		
+		/*supporters country*/
+		function contactCountry() {
+
+	var contactCountry = document.getElementById("contactCountry-DropdownList2");
+	contactCountry.classList.toggle("show");
+  
+}
+var contactCountry2 = document.getElementById("contactCountry-DropdownList2").querySelectorAll(".contact-dropdown-content ul li .contact-inner");
+contactCountry2.forEach(function(item) {
+          item.onclick = function(e) {
+            document.getElementById('contactCountry2').innerHTML = this.innerHTML;
+          }
+        });
+		function selectIM() {
+
+	var selectIM = document.getElementById("contact-IM-DropdownList");
+	selectIM.classList.toggle("show");
+  
+}
+var selectIM2 = document.getElementById("contact-IM-DropdownList").querySelectorAll(".contact-dropdown-content ul li .contact-inner");
+selectIM2.forEach(function(item) {
+          item.onclick = function(e) {
+            document.getElementById('contactIM').innerHTML = this.innerHTML;
+          }
+        });
+		/*partners dropdown*/
+		
+		function partnersCountry() {
+
+	var partnersCountry = document.getElementById("contactCountry2-DropdownList2");
+	partnersCountry.classList.toggle("show");
+  
+}
+var partnersCountry2 = document.getElementById("contactCountry2-DropdownList2").querySelectorAll(".contact-dropdown-content ul li .contact-inner");
+partnersCountry2.forEach(function(item) {
+          item.onclick = function(e) {
+            document.getElementById('contactCountry3').innerHTML = this.innerHTML;
+          }
+        });
+		function selectIndustry() {
+
+	var selectIndustry = document.getElementById("contact-selectIndustry-DropdownList");
+	selectIndustry.classList.toggle("show");
+  
+}
+var selectIndustry2 = document.getElementById("contact-selectIndustry-DropdownList").querySelectorAll(".contact-dropdown-content ul li .contact-inner");
+selectIndustry2.forEach(function(item) {
+          item.onclick = function(e) {
+            document.getElementById('contactIndustry').innerHTML = this.innerHTML;
+          }
+        });
+		
+		/*media dropdown*/
+		
+		function mediaCountry() {
+
+	var mediaCountry1 = document.getElementById("mediaCountry-DropdownList2");
+	mediaCountry1.classList.toggle("show");
+  
+}
+var mediaCountry2 = document.getElementById("mediaCountry-DropdownList2").querySelectorAll(".contact-dropdown-content ul li .contact-inner");
+mediaCountry2.forEach(function(item) {
+          item.onclick = function(e) {
+            document.getElementById('mediaCountry').innerHTML = this.innerHTML;
+          }
+        });
+		function selectmedia() {
+
+	var selectmedia1 = document.getElementById("contact-selectmedia-DropdownList");
+	selectmedia1.classList.toggle("show");
+  
+}
+var selectmedia2 = document.getElementById("contact-selectmedia-DropdownList").querySelectorAll(".contact-dropdown-content ul li .contact-inner");
+selectmedia2.forEach(function(item) {
+          item.onclick = function(e) {
+            document.getElementById('selectmedia').innerHTML = this.innerHTML;
+          }
+        });
+
+		// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.contact-droplist')) {
+    var dropdowns = document.getElementsByClassName("contact-dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+	<!--  var selItem = document.getElementById("athp-sel"); -->
+	//selItem.classList.toggle("select-active");
+	var selItem = document.getElementById("contactCountry");
+	selItem.classList.add("select-active");
+}
+
+	</script>
+	
+</body>
+
+</html>
