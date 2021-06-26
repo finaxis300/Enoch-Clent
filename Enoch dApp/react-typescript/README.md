@@ -1,4 +1,3 @@
-Enoch-Website
 Enoch-Website powered by next.js + typescript
 
 This is a Next.js project bootstrapped with create-next-app.
