@@ -1258,7 +1258,7 @@ font-size: 13px;
 line-height: 160%;
 /* or 21px */
 max-width:440px;
-margin-bottom:24px;
+margin-bottom;24px;
 color: #333333;
 }
 .dapp-request-otp h3{
@@ -1361,7 +1361,7 @@ color: #333333;
     width: 28px;
     height: 28px;
     /* border-radius: 50%; */
-    background: url(/images/sChecked.png) no-repeat;
+    background: url(../images/sChecked.png) no-repeat;
 }
 .signin-authenticator-enable-options-block p{
 	    padding-left: 34px;
