@@ -96,7 +96,13 @@ const SignIn: React.FC = () => {
                 // }
                 return errors
               }}
-            
+              validationSchema={Yup.object().shape({
+                password: Yup.string()
+                  .min(2, 'Too Short!')
+                  .max(500, 'Too Long!')
+                  .required('Please create the password')
+              })}
+            >
               {({
                 values,
                 errors,
