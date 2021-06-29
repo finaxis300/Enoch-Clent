@@ -4,7 +4,10 @@ import * as Yup from 'yup'
 import classnames from 'classnames'
 import Link from 'next/link'
 
-
+interface MyFormValues {
+  email: string
+  password: string
+}
 
 const SignIn: React.FC = () => {
   const [showPassword, setShowPassword] = useState(false)
