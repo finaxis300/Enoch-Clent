@@ -12,14 +12,15 @@
 	.sign-in-form,.sign-up-form,.dapp-signin-form{
 	padding-top:140px;
 }
+.sign-up-form{
+	padding-top:220px;
+}
 }
 
 @media (max-width:1440px){
-.sign-up-form{
-	padding-top:140px;
-}
+
 .sign-up-form,.sign-in-form,.dapp-signin-form {
-    max-width: 490px;
+    max-width:514px;
 }
 .dapp-2f-auth-block{
 	    padding: 32px 32px 32px 32px;
@@ -33,10 +34,16 @@
 .dapp-2f-auth-block-right {
     max-width: 100px;
 }
+.signup-vis-google-btn a,.signup-btn-grp .sign-up-button{
+	font-size:14px;
+}
+.signup-form-bttm-xt{
+	font-size:12px;
+}
 }
 @media only screen and (max-width:1280px){
 	.sign-up-form {
-		padding-left:40px;
+		padding-left:0px;
 	}
 	.confirm-email-form{
 		padding-left:40px;
@@ -74,11 +81,26 @@
 .dapp-request-otp p{
 	font-size:24px;
 }
+.signup-vis-google-btn a, .signup-btn-grp .sign-up-button {
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    width: 164px;
+}
 }
 @media (min-width:768px) and (max-width:991px){
 	.dapp-2f-auth-block h3 span{
 	margin-left:20px;
 }
+
+}
+@media (max-width:768px){
+	.signup-vis-google-btn a, .signup-btn-grp .sign-up-button{
+	width:100%;
+	font-size: 16px;
+	justify-content:center;
+}
+
 }
 @media (max-width:768px){
 .sign-up-form, .sign-in-form,.dapp-signin-form{
@@ -274,6 +296,9 @@
 .signin-head .recovrd-pswrd-txt {
     font-size: 16px;
 }
+.signup-btn-grp .sign-up-button,.signup-vis-google-btn a{
+	font-size:14px;
+}
 }
 
 @media (max-width:480px){
@@ -323,5 +348,17 @@
 }
 .signin-authenticator-enable-options-block p{
 	font-size:13px;
+}
+.signup-btn-grp {
+    flex-direction: column;
+}
+.signup-btn-grp span{
+	margin:20px;
+}
+.signup-btn-grp .sign-up-button,.signup-vis-google-btn{
+	max-width:100%;
+}
+.signup-btn-grp .sign-up-button, .signup-vis-google-btn a {
+    font-size: 16px;
 }
 }
