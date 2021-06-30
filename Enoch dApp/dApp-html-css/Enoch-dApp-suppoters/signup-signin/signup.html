@@ -21,280 +21,74 @@
 				<div class="col-lg-6">
 					
 					<div class="sign-up-form">
-						<div class="signup-head">
-							<div class="dapp-header-logo"><img src="images/logo-big.png" alt="logo" class="img-fluid"/></div>
-							<h2>Sign Up Now</h2>	
+						<div class="signup-head2">
+							<div class="dapp-header-logo2"><img src="images/logo-big.png" alt="logo" class="img-fluid"/></div>
+							<h2>DeFi social network</h2>	
 						</div>
 											
-							<div class="account-cat">
-								I am a
-								<div class="dAppp-account-group">
-									<span class="mr-4">
-										<input id="Personal-acount" name="b-plan" type="radio" class="signuptablinks" onclick="contactfunc(event, 'Personal')" checked>
-										<label for="Personal-acount">Personal</label>
-									</span>
-									<span>
-										<input id="business-acount" name="b-plan" type="radio" class="signuptablinks" onclick="contactfunc(event, 'Business')">
-										<label for="business-acount">Business</label>
-									</span>
-								</div>
-							</div>
-						
-					<div class="tab-content">
-						<div id="Personal" class="tab-pane contacttabcontent active">
-							<form action="" method="post">
+							
+						<form action="" method="post">
 								<div class="row">
 									<div class="col-md-6">
-										<div class="sign-form-input">											
-											<input type="text" placeholder="First name">
+										<div class="sign-form-input green-boeder">											
+											<input type="text" placeholder="First name" value="Dan"><span><img src="images/Check.png" alt="Check" class="img-fluid/"></span>
 										</div>
 									</div>
 									<div class="col-md-6">
-										<div class="sign-form-input">											
-											<input type="text" placeholder="Last name">
+										<div class="sign-form-input green-boeder">											
+											<input type="text" placeholder="Last name" value="Brooks"><span><img src="images/Check.png" alt="Check" class="img-fluid/"></span>
+										</div>
+									</div>
+									
+									
+									<div class="col-md-12">
+										<div class="sign-form-input green-boeder">
+											
+											<input type="email" placeholder="Email" value="danbrooks@gmail.com"><span><img src="images/Check.png" alt="Check" class="img-fluid/"></span>
 										</div>
 									</div>
 									
 									<div class="col-md-6">
-										<div class="sign-form-input">
-											<input type="text" placeholder="Date of Birth"/>
-											<span><img src="images/Calendar.png" alt="Calendar" class="img-fluid"/></span>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="sign-form-input">									
-											<div class="position-relative">
-												<div class="sign-form-drop-box">
-													<a href="javascript:void(0)" onclick="signupCountry()" id="signupCountry" class="sign-form-droplist">Country</a>
-												</div>
-												<div id="sign-form-DropdownList" class="sign-form-content">										
-													<ul class="sign-form-drop-scrollable">
-														<li>Russia</li>
-														<li>Germany</li>
-														<li>U.K.</li>
-														<li>France</li>
-														<li>Italy</li>
-														<li>Spain</li>
-														<li>Ukraine	</li>
-														<li>Poland	</li>
-														<li>Romania	</li>
-														<li>Netherlands	</li>
-														<li>Belgium	</li>
-														<li>Greece	</li>
-														<li>Czech Republic	</li>
-														<li>Portugal</li>
-														<li>Sweden	</li>
-														<li>Hungary	</li>
-														<li>Belarus	</li>
-														<li>Austria	</li>
-														<li>Serbia	</li>
-														<li>Switzerland	</li>
-														<li>Bulgaria</li>
-														<li>Denmark	</li>
-														<li>Finland	</li>
-														<li>Slovakia</li>
-														<li>Norway	</li>
-														<li>Ireland	</li>
-														<li>Croatia	</li>
-														<li>Moldova	</li>
-														<li>Bosnia & Herzegovina</li>
-														<li>Albania	</li>
-														<li>Lithuania</li>
-														<li>TFYR Macedonia</li>
-														<li>Slovenia</li>
-														<li>Latvia	</li>
-														<li>Estonia	</li>
-														<li>Montenegro	</li>
-														<li>Luxembourg	</li>
-														<li>Malta</li>
-														<li>Iceland	</li>
-														<li>Andorra	</li>
-														<li>Monaco	</li>
-														<li>Liechtenstein/li>
-														<li>San Marino</li>
-														<li>Holy See</li>
-																																																							
-													</ul>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="sign-form-input">
+										<div class="sign-form-input mb-md-0 green-boeder">
 											
-											<input type="email" placeholder="Email">
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="sign-form-input d-flex">
-											<div class="position-relative signup-phn">
-												<div class="sign-form-drop-box2">
-													<a href="javascript:void(0)" onclick="selectphone()" id="selectphone" class="sign-form-droplist sign-form-droplist-phn">+00</a>
-												</div>
-												<div id="selectphone-form-DropdownList" class="sign-form-content signup-poohe-content">										
-													<ul class="sign-form-drop-scrollable">
-														<li><div class="contact-inner">+11</div></li>
-														<li><div class="contact-inner">+22</div> </li>
-														<li><div class="contact-inner">+33</div></li>
-														<li><div class="contact-inner"> +44</div></li>
-														<li><div class="contact-inner"> +55</div></li>
-														<li><div class="contact-inner"> +66</div></li>
-																																																							
-													</ul>
-												</div>
-											</div>
-											<div class="signup-number"><input type="text" placeholder="Phone number"></div>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="sign-form-input">
-											
-											<input type="password" id="inputpassword1" placeholder="Password"> 
+											<input type="password" id="inputpassword1" placeholder="Password" value="123456789"> 
 											<span toggle="#inputpassword1" class="field-icon toggle-password"><img src="images/eye.png" alt="eye" class="img-fluid eye1"/><img src="images/eye2.png" alt="eye" class="img-fluid eye2"/></span>
-											<!-- <span class=""><img src="images/eye.png" alt="eye" class="img-fluid"/></span> -->
+											
 										</div>
 										
 									</div>
 									<div class="col-md-6">
-										<div class="sign-form-input">
+										<div class="sign-form-input  mb-md-0 green-boeder">
 											
-											<input type="password" id="inputpassword2" placeholder="Repeat password"> 
+											<input type="password" id="inputpassword2" placeholder="Repeat password" value="123456789"> 
 											<span toggle="#inputpassword2" class="field-icon toggle-password"><img src="images/eye.png" alt="eye" class="img-fluid eye1"/><img src="images/eye2.png" alt="eye" class="img-fluid eye2"/></span>
 										</div>
 									</div>
-									
-								</div>
-							</form>
-							</div>
-							<div id="Business" class="tab-pane contacttabcontent">
-								<form action="" method="post">
-								<div class="row">
-									<div class="col-md-6">
-										<div class="sign-form-input">											
-											<input type="text" placeholder="First name">
-										</div>
+									<div class="col-md-12">
+										<p class="signup-form-bttm-xt">Use 8 or more characters with a mix of letters, atleast one uppercase, numbers & symbols</p>
 									</div>
-									<div class="col-md-6">
-										<div class="sign-form-input">											
-											<input type="text" placeholder="Last name">
-										</div>
-									</div>
-									
-									<div class="col-md-6">
-										<div class="sign-form-input">
-											<input type="text" placeholder="Date of Birth"/>
-											<span><img src="images/Calendar.png" alt="Calendar" class="img-fluid"/></span>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="sign-form-input">									
-											<div class="position-relative">
-												<div class="sign-form-drop-box">
-													<a href="javascript:void(0)" onclick="signupCountry()" id="signupCountry" class="sign-form-droplist">Country</a>
-												</div>
-												<div id="sign-form-DropdownList" class="sign-form-content">										
-													<ul class="sign-form-drop-scrollable">
-														<li>Russia</li>
-														<li>Germany</li>
-														<li>U.K.</li>
-														<li>France</li>
-														<li>Italy</li>
-														<li>Spain</li>
-														<li>Ukraine	</li>
-														<li>Poland	</li>
-														<li>Romania	</li>
-														<li>Netherlands	</li>
-														<li>Belgium	</li>
-														<li>Greece	</li>
-														<li>Czech Republic	</li>
-														<li>Portugal</li>
-														<li>Sweden	</li>
-														<li>Hungary	</li>
-														<li>Belarus	</li>
-														<li>Austria	</li>
-														<li>Serbia	</li>
-														<li>Switzerland	</li>
-														<li>Bulgaria</li>
-														<li>Denmark	</li>
-														<li>Finland	</li>
-														<li>Slovakia</li>
-														<li>Norway	</li>
-														<li>Ireland	</li>
-														<li>Croatia	</li>
-														<li>Moldova	</li>
-														<li>Bosnia & Herzegovina</li>
-														<li>Albania	</li>
-														<li>Lithuania</li>
-														<li>TFYR Macedonia</li>
-														<li>Slovenia</li>
-														<li>Latvia	</li>
-														<li>Estonia	</li>
-														<li>Montenegro	</li>
-														<li>Luxembourg	</li>
-														<li>Malta</li>
-														<li>Iceland	</li>
-														<li>Andorra	</li>
-														<li>Monaco	</li>
-														<li>Liechtenstein/li>
-														<li>San Marino</li>
-														<li>Holy See</li>
-																																																							
-													</ul>
-												</div>
+									<div class="col-md-12">
+										<div class="signup-check">
+											<div>
+												<label class="signcheckbox-container">I want to receive the emails from Element Zero Dao
+													<input type="checkbox" checked>
+													<span class="signcontactcheckmark"></span>
+												</label>
+											</div>
+											<div>
+												<label class="signcheckbox-container">I agree to the <a href="#" class="sign-blue-clr">Privacy & Terms of service</a>  and <a href="#" class="sign-blue-clr">fee</a>
+													<input type="checkbox" checked>
+													<span class="signcontactcheckmark"></span>
+												</label>
 											</div>
 										</div>
 									</div>
-									<div class="col-md-6">
-										<div class="sign-form-input">
-											
-											<input type="email" placeholder="Email">
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="sign-form-input d-flex">
-											<div class="position-relative signup-phn">
-												<div class="sign-form-drop-box2">
-													<a href="javascript:void(0)" onclick="selectphone()" id="selectphone" class="sign-form-droplist sign-form-droplist-phn">+00</a>
-												</div>
-												<div id="selectphone-form-DropdownList" class="sign-form-content signup-poohe-content">										
-													<ul class="sign-form-drop-scrollable">
-														<li><div class="contact-inner">+11</div></li>
-														<li><div class="contact-inner">+22</div> </li>
-														<li><div class="contact-inner">+33</div></li>
-														<li><div class="contact-inner"> +44</div></li>
-														<li><div class="contact-inner"> +55</div></li>
-														<li><div class="contact-inner"> +66</div></li>
-																																																							
-													</ul>
-												</div>
-											</div>
-											<div class="signup-number"><input type="text" placeholder="Phone number"></div>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="sign-form-input">
-											
-											<input type="password" id="inputpassword1" placeholder="Password"> 
-											<span toggle="#inputpassword1" class="field-icon toggle-password"><img src="images/eye.png" alt="eye" class="img-fluid eye1"/><img src="images/eye2.png" alt="eye" class="img-fluid eye2"/></span>
-											<!-- <span class=""><img src="images/eye.png" alt="eye" class="img-fluid"/></span> -->
-										</div>
-										
-									</div>
-									<div class="col-md-6">
-										<div class="sign-form-input">
-											
-											<input type="password" id="inputpassword2" placeholder="Repeat password"> 
-											<span toggle="#inputpassword2" class="field-icon toggle-password"><img src="images/eye.png" alt="eye" class="img-fluid eye1"/><img src="images/eye2.png" alt="eye" class="img-fluid eye2"/></span>
-										</div>
-									</div>
-									
+									<!--For security purpose we have to ommit rest of the code, for full version of code please contact site admin-->
 								</div>
 							</form>
-							</div>
-						</div>
+					
 					</div>
 				</div>
-				<!--For security purpose we have to ommit rest of the code, for full version of code please contact site admin-->
 				<div class="col-lg-6 p-0">
 					<div class="sign-up-bg-image">
 						<div class="twitwr-img"><a href="#"><img src="images/twitter.png" alt="twitter" class="img-fluid"/></a></div>

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 body {
     background-color: #fff;
 	font-family: 'Open Sans', sans-serif;
@@ -47,7 +48,7 @@ button:focus{
 	    max-width: 607px;
     width: 100%;
 	margin:0 auto;
-	padding-top:200px;
+	padding-top:280px;
 }
 .signup-head h2{
 	    font-style: normal;
@@ -367,15 +368,15 @@ line-height: 19px;
 }
 
 
-.signup-form-bttm-xt{
+.signup-form-bttm-xt {
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 14px;
     line-height: 19px;
     display: flex;
     align-items: center;
-    color: #333333;
-    margin-top: 20px;
+    color: #8A9099;
+    margin-top: 16px;
     margin-bottom: 24px;
 }
 .signup-check{
@@ -503,17 +504,18 @@ border: 1px solid #FF8A00;
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-.sign-up-button{
-        width: 154px;
-    height: 53px;    
+.sign-up-button {
+    max-width: 272px;
+    width: 100%;
+    height: 53px;
     background: #FF8A00;
     border-radius: 2px;
     text-transform: uppercase;
     color: #fff;
-	border:none;
+    border: none;
     border-bottom: 3px solid;
-    border-bottom-color: rgba(0,0,0,.2);    
-	border-top: 3px solid transparent;
+    border-bottom-color: rgba(0,0,0,.2);
+    border-top: 3px solid transparent;
     box-sizing: border-box;
     border-radius: 3px;
     margin-left: 0;
@@ -525,15 +527,96 @@ border: 1px solid #FF8A00;
     line-height: 23px;
     display: flex;
     align-items: center;
-	justify-content: center;
+    justify-content: center;
     text-align: center;
-	margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
 .sign-up-button:hover{
 	background: #FF8A00;
 	color:#fff;
 	border:none;
+}
+.signup-btn-grp {
+    display: flex;
+    align-items: center;
+	    margin-bottom: 20px;
+}
+.signup-btn-grp .sign-up-button {
+    max-width: 272px;
+    width: 100%;
+    height: 56px;
+    background: #FF8A00;
+    border-radius: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    border-bottom: 3px solid;
+    border-bottom-color: rgba(0,0,0,.2);
+    border-top: 3px solid transparent;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-left: 0;
+    cursor: pointer;
+    padding: 14px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+	margin-bottom:0px;
+}
+
+.signup-btn-grp .sign-up-button:hover{
+	background: #FF8A00;
+	color:#fff;
+	border:none;
+}
+.signup-btn-grp span{
+	margin:0px 20px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 22px;
+	color: #8A9099;
+	text-transform:uppercase;
+}
+.signup-vis-google-btn {
+    max-width: 272px;
+    width: 100%;
+    height: 56px;
+    background: #F8F8F8;
+    border-radius: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    border-bottom: 3px solid;
+    border-bottom-color: rgba(0, 0, 0, .2);
+    border-top: 3px solid transparent;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-left: 0;
+    cursor: pointer;
+    padding: 14px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.signup-vis-google-btn a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #3F434A;
 }
 .signup-bttm-xt {
     font-style: normal;
@@ -681,7 +764,7 @@ line-height: 19px;
 	letter-spacing: normal;
     font-weight: 400;
     font-size: 14px;
-    color: #3F434A;
+    color: #8A9099;
 }
 /*modal*/
 .enoch-dapp-modal-block .modal {
@@ -1388,4 +1471,87 @@ color: #333333;
 .signin-authenticator-next{
 	height:45px;
 	width:137px;
+}
+.sign-blue-clr{
+	color:#0E7BE4;
+}
+.dapp-header-logo2 {
+    margin-bottom: 24px;
+}
+.signup-head2 h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 160%;
+    color: #000000;
+    font-family: Poppins;
+    margin-bottom: 24px;
+}
+.enoch-signin-blocks {
+    display: flex;
+	margin-bottom:58px;
+}
+.enoch-signin-blocks-lft {
+    width: 50%;
+    margin-right: 12px;
+}
+.enoch-signin-blocks-right {
+    width: 50%;
+    margin-left: 12px;
+}
+.enoch-signin-blocks-lft input{
+    max-width: 292px;
+    width: 100%;
+    border: 1px solid #D4D8DD;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 56px;
+    text-indent: 16px;
+	outline:none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+}
+.enoch-signin-blocks-lft input::placeholder{
+	color: #8A9099;
+}
+.google-seed-btn {
+    max-width: 100%;
+    width: 100%;
+    height: 56px;
+    background: #F8F8F8;
+    border-radius: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    border-bottom: 3px solid;
+    border-bottom-color: rgba(0, 0, 0, .2);
+    border-top: 3px solid transparent;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-left: 0;
+    cursor: pointer;
+    padding: 14px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0px;
+	margin-bottom:24px;
+}
+
+.google-seed-btn a{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 22px;
+	color: #3F434A;
+}
+.google-seed-btn a:hover{
+	color: #3F434A;
 }
