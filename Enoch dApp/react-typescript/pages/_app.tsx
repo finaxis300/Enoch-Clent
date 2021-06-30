@@ -4,6 +4,7 @@ import "../styles/global.css";
 
 
 import "../styles/signup-signin-style.css";
+import '../styles/other-style.css';
 import "../styles/responsive.css";
 
 import type { AppProps } from 'next/app'

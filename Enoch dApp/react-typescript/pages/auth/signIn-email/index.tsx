@@ -9,7 +9,7 @@ interface MyFormValues {
   password: string
 }
 
-const SignIn: React.FC = () => {
+const SignInEmail: React.FC = () => {
   const [showPassword, setShowPassword] = useState(false)
 
   const initialValues: MyFormValues = {
@@ -31,36 +31,6 @@ const SignIn: React.FC = () => {
                 />
               </div>
               <h2>Make the most of your professional life</h2>
-            </div>
-            <div className='enoch-signin-blocks'>
-              <div className='enoch-signin-blocks-lft'>
-                <input
-                  type='text'
-                  placeholder='Ght6-Kjhu8-ghat6-gdhty8-jhytg'
-                />
-              </div>
-              <div className='enoch-signin-blocks-right'>
-                <div className='google-seed-btn'>
-                  <a href='#'>
-                    <img
-                      src='/images/google-icon.png'
-                      className='img-fluid mr-2'
-                      alt='google'
-                    />
-                    SIGN IN WITH GOOGLE
-                  </a>
-                </div>
-                <div className='google-seed-btn'>
-                  <a href='#'>
-                    <img
-                      src='/images/seed-key.png'
-                      className='img-fluid mr-2'
-                      alt='seed'
-                    />
-                    SIGN IN WITH SEED
-                  </a>
-                </div>
-              </div>
             </div>
 
             <Formik
@@ -197,9 +167,24 @@ const SignIn: React.FC = () => {
                     </div>
                     <div className='col-md-12'>
                       <div className='signup-btn-grp'>
-                        <button type='submit' className='sign-up-button'>
-                          Sign In
-                        </button>
+                        <Link href='/auth/auth-2fa'>
+                          <button type='submit' className='sign-up-button'>
+                            Sign In
+                          </button>
+                        </Link>
+                        <span>or</span>
+                        <div className='signup-vis-google-btn'>
+                          {/* <Link href='/auth/signIn-gmail'> */}
+                          <a href='#'>
+                            <img
+                              src='/images/google-icon.png'
+                              className='img-fluid mr-2'
+                              alt='google'
+                            />
+                            SIGN IN WITH GOOGLE
+                          </a>
+                          {/* </Link> */}
+                        </div>
                       </div>
                     </div>
                     <div className='col-md-12'>
@@ -257,4 +242,4 @@ const SignIn: React.FC = () => {
   )
 }
 
-export default SignIn
+export default SignInEmail
