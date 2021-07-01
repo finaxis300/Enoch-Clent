@@ -14,9 +14,14 @@
     "@progress/kendo-licensing": "^1.1.4",
     "@progress/kendo-react-intl": "^4.6.0",
     "@progress/kendo-react-upload": "^4.6.0",
+<<<<<<< HEAD
+    "apollo-boost": "^0.4.9",
+    "axios": "^0.21.1",
+=======
     "@types/classnames": "^2.3.1",
     "axios": "^0.21.1",
     "classnames": "^2.3.1",
+>>>>>>> c9825f93623d7fe4bb9aa6518292ef6362876d81
     "formik": "^2.2.6",
     "graphql": "^15.5.1",
     "next": "10.0.7",
