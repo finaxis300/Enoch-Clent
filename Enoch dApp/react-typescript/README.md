@@ -18,6 +18,9 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
+## Security
+
+ For security purpose we have to ommit rest of the code, for full version of code please contact site admin help@finaxis.org 
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
