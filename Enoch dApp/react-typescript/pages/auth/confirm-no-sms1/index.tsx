@@ -1,14 +1,15 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 
-const BrowserVerifyGA: React.FC = () => {
+const ConfirmNoSMS1: React.FC = () => {
   return (
     <>
-      <section>
+      ;
         <div className='container-fluid'>
           <div className='row'>
             <div className='col-lg-12'>
               <div className='confirm-email-form'>
+                <div className='signin-head'>
                   <div className='dapp-header-logo'>
                     <img
                       src='/images/logo-big.png'
@@ -16,50 +17,15 @@ const BrowserVerifyGA: React.FC = () => {
                       className='img-fluid'
                     />
                   </div>
-                  <h2>Activate 2-Step verification - Authenticator app</h2>
+                  <h2>Activate 2-Step verification - SMS/Phone request</h2>
+                  <p>We have sent an OTP to your phone number </p>
+                  <h3>Phone-0044 - (+XX)-XXXXXXXX73 </h3>
                 </div>
-                <div className='browser-recovery-block'>
-                  <h3>
-                    Install an <span>Google Authenticar app</span> on your{' '}
-                    <span>smart</span> device.
-                  </h3>
-                  <div className='browser-app-block'>
-                    <span className='mr-16'>
-                      <img
-                        src='/images/dapp-gplay.png'
-                        alt='logo'
-                        className='img-fluid'
-                      />
-                    </span>
-                    <span>
-                      <img
-                        src='/images/dapp-appstore.png'
-                        alt='logo'
-                        className='img-fluid'
-                      />
-                    </span>
+                <div className='dapp-recovery-block'>
+                  <div className='form-input-label'>
+                    Please enter the security code
                   </div>
-                </div>
-                <div className='browser-recovery-block mt-0'>
-                  <h3>
-                    <span>Open</span> your <span>Google Authenticator</span> app
-                    and scan the <span>QR code</span> below.
-                  </h3>
-                  <div className='browser-app-block'>
-                    <img
-                      src='/images/qr-code.png'
-                      alt='logo'
-                      className='img-fluid'
-                    />
-                  </div>
-                  <p className='browser-bttm-txt'>Or enter Key Manually</p>
-                </div>
-                <div className='browser-recovery-block mt-0 mb-4'>
-                  <h3 className='mb-4'>
-                    Enter the <span>6-digit code</span> generated in your{' '}
-                    <span>Google Authenticator</span> app.
-                  </h3>
-                  <div className='verfication-key browser-num-key'>
+                  <div className='verfication-key confirm-num-key'>
                     <ul className='fullwith'>
                       <li>
                         <input
@@ -111,21 +77,16 @@ const BrowserVerifyGA: React.FC = () => {
                       </li>
                     </ul>
                   </div>
-                </div>
-                <div className='browser-alert'>
-                  <span>
-                    <img
-                      src='/images/Alert2.png'
-                      alt='logo'
-                      className='img-fluid'
-                    />
-                  </span>
-                  Make sure the phone’s date and time is synchronized with the
-                  its cellular network.
+                  <p className='dapp-recovery-block-txt'>
+                    Didn’t reecive the OTP (One time Password){' '}
+                    <a href='#' className='signin-btn'>
+                      Send Again{' '}
+                    </a>
+                  </p>
                 </div>
                 <div className='d-flex dApp-request-btn'>
-                  <Link href='/auth/browser-verify-ga1'>
-                    <a className='btn bttn-primary browser-next'>NEXT</a>
+                  <Link href='/auth/confirm-no-sms2'>
+                    <a className='btn bttn-primary'>Confirm OTP</a>
                   </Link>
                 </div>
               </div>
@@ -137,5 +98,4 @@ const BrowserVerifyGA: React.FC = () => {
   )
 }
 
-export default BrowserVerifyGA
-
+export default ConfirmNoSMS1
