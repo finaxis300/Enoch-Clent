@@ -9,7 +9,6 @@ const BrowserVerifyGA: React.FC = () => {
           <div className='row'>
             <div className='col-lg-12'>
               <div className='confirm-email-form'>
-                <div className='signin-head'>
                   <div className='dapp-header-logo'>
                     <img
                       src='/images/logo-big.png'
