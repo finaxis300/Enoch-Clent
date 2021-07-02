@@ -20,73 +20,35 @@
 			<div class="row">
 				<div class="col-lg-6">
 					
-					<div class="sign-up-form">
-						<div class="signup-head2">
-							<div class="dapp-header-logo2"><img src="images/logo-big.png" alt="logo" class="img-fluid"/></div>
-							<h2>DeFi social network</h2>	
+					<div class="sign-in-form">
+						<div class="signin-head">
+							<div class="dapp-header-logo"><img src="images/logo-big.png" alt="logo" class="img-fluid"/></div>
+							<h2>Sign In</h2>
+							<p>See your growth with us</p>							
 						</div>
 											
-							
 						<form action="" method="post">
 								<div class="row">
-									<div class="col-md-6">
-										<div class="sign-form-input green-boeder">											
-											<input type="text" placeholder="First name" value="Dan"><span><img src="images/Check.png" alt="Check" class="img-fluid/"></span>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="sign-form-input green-boeder">											
-											<input type="text" placeholder="Last name" value="Brooks"><span><img src="images/Check.png" alt="Check" class="img-fluid/"></span>
-										</div>
-									</div>
-									
-									
 									<div class="col-md-12">
+										<div class="input-label">Email*</div>
+										<div class="sign-form-input green-boeder">											
+											<input type="email" placeholder="Email id" value="danbrooks@gmail.com">
+											<span><img src="images/Check.png" alt="Check" class="img-fluid/"></span>
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="input-label">Password*</div>
 										<div class="sign-form-input green-boeder">
 											
-											<input type="email" placeholder="Email" value="danbrooks@gmail.com"><span><img src="images/Check.png" alt="Check" class="img-fluid/"></span>
-										</div>
-									</div>
-									
-									<div class="col-md-6">
-										<div class="sign-form-input mb-md-0 green-boeder">
-											
-											<input type="password" id="inputpassword1" placeholder="Password" value="123456789"> 
-											<span toggle="#inputpassword1" class="field-icon toggle-password"><img src="images/eye.png" alt="eye" class="img-fluid eye1"/><img src="images/eye2.png" alt="eye" class="img-fluid eye2"/></span>
-											
-										</div>
-										
-									</div>
-									<div class="col-md-6">
-										<div class="sign-form-input  mb-md-0 green-boeder">
-											
-											<input type="password" id="inputpassword2" placeholder="Repeat password" value="123456789"> 
-											<span toggle="#inputpassword2" class="field-icon toggle-password"><img src="images/eye.png" alt="eye" class="img-fluid eye1"/><img src="images/eye2.png" alt="eye" class="img-fluid eye2"/></span>
-										</div>
-									</div>
-									<div class="col-md-12">
-										<p class="signup-form-bttm-xt">Use 8 or more characters with a mix of letters, atleast one uppercase, numbers & symbols</p>
-									</div>
-									<div class="col-md-12">
-										<div class="signup-check">
-											<div>
-												<label class="signcheckbox-container">I want to receive the emails from Element Zero Dao
-													<input type="checkbox" checked>
-													<span class="signcontactcheckmark"></span>
-												</label>
-											</div>
-											<div>
-												<label class="signcheckbox-container">I agree to the <a href="#" class="sign-blue-clr">Privacy & Terms of service</a>  and <a href="#" class="sign-blue-clr">fee</a>
-													<input type="checkbox" checked>
-													<span class="signcontactcheckmark"></span>
-												</label>
-											</div>
+											<input type="password" id="inputpassword1" placeholder="Password" value="fsdjlsfgskggfg"> 
+											<span toggle="#inputpassword1" class="field-icon toggle-password"><img src="images/eye.png" alt="eye" class="img-fluid eye1"/><img src="images/eye2.png" alt="eye" class="img-fluid eye2"></span>											
 										</div>
 									</div>
 									<!--For security purpose we have to ommit rest of the code, for full version of code please contact site admin{help@finaxis.org}-->
 								</div>
 							</form>
-					
+							
+											
 					</div>
 				</div>
 				<div class="col-lg-6 p-0">
@@ -226,5 +188,31 @@ window.onclick = function(event) {
 	
 }
 	</script>
+	<script>
+//Modal popup
+	document.addEventListener('click', function (e) {
+        e = e || window.event;
+        var target = e.target || e.srcElement;
+        if (target.hasAttribute('data-toggle') && target.getAttribute('data-toggle') == 'modal') {
+            if (target.hasAttribute('data-target')) {
+                var m_ID = target.getAttribute('data-target');
+                document.getElementById(m_ID).classList.add('open');
+            }
+        }
+
+        // Close modal window with 'data-dismiss' attribute or when the backdrop is clicked
+        if ((target.hasAttribute('data-dismiss') && target.getAttribute('data-dismiss') == 'modal') || target.classList.contains('modal') || target.classList.contains('closeanother')) {
+             var modal = document.querySelector('.modal.open');
+            modal.classList.remove('open');
+        }
+      
+    }, false);
+//close first popup window
+	var modal = document.getElementById("support-project-popup1");
+	var btn = document.getElementById("support-btn1");
+	btn.onclick = function() {
+	  modal.classList.remove('open');
+	}
+</script>
 </body>
 </html>
