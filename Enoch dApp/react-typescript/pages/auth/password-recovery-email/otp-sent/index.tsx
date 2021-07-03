@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import Link from 'next/link'
 
 
-const ResetConfirm: React.FC = () => {
+const OtpSent: React.FC = () => {
 
 
     return (
@@ -11,16 +11,21 @@ const ResetConfirm: React.FC = () => {
             <div className="row">
                 <div className="col-lg-6">
 
-                    <div className="sign-in-form">
+                    <div className="sign-in-form  daap-request-otp-block">
                         <div className="signin-head">
-                            <div className="dapp-header-logo mab-32"><img src="/images/logo-big.png" alt="logo" className="img-fluid" /></div>
-
-                            <p><img src="/images/email-sent.png" alt="email-sent" className="img-fluid" /></p>
-                            <h2>Password reset </h2>
-                            <div className=""><Link href="/auth/signIn-email"><button type="submit" className="bttn-primary">Sign in now</button></Link></div>
+                            <div className="dapp-header-logo"><img src="/images/logo-big.png" alt="logo" className="img-fluid" /></div>
+                            <h2>Recover Password</h2>
+                            <p>Don’t worry happen to best of us</p>
+                            <p className="recovrd-pswrd-txt">We will sent the OTP on your registered phone number.</p>
                         </div>
-
-
+                        <div className="dapp-request-otp">
+                            <h3>Phone number</h3>
+                            <p>Phone-0044 - (+XX)-XXXXXXXX73 </p>
+                        </div>
+                        <div className="dapp-request-otp-bttm" id="requestOtp">
+                            <div className=""><Link href='/auth/password-recovery-email/otp-enter'><button type="submit" className="bttn-primary W-230" >Next</button></Link></div>
+                            <div className="dapp-otp-sent-success"><span><img src="/images/daap-check.png" alt="success" className="img-fluid" /></span>OTP sent successfully!</div>
+                        </div>
                     </div>
                 </div>
                 <div className="col-lg-6 p-0">
@@ -39,4 +44,4 @@ const ResetConfirm: React.FC = () => {
     )
 }
 
-export default ResetConfirm;
+export default OtpSent;
