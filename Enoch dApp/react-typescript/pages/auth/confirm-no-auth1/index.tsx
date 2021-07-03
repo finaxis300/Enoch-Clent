@@ -16,7 +16,6 @@ const ConfirmNoAuth1: React.FC = () => {
                       className='img-fluid'
                     />
                   </div>
-                  <h2>Confirm your phone number</h2>
                   <p>We have sent a security code to</p>
                   <h3>Phone-0044 - (+XX)-XXXXXXXX73 </h3>
                 </div>
