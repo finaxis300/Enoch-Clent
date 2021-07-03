@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
-
+import { Formik, FormikErrors } from 'formik'
+import * as Yup from 'yup'
+import classnames from 'classnames'
+import Link from 'next/link'
 
 interface MyFormValues {
     email: string
@@ -89,7 +92,7 @@ const RecoverPassword: React.FC = () => {
                                                 'green-boeder': values.email != '',
                                                 'error-block': errors.email
                                             })}>
-                                                <input type="email" placeholder="Email id" value="danbrooks@gmail.com" name='email'
+                                                <input type="email" placeholder="danbrooks@gmail.com" value="danbrooks@gmail.com" name='email'
                                                     onChange={handleChange}
                                                     onBlur={handleBlur}
                                                     value={values.email} />
@@ -107,7 +110,7 @@ const RecoverPassword: React.FC = () => {
 
 
                                         <div className="col-md-12">  <Link href='/auth/password-recovery-email/email-sent-confirm'><button type="submit" className="bttn-primary">Send link to email</button></Link></div>
-                                        <div className="col-md-12 mt-4"><p className="signin-bttm-xt">Not able to access email? <a href="#" className="signin-btn">Try diffrent methrod</a></p></div>
+                                        <div className="col-md-12 mt-4"><p className="signin-bttm-xt">Not able to access email? <a href="#" className="signin-btn"><Link href='/auth/password-recovery-email/request-otp'>Try diffrent methrod</Link></a></p></div>
                                     </div>
                                 </form>)}
                         </Formik>

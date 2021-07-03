@@ -1,4 +1,8 @@
 import React, { useState } from 'react'
+import { Formik, FormikErrors } from 'formik'
+import * as Yup from 'yup'
+import classnames from 'classnames'
+import Link from 'next/link'
 
 interface MyFormValues {
     email: string
