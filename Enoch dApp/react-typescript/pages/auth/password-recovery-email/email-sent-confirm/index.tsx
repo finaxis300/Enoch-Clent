@@ -20,7 +20,7 @@ const EmailConfirm: React.FC = () => {
                             <div className="dapp-header-logo"><img src="/images/logo-big.png" alt="logo" className="img-fluid" /></div>
                             <h2>Email sent</h2>
                             <p><img src="/images/email-sent.png" alt="email-sent" className="img-fluid" /></p>
-                            <p>Check your email and open the link  <br />we sent you to continue</p>
+                            <>Check your email and open the link  <br />we sent you to continue
 
                         </div>
 

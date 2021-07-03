@@ -17,7 +17,7 @@ const RequestOtp: React.FC = () => {
                             <h2>Recover Password</h2>
                             <p>Don’t worry happen to best of us</p>
                             <p className="recovrd-pswrd-txt">We will sent the OTP on your registered phone number.</p>
-                        </div>
+                      
                         <div className="dapp-request-otp">
                             <h3>Phone number</h3>
                             <p>Phone-0044 - (+XX)-XXXXXXXX73 </p>
