@@ -14,8 +14,6 @@ const OtpSent: React.FC = () => {
                     <div className="sign-in-form  daap-request-otp-block">
                         <div className="signin-head">
                             <div className="dapp-header-logo"><img src="/images/logo-big.png" alt="logo" className="img-fluid" /></div>
-                            <h2>Recover Password</h2>
-                            <p>Don’t worry happen to best of us</p>
                             <p className="recovrd-pswrd-txt">We will sent the OTP on your registered phone number.</p>
                         </div>
                         <div className="dapp-request-otp">
