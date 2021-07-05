@@ -41,23 +41,7 @@ const BrowserVerifyGA1: React.FC = () => {
                       setUniqueCode(true)
                       setSms(false)
                     }}
-                         <div className='col-lg-12'>
-              <div className='confirm-email-form'>
-                <div className='signin-head'>
-                  <div className='dapp-header-logo'>
-                    <img
-                      src='/images/logo-big.png'
-                      alt='logo'
-                      className='img-fluid'
-                    />
-                  </div>
-                  <h2>You’ve enabled two-factor authentication</h2>
-                </div>
-                <div className='signin-authenticator-enable-head'>
-                  <h3>Now, add a backup methrod</h3>
-                  <p>
-                    If you lose access to your default methrod, you can use
-       
+                    
                   >
                     <input
                       id='Personal-acount'
