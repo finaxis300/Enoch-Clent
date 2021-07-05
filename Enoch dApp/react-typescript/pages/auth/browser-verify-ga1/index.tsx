@@ -41,6 +41,7 @@ const BrowserVerifyGA1: React.FC = () => {
                       setUniqueCode(true)
                       setSms(false)
                     }}
+                    
                   >
                     <input
                       id='Personal-acount'

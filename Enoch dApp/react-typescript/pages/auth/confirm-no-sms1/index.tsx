@@ -10,16 +10,7 @@ const ConfirmNoSMS1: React.FC = () => {
             <div className='col-lg-12'>
               <div className='confirm-email-form'>
                 <div className='signin-head'>
-                  <div className='dapp-header-logo'>
-                    <img
-                      src='/images/logo-big.png'
-                      alt='logo'
-                      className='img-fluid'
-                    />
-                  </div>
-                  <h2>Activate 2-Step verification - SMS/Phone request</h2>
-                  <p>We have sent an OTP to your phone number </p>
-                  <h3>Phone-0044 - (+XX)-XXXXXXXX73 </h3>
+                -0044 - (+XX)-XXXXXXXX73 </h3>
                 </div>
                 <div className='dapp-recovery-block'>
                   <div className='form-input-label'>
