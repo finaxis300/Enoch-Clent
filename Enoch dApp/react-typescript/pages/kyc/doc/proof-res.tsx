@@ -10,7 +10,6 @@ const ProofRes: React.FC = () => {
         <div className='dashboard-header-bredcrumb'>
           <div className='ezl-dashboard-container'>
             <div className='col-12'>
-              <ul>
                 <li className='mr-2'>
                   <img
                     src='/images/bread-crumb-icon-home.png'
