@@ -21,7 +21,6 @@ const ProperSelfie: React.FC = () => {
                   </a>
                 </li>
                 <li>
-                  <a href='#'> User ID Documentation</a>
                 </li>
               </ul>
             </div>
