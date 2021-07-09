@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Ezerolabs-Hackathon Details</title>
+	<!-- Fav Icons -->
+	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+	<link rel="icon" href="images/favicon.png" type="image/x-icon">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+	<!-- Stylesheets -->
+	<link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/header-footer.css" rel="stylesheet" />
+  <link href="css/ezero.css" rel="stylesheet" />
+  
+</head>
+
+<body>
+	<div class="ezeo-container-fluid">
+		<div class="row">
+		  <header class="banner-main">
+			<div class="header-menu-main">
+			  <div class="Ezeo-container">
+				<div class="header-menu">
+				  <div class="header-menu-left">
+					<div class="barnd-logo">
+					  <a href="/">
+						<img src="images/Logo.png" alt="logo" class="img-fluid" />
+					  </a>
+					</div>
+				  </div>
+				  <div class="header-menu-right">
+					<div class="menu-right" id="menubar">
+					  <ul class="hover-menu">
+						<li><a href="javascript:void(0);">How it works</a></li>
+						<li class="dropdown">
+						  <a href="javascript:void(0);">
+							Earn
+							<i class="fa fa-chevron-down"></i>
+						  </a>
+						  <div class="dropdown-content">
+							
+						  </div>
+						</li>
+						<li class="">
+						  <a href="javascript:void(0);">Hackathon</a>
+						 
+						</li>
+						<!-- <li class="dropdown">
+						  <a href="javascript:void(0);">Bounties
+							<i class="fa fa-chevron-down"></i>
+						  </a>
+						  <div class="dropdown-content dropdown-content-list">
+							<ul>
+								<li><a href="javascript:void(0);">About Bounties</a></li>
+								<li><a href="javascript:void(0);" class="bounties-active">Explore Bounties</a></li>
+							</ul>
+						  </div>
+						</li> -->
+						<li class="">
+						  <a href="javascript:void(0);">Support Projects 
+							<!-- <i class="fa fa-chevron-down"></i> -->
+						  </a>
+						  <div class="dropdown-content dropdown-content-list">
+							
+						  </div>
+						</li>
+						<li class="">
+						  <a href="javascript:void(0);">Team</a>
+						  
+						</li>
+						<li class="">
+						  <a href="javascript:void(0);">FAQs</a>
+						  
+						</li>
+						<li>
+							<ul class="singnedin-users">
+								<li><a href="#"><img src="images/notification-bell.png" alt="notification-bell" class="img-fluid"></a></li>
+								<li><a href="#"><img src="images/message.png" alt="message" class="img-fluid"></a></li>
+								<li>
+									<img src="images/user-login.png" alt="user-login" class="img-fluid">
+									<a href="#" onclick="popupFunction();" class="active-user-drop"><i class="fa fa-chevron-down"></i></a>
+									<div id="myPopup" class="signedin-user-dtail">
+										<ul>
+											<li></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</li>
+					  </ul>
+					</div>
+					
+				  </div>
+				</div>
+			  </div>
+			  <div class="toggle-menu">
+					  <div onclick="togglediv('menubar','menu-toggle');" class="d-inline-block">
+						<i class="fa fa-bars" aria-hidden="true" id="menu-toggle"></i>
+					  </div>
+					</div>
+			</div>
+		  </header>
+		</div>
+		<div class="row">
+			
+			<div class="hackathon-detail-header">
+				<div id="project-success" class="projetc-added-success"><img src="images/check_circle.png" alt="check_circle" class="img-fluid mr-2"/>you have successfully added NO2 Lusarn to your watchlist <span class="ml-5 close-cross"><img src="images/cross.png" alt="check_circle" id="PopUpClose2" class="img-fluid"/></span></div>
+				<div class="hackathon-detail-visit"><a href="#" class="btn hackathon-visit-btn">VISIT WEBSITE</a></div>
+				<div class="hackathon-detail-mid-sect">
+					<div class="hackathon-detail-mid-sect-left">
+						<img src="images/lusarn.png" alt="lusarn" class="img-fluid"/>
+					</div>
+					<div class="hackathon-detail-mid-sect-right">
+						Cross-chaing BTC/ETH<br/>lIQUIDITY LAYER-2 
+					</div>
+				</div>
+ 		</div>
+			<div class="Ezeo-container">
+				<div class="hackathon-detail-contxt">
+					<div class="hackathon-detail-dated">
+						<div class="hackathon-detail-date-lft"><img src="images/hacka-cal.png" alt="calender" class="img-fluid mr-1"/>21/05/21 - 04/06/21    </div>
+						<div class="hackathon-detail-date-right">
+							<div class="d-flex align-items-center">
+							<span>Ending in 8 Days</span>
+							<span>OPEN</span>
+							</div>
+							<div class="hackathon-detail-date-bounties">Bounties: <span>7</span></div>
+						</div>
+					</div>
+					<div class="hackathon-detail-notifyd">
+						<div>
+							<h2>Lusan Layer 1 Hackathon</h2>
+							<div class="hackathon-tags-block">
+								<ul>
+									<li>TAG NUMBER1</li>
+									<li>TAG NUMBER 2</li>
+									<li>TAG NUMBER 2</li>
+									<li>TAG NUMBER 1</li>
+								</ul>
+							</div>
+						</div>
+						<div class="hackathon-detail-notifyd-right">
+							<div class="hackathon-detail-notifyd-txt">
+									<div class="hackathon-detailbell">
+										<a href="javascript:void(0);" id="bellbtn-alert" class="">
+											<img src="images/bell2.png" alt="bell" class="img-fluid support-bel1">
+											<img src="images/green-bell.png" alt="bell" class="img-fluid support-bel2">
+										</a>
+										<div class="support-user-logged">
+										<div class="hackathon-detail-Follow support-detail-Follow">
+											Follow this Project with instant email notifications.
+											<span><a href="#">NOTIFY ME</a></span>
+										</div>
+										<div class="hackathon-detail-Follow support-detail-Follow-success">
+											<h3>congratulation</h3>
+											<p>We will keep updating you.</p>
+										</div>
+										</div>
+									</div>
+								
+								
+							</div>
+							<div class="hackathon-detail-notifyd-bttn">
+								<a href="#" class="btn detail-notifyd-bttn">VIEW BOUNTY</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="hackathon-detail-contibutors">
+					<h2><img src="images/contibutors.png" alt="bell" class="img-fluid mr-2"/>contibutors</h2>
+					<ul>
+						<li><img src="images/hack-img1.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img2.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img3.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img4.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img5.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img6.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img7.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img8.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img9.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img10.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img11.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img12.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img14.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img15.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img16.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img17.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img18.png" alt="user" class="img-fluid"/></li>
+
+						<li class="contibutors-last">+16<span><a href="#">VIEW ALL</a></span></li>
+					</ul>
+				</div>
+				<div class="hackathon-detail-contibutors bg-transparent">
+					<h2 class="support-clr"><img src="images/supporters.png" alt="bell" class="img-fluid mr-2"/>SUPPORTERS</h2>
+					<ul>
+						<li><img src="images/hack-img19.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img1.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img20.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img15.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img21.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img22.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img23.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img5.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img24.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img25.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img26.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img27.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img17.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img28.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img5.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img29.png" alt="user" class="img-fluid"/></li>
+						<li><img src="images/hack-img30.png" alt="user" class="img-fluid"/></li>
+						<li class="contibutors-last">+460<span><a href="#">VIEW ALL</a></span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="Ezeo-container">
+				<div class="hackathon-detail-sponsors">
+					<h3>Sponsors</h3>
+					<ul>
+						<li>
+							<span><img src="images/NewLogoo.png" alt="sponsor" class="img-fluid"/></span>
+							
+						</li>
+						<li>
+							<span><img src="images/lusarn-logo.png" alt="lusarn-logo" class="img-fluid"/></span>
+							
+						</li>
+						<li>
+							<span><img src="images/radicalstack-logo.png" alt="radicalstack-logo" class="img-fluid"/></span>
+							
+						</li>
+					</ul>
+				</div>
+			</div>	
+		</div>
+		<div class="row">
+			<div class="Ezeo-container">
+				<div class="hackathon-detail-lusarn">
+					<div class="hackathon-detail-lusarn-head">
+						<h2>Lusan</h2>
+						<p class="lusarn-clr1">Bounty For More Ecologically Friendly NFTs (Non-fungible Tokens) </p>
+						<p>If you want already know the drill and want to start hacking, join our Discord!</p>
+						<p class="lusarn-compromise-txt">Lusarn Network is a Layer-2 scaling enterprise solution that provides instant, low cost, and secure transactions on Ethereum. Built on an adapted implementation of ZK Rollups and a decentralized network of Proof-of-Stake (PoS) validators, its goal is to solve the scalability and usability issues for developers building Dapps, whilst not compromising on decentralization and user experience.</p>
+					</div>
+					<div class="hackathon-detail-imgblock">
+						<img src="images/hackathon-img1.jpg" alt="hackathon" class="img-fluid"/>
+					</div>
+					<div class="hackathon-detail-para-block">
+						<p><span>Problem:</span> Making a living as an artist is historically extremely challenging. For many artists and their families, the digital art economy built around NFTs has saved them financially, particularly during COVID with its uncertain economy and poor job market. However, minting NFTs has been found to be energy inefficient and damaging to the environment. This has created a division and friction among creatives. </p>
+						<p><span>Solution:</span> Wanting to see this friction redirected towards something more productive, we propose a bounty system to reward people for trying to improve the energy efficiency of the NFT economy. </p>
+
+						<p><span class="lusarn-clr2">Awareness Bounty:</span> Unfortunately, most artists and collectors are not aware of the many options for minting NFTs and their associated ecological impact. This first bounty will be awarded to a body of research that outlines a wide variety of current projects/solutions and explains how they reduce energy consumption of NFTs. The hope is that by having a consolidated resource with clear information on the advantages of supporting these options, we can immediately reduce the impact of NFTs on the environment without waiting for longer-term solutions. </p>
+
+						<p><span class="lusarn-clr2">Solutions Bounty:</span> As exciting as the blockchain is, we are mostly encouraged by the community of bright, young creatives that have formed around it. Yes, there are many efforts in progress to improve efficiency, but most of these are company/platform-driven. We believe great ideas can come from anywhere and hope that an independent bounty for the development of more efficient NFTs will drive some out-of-the-box thinking to complement existing approaches. This bounty is targeted at developers creating open source solutions. Preference will be given to solutions that improve existing markets, as popularizing a new chain/technology from scratch is beyond the scope and capabilities of this bounty program. </p>
+
+						<p><span class="lusarn-clr2">Regen Bounty:</span> Regen Network is a Cosmos SDK based network that offers a platform to verify, mint, buy and sell tokenized carbon credits in an open marketplace for climate solutions. At its core, the network is built around ensuring stewardship of the planet from a first-principles approach of a fair and decentralized medium to provide provably verifiable carbon credits and facilitate liquidity to this growing market.</p>
+
+						<p><span class="lusarn-clr2">Judging:</span> Portions of the bounty will be awarded to teams and individual contributors based on the discretion of a panel of judges who will be selected based on their contributions and good standing within the NFT community. Judges will be announced in the weeks leading up to the beginning of the contest. To date, Matt Hall and John Watkinson, creators of the CryptoPunks have been announced as judges.
+					</div>
+					<div class="row">
+						<div class="col-md-6 mt-2">
+							<img src="images/hackathon-img2.png" alt="hackathon" class="img-fluid"/>
+						</div>
+						<div class="col-md-6 mt-2">
+							<img src="images/hackathon-img3.png" alt="hackathon" class="img-fluid"/>
+						</div>
+					</div>
+					<div class="hackathon-details-block">
+						<h3>Details</h3>
+						<p class="mb-4"><span class="lusarn-clr2">Donations:</span> Donations to the GreenNFTs bounty can be made on our EZL page</p>
+						<p class="mb-4"><span class="lusarn-clr2">Awareness Bounty:</span>  Details for the awareness bounty can be found on the GreenNFTs Github repository.</p>
+						<p class="mb-4"><span class="lusarn-clr2">Solutions Bounty:</span>  Details for the awareness bounty can be found on the GreenNFTs Github repository.</p>
+					</div>
+					<!--For security purpose we have to ommit rest of the code, for full version of code please contact site admin{help@finaxis.org}-->
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12 p-0">
+				<div class="footer-main center-align">
+					<div class="Ezeo-container">
+						<div class="footer-content">
+							<div class="row">
+								<div class="col-lg-12">
+									<div class="row">
+										<div class="col-md-3">
+											<div class="ezeo-footer-logoblock">
+												<div class="footer-logo"><img src="images/Logo.png" alt="footer logo" class="img-fluid"/></div>																																			
+												<div class="below-logo">
+													<p>
+														Element Zero Labs is committed to the ecology and research of PoS and staking blockchains, focusing on the development of high-quality PoS projects, and providing state of the art tools, services and research reports.
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="ezeo-footer-list">
+												<h3 class="footer-head">Participate</h3>
+												<ul class="footer-menu p-0">
+													<li><a href="javascript:void(0);">How it works</a></li>
+													<li><a href="javascript:void(0);">Staking </a></li>
+													<li><a href="javascript:void(0);">Hackathon</a></li>
+													<li><a href="javascript:void(0);">Bounties</a></li>
+													<li><a href="javascript:void(0);">Support Projects</a></li>
+													<li><a href="javascript:void(0);">Ambassadors Progrram</a><span class="ezeo-comming">Coming</span></li>
+													<li><a href="javascript:void(0);">Lunch Partners Program </a><span class="ezeo-comming">Coming</span></li>
+												</ul>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="ezeo-footer-list">
+												<h3 class="footer-head">Company</h3>
+												<ul class="footer-menu p-0">
+													<li><a href="javascript:void(0);">Our Mission</a></li>
+													<li><a href="javascript:void(0);">Team</a></li>
+													<li><a href="javascript:void(0);">Career</a><span><img src="images/hire-icon.png" alt="hire-icon" class="ml-1 mr-1 img-fluid"/><a href="#">we are hiring</a></span></li>
+													
+												</ul>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="ezeo-footer-list">
+												<h3 class="footer-head">Support</h3>
+												<ul class="footer-menu p-0">
+													<li><a href="javascript:void(0);">Contact us</a></li>
+													<li><a href="javascript:void(0);">FAQ</a></li>
+													
+												</ul>
+											</div>
+										</div>
+										
+									</div>
+									<div class="row">
+										<div class="ezeo-footer-bottom">
+											<div class="ezeo-footer-bottom-lft">
+												Copyright &copy; 2021 Element Zero Labs, Inc. All rights reserved.
+											</div>
+											<div class="ezeo-footer-bottom-right">
+												<ul class="ezeo-social-media">
+													<li><a href="#"><img src="images/social-icon1.png" alt="social media" class="img-fluid"/></a></li>
+													<li><a href="#"><img src="images/social-icon2.png" alt="social media" class="img-fluid"/></a></li>
+													<li><a href="#"><img src="images/social-icon3.png" alt="social media" class="img-fluid"/></a></li>
+													<li><a href="#"><img src="images/social-icon4.png" alt="social media" class="img-fluid"/></a></li>
+													<li><a href="#"><img src="images/social-icon5.png" alt="social media" class="img-fluid"/></a></li>
+													<li><a href="#"><img src="images/social-icon6.png" alt="social media" class="img-fluid"/></a></li>
+													<li><a href="#"><img src="images/social-icon7.png" alt="social media" class="img-fluid"/></a></li>
+												</ul>
+												<p>
+													<span class="mr-3"><a href="#">Legal Disclaimer </a></span><span class="mr-3"><a href="#">Cookies & Privacy Policy </a></span><span><a href="#">   Copyright Policy</a></span>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				
+				</div>
+				
+			</div>
+			<div class="cookies-cls">
+			<div class="Ezeo-container">
+				<div class="cookies-cls-bottm">
+					<div class="cookies-cls-bottm-lft">
+						<div><img src="images/cookis.png" alt="cookis" class="img-fluid"/></div>
+						<p>We use cookies to improve user experience, and analyze website traffic. For these reasons, we may share your site usage data with our analytics partners. By clicking "Accept & Procced" you consent to store on your device all the technologies described in our <a href="#">Cookie Policy.</a></p>
+					</div>
+					<div class="cookies-cls-bottm-right">
+					<a href="#" class="btn cookies-btn">Accept & Proceed</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	
+
+
+	<script type="text/javascript">
+
+
+		function popupFunction() {
+			var popup = document.getElementById("myPopup");
+			popup.classList.toggle("show");
+		}
+
+		/*for toggle menu*/
+		function togglediv(id, icon) {
+			var id = document.getElementById(id);
+			id.classList.toggle('active');
+			var cross = document.getElementById(icon);
+			cross.classList.toggle('fa-times');
+			cross.classList.toggle('fa-bars');
+		}
+		
+	</script>
+	<script>
+	/*for toggle sub menu*/
+		function subtogglediv(id, icon) {
+			var id = document.getElementById(id);
+			id.classList.toggle('active');
+			var cross = document.getElementById(icon);
+			cross.classList.toggle('fa-times');
+			cross.classList.toggle('fa-bars');
+		}
+		</script>
+		
+<script>
+	var bellbtn = document.getElementById("bellbtn-alert");
+	var sucess=document.getElementById("project-success");
+	bellbtn.onclick = function() {
+	  bellbtn.classList.add('user-active');
+	  sucess.classList.add('added-active');
+	}
+	//close notification
+	var project = document.getElementById("project-success");
+	var btn = document.getElementById("PopUpClose2");
+	btn.onclick = function() {
+	  project.classList.remove('added-active');
+	}
+</script>
+
+</body>
+
+</html>
