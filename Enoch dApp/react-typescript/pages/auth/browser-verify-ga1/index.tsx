@@ -9,7 +9,6 @@ const BrowserVerifyGA1: React.FC = () => {
   return (
     <>
       <section>
-        <div className='container-fluid'>
           <div className='row'>
             <div className='col-lg-12'>
               <div className='confirm-email-form'>
@@ -42,6 +41,7 @@ const BrowserVerifyGA1: React.FC = () => {
                       setUniqueCode(true)
                       setSms(false)
                     }}
+                    
                   >
                     <input
                       id='Personal-acount'

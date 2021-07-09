@@ -1,23 +1,16 @@
+import React, { useState } from 'react'
 import Link from 'next/link'
 
-const ConfirmNoAuth1: React.FC = () => {
+const ConfirmNoSMS1: React.FC = () => {
   return (
     <>
-      <section>
+      ;
         <div className='container-fluid'>
           <div className='row'>
             <div className='col-lg-12'>
               <div className='confirm-email-form'>
                 <div className='signin-head'>
-                  <div className='dapp-header-logo'>
-                    <img
-                      src='/images/logo-big.png'
-                      alt='logo'
-                      className='img-fluid'
-                    />
-                  </div>
-                  <p>We have sent a security code to</p>
-                  <h3>Phone-0044 - (+XX)-XXXXXXXX73 </h3>
+                -0044 - (+XX)-XXXXXXXX73 </h3>
                 </div>
                 <div className='dapp-recovery-block'>
                   <div className='form-input-label'>
@@ -83,16 +76,9 @@ const ConfirmNoAuth1: React.FC = () => {
                   </p>
                 </div>
                 <div className='d-flex dApp-request-btn'>
-                  <span className='mr-3'>
-                    <a href='#' className='btn bttn-secondary'>
-                      Back
-                    </a>
-                  </span>
-                  <span>
-                    <Link href='/auth/confirm-no-auth2'>
-                      <a className='btn bttn-primary'>Confirm</a>
-                    </Link>
-                  </span>
+                  <Link href='/auth/confirm-no-sms2'>
+                    <a className='btn bttn-primary'>Confirm OTP</a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -103,4 +89,4 @@ const ConfirmNoAuth1: React.FC = () => {
   )
 }
 
-export default ConfirmNoAuth1
+export default ConfirmNoSMS1

@@ -14,7 +14,6 @@ const SignInGmail: React.FC = () => {
 
   const initialValues: MyFormValues = {
     email: '',
-    password: ''
   }
 
   return (
