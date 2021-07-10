@@ -1,0 +1,1657 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Support project</title>
+	<!-- Fav Icons -->
+	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+	<link rel="icon" href="images/favicon.png" type="image/x-icon">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+	<!-- Stylesheets -->
+	<link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/header-footer.css" rel="stylesheet" />
+ <link href="css/style.css" rel="stylesheet" />
+  <link href="css/ezero.css" rel="stylesheet" />
+  
+</head>
+
+<body>
+	<div class="ezeo-container-fluid">
+		<div class="row">
+		  <header class="banner-main">
+			<div class="header-menu-main">
+			  <div class="Ezeo-container">
+				<div class="header-menu">
+				  <div class="header-menu-left">
+					<div class="barnd-logo">
+					  <a href="/">
+						<img src="images/Logo.png" alt="logo" class="img-fluid" />
+					  </a>
+					</div>
+				  </div>
+				  <div class="header-menu-right">
+					<div class="menu-right" id="menubar">
+					  <ul class="hover-menu">
+						<li><a href="javascript:void(0);">How it works</a></li>
+						<li class="dropdown">
+						  <a href="javascript:void(0);">
+							Earn
+							<i class="fa fa-chevron-down"></i>
+						  </a>
+						  <div class="dropdown-content">
+							
+						  </div>
+						</li>
+						<li class="">
+						  <a href="javascript:void(0);">Hackathon</a>
+						 
+						</li>
+						<!-- <li class="dropdown">
+						  <a href="javascript:void(0);">Bounties
+							<i class="fa fa-chevron-down"></i>
+						  </a>
+						  <div class="dropdown-content dropdown-content-list">
+							<ul>
+								<li><a href="javascript:void(0);">About Bounties</a></li>
+								<li><a href="javascript:void(0);" class="bounties-active">Explore Bounties</a></li>
+							</ul>
+						  </div>
+						</li> -->
+						<li class="">
+						  <a href="javascript:void(0);">Support Projects 
+							<!-- <i class="fa fa-chevron-down"></i> -->
+						  </a>
+						  <div class="dropdown-content dropdown-content-list">
+							
+						  </div>
+						</li>
+						<li class="">
+						  <a href="javascript:void(0);">Team</a>
+						  
+						</li>
+						<li class="">
+						  <a href="javascript:void(0);">FAQs</a>
+						  
+						</li>
+						<li><a href="#" class="btn ezeo-startbtn">GET STARTED</a></li>
+					  </ul>
+					</div>
+					
+				  </div>
+				</div>
+			  </div>
+			  <div class="toggle-menu">
+					  <div onclick="togglediv('menubar','menu-toggle');" class="d-inline-block">
+						<i class="fa fa-bars" aria-hidden="true" id="menu-toggle"></i>
+					  </div>
+					</div>
+			</div>
+		  </header>
+		</div>
+		<div class="explore-bounties-sect">
+			<div class="explore-bounties-sect-left">
+				<div class="explore-search-box mb-4">
+					<form class="search-form">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Search">
+								<button class="search-form-btn" type=""><img class="search-img" src="images/search-icon.png" alt="search"></button>
+							</div>
+					</form>
+				</div>
+				<div class="explore-select-box mb-4">
+					<h3>Project</h3>
+					<div class="position-relative custom-zindex">
+						<div class="explore-select-drop-box">
+							<a href="javascript:void(0)" onclick="Project()" id="projectsel" class="explore-select-droplist">Select the project </a>
+						</div>
+						<div id="explore-select-Project-DropdownList" class="explore-select-dropdown-content">										
+							<ul class="explore-select-drop-scrollable contact-custom-wd">
+								<li><div class="explore-select-inner">Alternative Savings</div></li>
+								<li><div class="explore-select-inner">Analytics</div> </li>
+								<li><div class="explore-select-inner">Asset Management Tools</div></li>
+								<li><div class="explore-select-inner"> DAOs & Governance</div></li>
+								<li><div class="explore-select-inner"> Decentralized Exchanges</div></li>
+								<li><div class="explore-select-inner"> Derivatives</div></li>
+								<li><div class="explore-select-inner"> Infrastructure &  Dev Tooling</div></li>
+								<li><div class="explore-select-inner"> Insurance</div></li>
+								<li><div class="explore-select-inner"> KYC & Identity</div></li>
+								<li><div class="explore-select-inner"> Leanding & Borrowing</div></li>
+								<li><div class="explore-select-inner"> Margin Trading</div></li>
+								<li><div class="explore-select-inner"> Marketplaces</div></li>
+								<li><div class="explore-select-inner"> Payments</div></li>
+								<li><div class="explore-select-inner"> Prediction Markets</div></li>
+								<li><div class="explore-select-inner"> Stablecloins</div></li>
+								<li><div class="explore-select-inner"> Staking</div></li>
+								<li><div class="explore-select-inner"> Tokenization of Assets</div></li>
+								<li><div class="explore-select-inner"> Yield Aggregators</div></li>
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="explore-select-box mb-4">
+					<h3>Industry  </h3>
+					
+					<div class="position-relative">
+						<div class="explore-select-drop-box">
+							<a href="javascript:void(0)" onclick="Contributors()" id="contibutorsel" class="explore-select-droplist">Select number of applicants</a>
+						</div>
+						<div id="explore-select-drop-DropdownList" class="explore-select-dropdown-content">										
+							<ul class="explore-select-drop-scrollable contact-custom-wd">
+								<li><div class="explore-select-inner">Fintech</div></li>
+								<li><div class="explore-select-inner">Retail</div> </li>
+								<li><div class="explore-select-inner">Healthcare</div></li>
+								<li><div class="explore-select-inner">Enterprises</div></li>
+								<li><div class="explore-select-inner">Real estate</div></li>
+								<li><div class="explore-select-inner">Supply chain</div></li>
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="explore-select-box mb-4">
+					<h3>Country  </h3>
+					
+					<div class="position-relative">
+						<div class="explore-select-drop-box">
+							<a href="javascript:void(0)" onclick="Country()" id="Countrysel" class="explore-select-droplist">Select Country</a>
+						</div>
+						<div id="explore-select-Country-DropdownList" class="explore-select-dropdown-content">										
+							<ul class="explore-select-scrollable">
+										<li><div class="explore-select-inner">United States of America </div></li>
+										<li><div class="explore-select-inner">Canada </div></li>
+										<li><div class="explore-select-inner">United Kingdom </div></li>
+										<li><div class="explore-select-inner">United Arab Emirate</div></li>
+										<li><div class="explore-select-inner">Singapore </div></li>
+										<li><div class="explore-select-inner">HongKong </div></li>
+										<li><div class="explore-select-inner">Japan </div></li>
+										<li><div class="explore-select-inner">Austria</div></li>
+										<li><div class="explore-select-inner">Belgium</div></li>
+										<li><div class="explore-select-inner">Bulgaraia</div></li>
+										<li><div class="explore-select-inner">Croatia</div></li>
+										<li><div class="explore-select-inner">Cyprus</div></li>
+										<li><div class="explore-select-inner">Czech Republic </div> </li>
+										<li><div class="explore-select-inner">Denmark </div></li>
+										<li><div class="explore-select-inner">Estonia </div> </li>
+										<li><div class="explore-select-inner">Finland </div></li>
+										<li><div class="explore-select-inner">France</div></li>
+										<li><div class="explore-select-inner">Germany</div></li>
+										<li><div class="explore-select-inner">Greece</div></li>
+										<li><div class="explore-select-inner">Hungary</div></li>
+										<li><div class="explore-select-inner">Iceland</div></li>
+										<li><div class="explore-select-inner">IreLand</div></li>
+										<li><div class="explore-select-inner">Italy</div></li>
+										<li><div class="explore-select-inner">Latvia</div></li>
+										<li><div class="explore-select-inner">Leichtenstein</div></li>
+										<li><div class="explore-select-inner">Lithuania</div></li>
+										<li><div class="explore-select-inner">Malta</div></li>
+										<li><div class="explore-select-inner">Netherland </div></li>
+										<li><div class="explore-select-inner">Norway</div></li>
+										<li><div class="explore-select-inner">Poland</div></li>
+										<li><div class="explore-select-inner">Portugal</div></li>
+										<li><div class="explore-select-inner">Romania</div></li>
+										<li><div class="explore-select-inner">Slovakia</div></li>
+										<li><div class="explore-select-inner">Slovenia</div></li>
+										<li><div class="explore-select-inner">Spain</div></li>
+										<li><div class="explore-select-inner">Sweden</div></li>
+									</ul>
+						</div>
+					</div>
+				</div>
+				
+				<div class="explore-checkbox mb-4">
+					<h3>Fundraising Round </h3>
+					<div>
+						<label class="checkbox-container">Pre-seed
+						  <input type="checkbox">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="checkbox-container">Seed
+						  <input type="checkbox">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="checkbox-container">Private Sale
+						  <input type="checkbox">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="checkbox-container">Pre sale
+						  <input type="checkbox">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="checkbox-container">Public sale
+						  <input type="checkbox">
+						  <span class="checkmark"></span>
+						</label>
+						
+					</div>
+				</div>
+				<div class="explore-checkbox mb-4">
+					<h3>Fundraising Round </h3>
+					<div>
+						<label class="checkbox-container">Under $100K
+						  <input type="checkbox">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="checkbox-container">Between $100K-$250k
+						  <input type="checkbox">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="checkbox-container">Between $250k -$750K
+						  <input type="checkbox">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="checkbox-container">Between $750k-$1.2m 
+						  <input type="checkbox">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="checkbox-container">Between $1.2M-$3M
+						  <input type="checkbox">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="checkbox-container">Above $3M 
+						  <input type="checkbox">
+						  <span class="checkmark"></span>
+						</label>
+						
+					</div>
+					<div class="explore-min-max">
+						<form>
+							<input type="text" placeholder="$min">
+							<input type="text" placeholder="$max">
+							<button>Go</button>
+						</form>
+					</div>
+				</div>
+				<div class="explore-checkbox mb-4">
+					<h3>Project Status  </h3>
+					<div>
+						<label class="checkbox-container">Upcoming
+						  <input type="checkbox">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="checkbox-container">Open
+
+						  <input type="checkbox">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="checkbox-container">Invested
+						  <input type="checkbox">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="checkbox-container">Expired
+						  <input type="checkbox">
+						  <span class="checkmark"></span>
+						</label>
+						
+					</div>
+				</div>
+				<div class="explore-checkbox mb-4">
+					<h3>Token Price Range  </h3>
+					<div>
+						<label class="checkbox-container">Under $1.00
+						  <input type="checkbox">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="checkbox-container">Between $1.00-$2.00
+
+						  <input type="checkbox">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="checkbox-container">Between $2.00-$3.00
+						  <input type="checkbox">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="checkbox-container">Between $3.00-$5.00
+						  <input type="checkbox">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="checkbox-container">Above $5.00
+						  <input type="checkbox">
+						  <span class="checkmark"></span>
+						</label>
+						<div class="explore-min-max">
+							<form>
+								<input type="text" placeholder="$min">
+								<input type="text" placeholder="$max">
+								<button>Go</button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="explore-checkbox mb-4">
+					<h3>Live Date </h3>
+					<div class="datepicker-input">
+						<input type="text" placeholder="Select  the date">
+						<span class="datepicker-calender"><img src="images/support-cal.png" alt="calender" class="img-fluid"/></span>
+					</div>
+				</div>
+			</div>	
+			<div class="explore-bounties-sect-right pb-5">
+				<div class="support-investment-club mb-4">
+					<h2>New era <br/>investment club</h2>
+					<p>Co-invest with experienced angel investors and early stage venture capital funds!</p>
+					<div><a href="#" class="btn club-join-bttn">JOIN NOW</a></div>
+				</div>
+				<div class="support-tab-view">
+					<div class="support-tab-view-lft">
+						<ul>
+                            <li>
+								<a href="javascript:void(0);" class="supporttablinks active" onclick="supportfunction(event, 'gridview')">
+									<img src="images/grid.png" alt="icon" class="img-fluid gridview-icon1"/>
+									<img src="images/grid-active.png" alt="icon" class="img-fluid gridview-icon2"/>
+								</a>
+							</li>
+                            <li>
+								<a href="javascript:void(0);" class="supporttablinks" onclick="supportfunction(event, 'listview')">
+									<img src="images/list.png" alt="icon" class="img-fluid listview-icon1"/>
+									<img src="images/list-active.png" alt="icon" class="img-fluid listview-icon2"/>
+								</a>
+							</li>
+                           
+                        </ul>
+					</div>
+					<div class="support-tab-view-right">
+						<div class="support-list-dropbox position-relative">
+						<div class="explore-select-drop-box">
+							<a href="javascript:void(0)" onclick="selectlist()" id="listsel" class="explore-select-droplist">Sort by: Featured</a>
+						</div>
+						<div id="explore-select-listview-DropdownList" class="explore-select-dropdown-content">										
+							<ul class="explore-select-drop-scrollable contact-custom-wd">
+								<li><div class="explore-select-inner">Featured</div></li>
+								<li><div class="explore-select-inner">Newly Added</div> </li>
+								<li><div class="explore-select-inner">Newly Added</div></li>
+								<li><div class="explore-select-inner">Newly Added</div></li>
+								
+								
+							</ul>
+						</div>
+					</div>
+					</div>
+				</div>
+				<div id="gridview" class="supporttabcontent  grid-d-block">
+					<div class="gridview-card-block">
+						<div class="row">
+							
+							<div class="col-xl-4 col-lg-6 grid-cust-padd">
+								<div class="gridview-card-panel">
+									
+									<div class="gridview-detail-dated">
+										<div class="gridview-detail-date-lft"><img src="images/hacka-cal.png" alt="calender" class="img-fluid mr-1">21/05/21 - 04/06/21    </div>
+										<div class="gridview-detail-date-right">
+											<div class="d-flex align-items-center">
+											<span>Ending in 8 Days</span>
+											<span>OPEN</span>
+											</div>
+											
+										</div>
+									</div>
+									<div class="gridview-card-panel-inblock">
+										<div class="hackathon-bell"><a href="javascript:void(0);" id="myBtn"><img src="images/bell2.png" alt="bell" class="img-fluid bell-normal"><img src="images/green-bell.png" alt="bell" class="img-fluid bell-hover" data-toggle="modal" data-target="#myModal"></a></div>
+										
+											<div class="gridview-card-head-sect">
+												<div class="gridview-card-head-sect-left">
+													<img src="images/lusarn.png" alt="lusarn" class="img-fluid">
+												</div>
+												<div class="gridview-card-head-sect-right">
+													Cross-chaing BTC/ETH<br>lIQUIDITY LAYER-2 
+												</div>
+											</div>
+										
+										
+										
+									</div>
+									<div class="hackathon-cat-block">
+											<ul>
+												<li>Healthcare</li>
+												<li>Enterprises</li>
+												<li>Real estate</li>
+												<li>Real estate</li>
+											</ul>
+										</div>
+									<div class="gridview-card-panel-inblock2">
+										<div class="gridview-card-list1">
+											<div class="gridview-card-list1-left">ROUND   <span class="ml-1"><b>Private Sale</b></span> </div>
+											<div class="gridview-card-list1-right"><img src="images/Aus.png" alt="australia" class="img-fluid mr-2"/>Australia</div>
+												
+										</div>
+										<div class="gridview-card-list2">
+											<div class="gridview-card-list2-left">Funding Target <span class="ml-1"><b>$ 400k</b></span> </div>
+											<div class="gridview-card-list2-right">TOKEN TICKER & Pricing<span class="ml-1">ZXNG, $2.00</span></div>
+												
+										</div>
+										<div class="gridview-card-list3">
+											<div class="gridview-card-list3-bar">
+											<div class="gridview-card-list2-left">Soft Cap   <span class="ml-1"><b>$102K</b></span> </div>
+											<div class="gridview-card-list2-right">Hard Cap  <span class="ml-1">$400K</span></div>
+											</div>
+											<div class="gridview-progressbar">
+												<div class="gridview-innerprogressbar">
+													<div class="innerprogressbar-val">$352K</div>
+												</div>
+											</div>
+										</div>
+										<div class="gridview-card-list4">
+											<div class="gridview-card-list4-left">
+												<div class="gridview-card-list4-mngr">
+													<img src="images/manager1.png" alt="manager1" class="img-fluid mr-2"/>
+													<div class="gridview-card-list4-mngrtxt">
+														Dan Brooks
+													</div>
+												</div>
+												<div><img src="images/manager2.png" alt="manager1" class="img-fluid mr-2"/></div>
+												<span class="ml-2">Project Manager</span> 
+											</div>
+											<div class="gridview-card-list4-right"><a href="#">SEE DETAILS</a></div>
+												
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-lg-6 grid-cust-padd">
+								<div class="gridview-card-panel">
+									
+									<div class="gridview-detail-dated">
+										<div class="gridview-detail-date-lft"><img src="images/hacka-cal.png" alt="calender" class="img-fluid mr-1">01/03/21 - 01/04/21 </div>
+										<div class="gridview-detail-date-right grid-expired">
+											<div class="d-flex align-items-center">
+											<span>0 Days left</span>
+											<span>EXPIRED</span>
+											</div>
+											
+										</div>
+									</div>
+									<div class="gridview-card-panel-inblock grid-red-bg">
+											<div class="gridview-top-label">EXPIRED</div>	
+
+											<div class="gridview-card-head-sect">
+												<div class="gridview-card-head-sect-left">
+													<img src="images/no2-icon.png" alt="no2-icon" class="img-fluid">
+												</div>
+												<div class="gridview-card-head-sect-right">
+													Cross-chaing BTC/ETH<br>lIQUIDITY LAYER-2 
+												</div>
+											</div>
+										
+										
+										
+									</div>
+									<div class="hackathon-cat-block">
+											<ul>
+												<li>Healthcare</li>
+												<li>Enterprises</li>
+												<li>Real estate</li>
+												<li>Real estate</li>
+											</ul>
+										</div>
+									<div class="gridview-card-panel-inblock2">
+										<div class="gridview-card-list1">
+											<div class="gridview-card-list1-left">ROUND   <span class="ml-1"><b>Private Sale</b></span> </div>
+											<div class="gridview-card-list1-right"><img src="images/Aus.png" alt="australia" class="img-fluid mr-2"/>Australia</div>
+												
+										</div>
+										<div class="gridview-card-list2">
+											<div class="gridview-card-list2-left">Funding Target <span class="ml-1"><b>$ 400k</b></span> </div>
+											<div class="gridview-card-list2-right">TOKEN TICKER & Pricing<span class="ml-1">ZXNG, $2.00</span></div>
+												
+										</div>
+										<div class="gridview-card-list3">
+											<div class="gridview-card-list3-bar">
+											<div class="gridview-card-list2-left">Soft Cap   <span class="ml-1"><b>$102K</b></span> </div>
+											<div class="gridview-card-list2-right">Hard Cap  <span class="ml-1">$400K</span></div>
+											</div>
+											<div class="gridview-progressbar red-progressbar">
+												<div class="gridview-innerprogressbar red-innerprogressbar">
+													<div class="red-innerprogressbar-val">$0.00K</div>
+												</div>
+											</div>
+										</div>
+										<div class="gridview-card-list4">
+											<div class="gridview-card-list4-left">
+												<div class="gridview-card-list4-mngr">
+													<img src="images/manager1.png" alt="manager1" class="img-fluid mr-2"/>
+													<div class="gridview-card-list4-mngrtxt">
+														Dan Brooks
+													</div>
+												</div>
+												<div><img src="images/manager2.png" alt="manager1" class="img-fluid mr-2"/></div>
+												<span class="ml-2">Project Manager</span> 
+											</div>
+											<div class="gridview-card-list4-right"><a href="#">SEE DETAILS</a></div>
+												
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-lg-6 grid-cust-padd">
+								<div class="gridview-card-panel">
+									
+									<div class="gridview-detail-dated">
+										<div class="gridview-detail-date-lft"><img src="images/hacka-cal.png" alt="calender" class="img-fluid mr-1">01/06/21 - 03/08/21</div>
+										<div class="gridview-detail-date-right grid-upcoming">
+											<div class="d-flex align-items-center">
+											<span>Starts in 8 Days</span>
+											<span>UPCOMING</span>
+											</div>
+											
+										</div>
+									</div>
+									<div class="gridview-card-panel-inblock grid-green-bg">
+										<div class="hackathon-bell"><a href="javascript:void(0);" id="myBtn"><img src="images/bell2.png" alt="bell" class="img-fluid bell-normal"><img src="images/green-bell.png" alt="bell" class="img-fluid bell-hover" data-toggle="modal" data-target="#myModal"></a></div>
+										
+											<div class="gridview-card-head-sect">
+												<div class="gridview-card-head-sect-left">
+													<img src="images/lusarn.png" alt="lusarn" class="img-fluid">
+												</div>
+												<div class="gridview-card-head-sect-right">
+													Cross-chaing BTC/ETH<br>lIQUIDITY LAYER-2 
+												</div>
+											</div>
+										
+										
+										
+									</div>
+									<div class="hackathon-cat-block">
+											<ul>
+												<li>Healthcare</li>
+												<li>Enterprises</li>
+												<li>Real estate</li>
+												<li>Real estate</li>
+											</ul>
+										</div>
+									<div class="gridview-card-panel-inblock2">
+										<div class="gridview-card-list1">
+											<div class="gridview-card-list1-left">ROUND   <span class="ml-1"><b>Private Sale</b></span> </div>
+											<div class="gridview-card-list1-right"><img src="images/Aus.png" alt="australia" class="img-fluid mr-2"/>Australia</div>
+												
+										</div>
+										<div class="gridview-card-list2">
+											<div class="gridview-card-list2-left">Funding Target <span class="ml-1"><b>$ 400k</b></span> </div>
+											<div class="gridview-card-list2-right">TOKEN TICKER & Pricing<span class="ml-1">ZXNG, $2.00</span></div>
+												
+										</div>
+										<div class="gridview-card-list3">
+											<div class="gridview-card-list3-bar">
+											<div class="gridview-card-list2-left">Soft Cap   <span class="ml-1"><b>$102K</b></span> </div>
+											<div class="gridview-card-list2-right">Hard Cap  <span class="ml-1">$400K</span></div>
+											</div>
+											<div class="gridview-progressbar">
+												<div class="gridview-innerprogressbar green-innerprogressbar">
+													<div class="innerprogressbar-val green-innerprogressbar-val">0.00</div>
+												</div>
+											</div>
+										</div>
+										<div class="gridview-card-list4">
+											<div class="gridview-card-list4-left">
+												<div class="gridview-card-list4-mngr">
+													<img src="images/manager3.png" alt="manager1" class="img-fluid mr-2"/>
+													<div class="gridview-card-list4-mngrtxt">
+														Dan Brooks
+													</div>
+												</div>
+												<div><img src="images/manager4.png" alt="manager1" class="img-fluid mr-2"/></div>
+												<span class="ml-2">Project Manager</span> 
+											</div>
+											<div class="gridview-card-list4-right"><a href="#">SEE DETAILS</a></div>
+												
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-lg-6 grid-cust-padd">
+								<div class="gridview-card-panel">
+									
+									<div class="gridview-detail-dated">
+										<div class="gridview-detail-date-lft"><img src="images/hacka-cal.png" alt="calender" class="img-fluid mr-1">21/05/21 - 04/06/21    </div>
+										<div class="gridview-detail-date-right">
+											<div class="d-flex align-items-center">
+											<span>Ending in 8 Days</span>
+											<span>OPEN</span>
+											</div>
+											
+										</div>
+									</div>
+									<div class="gridview-card-panel-inblock">
+										<div class="gridview-top-label">SOLD OUT</div>
+										<!-- <div class="hackathon-bell"><a href="javascript:void(0);" id="myBtn"><img src="images/bell2.png" alt="bell" class="img-fluid bell-normal"><img src="images/green-bell.png" alt="bell" class="img-fluid bell-hover" data-toggle="modal" data-target="#myModal"></a></div> -->
+										
+											<div class="gridview-card-head-sect">
+												<div class="gridview-card-head-sect-left">
+													<img src="images/lusarn.png" alt="lusarn" class="img-fluid">
+												</div>
+												<div class="gridview-card-head-sect-right">
+													Cross-chaing BTC/ETH<br>lIQUIDITY LAYER-2 
+												</div>
+											</div>
+										
+										
+										
+									</div>
+									<div class="hackathon-cat-block">
+											<ul>
+												<li>Healthcare</li>
+												<li>Enterprises</li>
+												<li>Real estate</li>
+												<li>Real estate</li>
+											</ul>
+										</div>
+									<div class="gridview-card-panel-inblock2">
+										<div class="gridview-card-list1">
+											<div class="gridview-card-list1-left">ROUND   <span class="ml-1"><b>Private Sale</b></span> </div>
+											<div class="gridview-card-list1-right"><img src="images/Aus.png" alt="australia" class="img-fluid mr-2"/>Australia</div>
+												
+										</div>
+										<div class="gridview-card-list2">
+											<div class="gridview-card-list2-left">Funding Target <span class="ml-1"><b>$ 400k</b></span> </div>
+											<div class="gridview-card-list2-right">TOKEN TICKER & Pricing<span class="ml-1">ZXNG, $2.00</span></div>
+												
+										</div>
+										<div class="gridview-card-list3">
+											<div class="gridview-card-list3-bar">
+											<div class="gridview-card-list2-left">Soft Cap   <span class="ml-1"><b>$102K</b></span> </div>
+											<div class="gridview-card-list2-right">Hard Cap  <span class="ml-1">$400K</span></div>
+											</div>
+											<div class="gridview-progressbar">
+												<div class="gridview-innerprogressbar">
+													<div class="innerprogressbar-val">$352K</div>
+												</div>
+											</div>
+										</div>
+										<div class="gridview-card-list4">
+											<div class="gridview-card-list4-left">
+												<div class="gridview-card-list4-mngr">
+													<img src="images/manager1.png" alt="manager1" class="img-fluid mr-2"/>
+													<div class="gridview-card-list4-mngrtxt">
+														Dan Brooks
+													</div>
+												</div>
+												<div><img src="images/manager2.png" alt="manager1" class="img-fluid mr-2"/></div>
+												<span class="ml-2">Project Manager</span> 
+											</div>
+											<div class="gridview-card-list4-right"><a href="#">SEE DETAILS</a></div>
+												
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-lg-6 grid-cust-padd">
+								<div class="gridview-card-panel">
+									
+									<div class="gridview-detail-dated">
+										<div class="gridview-detail-date-lft"><img src="images/hacka-cal.png" alt="calender" class="img-fluid mr-1">01/03/21 - 01/04/21 </div>
+										<div class="gridview-detail-date-right grid-expired">
+											<div class="d-flex align-items-center">
+											<span>0 Days left</span>
+											<span>EXPIRED</span>
+											</div>
+											
+										</div>
+									</div>
+									<div class="gridview-card-panel-inblock grid-red-bg">
+											<div class="gridview-top-label">EXPIRED</div>	
+
+											<div class="gridview-card-head-sect">
+												<div class="gridview-card-head-sect-left">
+													<img src="images/no2-icon.png" alt="no2-icon" class="img-fluid">
+												</div>
+												<div class="gridview-card-head-sect-right">
+													Cross-chaing BTC/ETH<br>lIQUIDITY LAYER-2 
+												</div>
+											</div>
+										
+										
+										
+									</div>
+									<div class="hackathon-cat-block">
+											<ul>
+												<li>Healthcare</li>
+												<li>Enterprises</li>
+												<li>Real estate</li>
+												<li>Real estate</li>
+											</ul>
+										</div>
+									<div class="gridview-card-panel-inblock2">
+										<div class="gridview-card-list1">
+											<div class="gridview-card-list1-left">ROUND   <span class="ml-1"><b>Private Sale</b></span> </div>
+											<div class="gridview-card-list1-right"><img src="images/Aus.png" alt="australia" class="img-fluid mr-2"/>Australia</div>
+												
+										</div>
+										<div class="gridview-card-list2">
+											<div class="gridview-card-list2-left">Funding Target <span class="ml-1"><b>$ 400k</b></span> </div>
+											<div class="gridview-card-list2-right">TOKEN TICKER & Pricing<span class="ml-1">ZXNG, $2.00</span></div>
+												
+										</div>
+										<div class="gridview-card-list3">
+											<div class="gridview-card-list3-bar">
+											<div class="gridview-card-list2-left">Soft Cap   <span class="ml-1"><b>$102K</b></span> </div>
+											<div class="gridview-card-list2-right">Hard Cap  <span class="ml-1">$400K</span></div>
+											</div>
+											<div class="gridview-progressbar red-progressbar">
+												<div class="gridview-innerprogressbar red-innerprogressbar">
+													<div class="red-innerprogressbar-val">$0.00K</div>
+												</div>
+											</div>
+										</div>
+										<div class="gridview-card-list4">
+											<div class="gridview-card-list4-left">
+												<div class="gridview-card-list4-mngr">
+													<img src="images/manager1.png" alt="manager1" class="img-fluid mr-2"/>
+													<div class="gridview-card-list4-mngrtxt">
+														Dan Brooks
+													</div>
+												</div>
+												<div><img src="images/manager2.png" alt="manager1" class="img-fluid mr-2"/></div>
+												<span class="ml-2">Project Manager</span> 
+											</div>
+											<div class="gridview-card-list4-right"><a href="#">SEE DETAILS</a></div>
+												
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-lg-6 grid-cust-padd">
+								<div class="gridview-card-panel">
+									
+									<div class="gridview-detail-dated">
+										<div class="gridview-detail-date-lft"><img src="images/hacka-cal.png" alt="calender" class="img-fluid mr-1">01/06/21 - 03/08/21</div>
+										<div class="gridview-detail-date-right grid-upcoming">
+											<div class="d-flex align-items-center">
+											<span>Starts in 8 Days</span>
+											<span>UPCOMING</span>
+											</div>
+											
+										</div>
+									</div>
+									<div class="gridview-card-panel-inblock grid-green-bg">
+										<div class="hackathon-bell"><a href="javascript:void(0);" id="myBtn"><img src="images/bell2.png" alt="bell" class="img-fluid bell-normal"><img src="images/green-bell.png" alt="bell" class="img-fluid bell-hover" data-toggle="modal" data-target="#myModal"></a></div>
+										
+
+											<div class="gridview-card-head-sect">
+												<div class="gridview-card-head-sect-left">
+													<img src="images/lusarn.png" alt="lusarn" class="img-fluid">
+												</div>
+												<div class="gridview-card-head-sect-right">
+													Cross-chaing BTC/ETH<br>lIQUIDITY LAYER-2 
+												</div>
+											</div>
+										
+										
+										
+									</div>
+									<div class="hackathon-cat-block">
+											<ul>
+												<li>Healthcare</li>
+												<li>Enterprises</li>
+												<li>Real estate</li>
+												<li>Real estate</li>
+											</ul>
+										</div>
+									<div class="gridview-card-panel-inblock2">
+										<div class="gridview-card-list1">
+											<div class="gridview-card-list1-left">ROUND   <span class="ml-1"><b>Private Sale</b></span> </div>
+											<div class="gridview-card-list1-right"><img src="images/Aus.png" alt="australia" class="img-fluid mr-2"/>Australia</div>
+												
+										</div>
+										<div class="gridview-card-list2">
+											<div class="gridview-card-list2-left">Funding Target <span class="ml-1"><b>$ 400k</b></span> </div>
+											<div class="gridview-card-list2-right">TOKEN TICKER & Pricing<span class="ml-1">ZXNG, $2.00</span></div>
+												
+										</div>
+										<div class="gridview-card-list3">
+											<div class="gridview-card-list3-bar">
+											<div class="gridview-card-list2-left">Soft Cap   <span class="ml-1"><b>$102K</b></span> </div>
+											<div class="gridview-card-list2-right">Hard Cap  <span class="ml-1">$400K</span></div>
+											</div>
+											<div class="gridview-progressbar">
+												<div class="gridview-innerprogressbar green-innerprogressbar">
+													<div class="innerprogressbar-val green-innerprogressbar-val">0.00</div>
+												</div>
+											</div>
+										</div>
+										<div class="gridview-card-list4">
+											<div class="gridview-card-list4-left">
+												<div class="gridview-card-list4-mngr">
+													<img src="images/manager3.png" alt="manager1" class="img-fluid mr-2"/>
+													<div class="gridview-card-list4-mngrtxt">
+														Dan Brooks
+													</div>
+												</div>
+												<div><img src="images/manager4.png" alt="manager1" class="img-fluid mr-2"/></div>
+												<span class="ml-2">Project Manager</span> 
+											</div>
+											<div class="gridview-card-list4-right"><a href="#">SEE DETAILS</a></div>
+												
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-lg-6 grid-cust-padd">
+								<div class="gridview-card-panel">
+									
+									<div class="gridview-detail-dated">
+										<div class="gridview-detail-date-lft"><img src="images/hacka-cal.png" alt="calender" class="img-fluid mr-1">21/05/21 - 04/06/21    </div>
+										<div class="gridview-detail-date-right">
+											<div class="d-flex align-items-center">
+											<span>Ending in 8 Days</span>
+											<span>OPEN</span>
+											</div>
+											
+										</div>
+									</div>
+									<div class="gridview-card-panel-inblock">
+										
+										<div class="hackathon-bell"><a href="javascript:void(0);" id="myBtn"><img src="images/bell2.png" alt="bell" class="img-fluid bell-normal"><img src="images/green-bell.png" alt="bell" class="img-fluid bell-hover" data-toggle="modal" data-target="#myModal"></a></div>
+										
+											<div class="gridview-card-head-sect">
+												<div class="gridview-card-head-sect-left">
+													<img src="images/lusarn.png" alt="lusarn" class="img-fluid">
+												</div>
+												<div class="gridview-card-head-sect-right">
+													Cross-chaing BTC/ETH<br>lIQUIDITY LAYER-2 
+												</div>
+											</div>
+										
+										
+										
+									</div>
+									<div class="hackathon-cat-block">
+											<ul>
+												<li>Healthcare</li>
+												<li>Enterprises</li>
+												<li>Real estate</li>
+												<li>Real estate</li>
+											</ul>
+										</div>
+									<div class="gridview-card-panel-inblock2">
+										<div class="gridview-card-list1">
+											<div class="gridview-card-list1-left">ROUND   <span class="ml-1"><b>Private Sale</b></span> </div>
+											<div class="gridview-card-list1-right"><img src="images/Aus.png" alt="australia" class="img-fluid mr-2"/>Australia</div>
+												
+										</div>
+										<div class="gridview-card-list2">
+											<div class="gridview-card-list2-left">Funding Target <span class="ml-1"><b>$ 400k</b></span> </div>
+											<div class="gridview-card-list2-right">TOKEN TICKER & Pricing<span class="ml-1">ZXNG, $2.00</span></div>
+												
+										</div>
+										<div class="gridview-card-list3">
+											<div class="gridview-card-list3-bar">
+											<div class="gridview-card-list2-left">Soft Cap   <span class="ml-1"><b>$102K</b></span> </div>
+											<div class="gridview-card-list2-right">Hard Cap  <span class="ml-1">$400K</span></div>
+											</div>
+											<div class="gridview-progressbar">
+												<div class="gridview-innerprogressbar">
+													<div class="innerprogressbar-val">$352K</div>
+												</div>
+											</div>
+										</div>
+										<div class="gridview-card-list4">
+											<div class="gridview-card-list4-left">
+												<div class="gridview-card-list4-mngr">
+													<img src="images/manager1.png" alt="manager1" class="img-fluid mr-2"/>
+													<div class="gridview-card-list4-mngrtxt">
+														Dan Brooks
+													</div>
+												</div>
+												<div><img src="images/manager5.png" alt="manager1" class="img-fluid mr-2"/></div>
+												<span class="ml-2">Project Manager</span> 
+											</div>
+											<div class="gridview-card-list4-right"><a href="#">SEE DETAILS</a></div>
+												
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-lg-6 grid-cust-padd">
+								<div class="gridview-card-panel">
+									
+									<div class="gridview-detail-dated">
+										<div class="gridview-detail-date-lft"><img src="images/hacka-cal.png" alt="calender" class="img-fluid mr-1">01/03/21 - 01/04/21 </div>
+										<div class="gridview-detail-date-right grid-expired">
+											<div class="d-flex align-items-center">
+											<span>0 Days left</span>
+											<span>EXPIRED</span>
+											</div>
+											
+										</div>
+									</div>
+									<div class="gridview-card-panel-inblock grid-red-bg">
+											<div class="gridview-top-label">EXPIRED</div>	
+
+											<div class="gridview-card-head-sect">
+												<div class="gridview-card-head-sect-left">
+													<img src="images/no2-icon.png" alt="no2-icon" class="img-fluid">
+												</div>
+												<div class="gridview-card-head-sect-right">
+													Cross-chaing BTC/ETH<br>lIQUIDITY LAYER-2 
+												</div>
+											</div>
+										
+										
+										
+									</div>
+									<div class="hackathon-cat-block">
+											<ul>
+												<li>Healthcare</li>
+												<li>Enterprises</li>
+												<li>Real estate</li>
+												<li>Real estate</li>
+											</ul>
+										</div>
+									<div class="gridview-card-panel-inblock2">
+										<div class="gridview-card-list1">
+											<div class="gridview-card-list1-left">ROUND   <span class="ml-1"><b>Private Sale</b></span> </div>
+											<div class="gridview-card-list1-right"><img src="images/Aus.png" alt="australia" class="img-fluid mr-2"/>Australia</div>
+												
+										</div>
+										<div class="gridview-card-list2">
+											<div class="gridview-card-list2-left">Funding Target <span class="ml-1"><b>$ 400k</b></span> </div>
+											<div class="gridview-card-list2-right">TOKEN TICKER & Pricing<span class="ml-1">ZXNG, $2.00</span></div>
+												
+										</div>
+										<div class="gridview-card-list3">
+											<div class="gridview-card-list3-bar">
+											<div class="gridview-card-list2-left">Soft Cap   <span class="ml-1"><b>$102K</b></span> </div>
+											<div class="gridview-card-list2-right">Hard Cap  <span class="ml-1">$400K</span></div>
+											</div>
+											<div class="gridview-progressbar red-progressbar">
+												<div class="gridview-innerprogressbar red-innerprogressbar">
+													<div class="red-innerprogressbar-val">$0.00K</div>
+												</div>
+											</div>
+										</div>
+										<div class="gridview-card-list4">
+											<div class="gridview-card-list4-left">
+												<div class="gridview-card-list4-mngr">
+													<img src="images/manager1.png" alt="manager1" class="img-fluid mr-2"/>
+													<div class="gridview-card-list4-mngrtxt">
+														Dan Brooks
+													</div>
+												</div>
+												<div><img src="images/manager2.png" alt="manager1" class="img-fluid mr-2"/></div>
+												<span class="ml-2">Project Manager</span> 
+											</div>
+											<div class="gridview-card-list4-right"><a href="#">SEE DETAILS</a></div>
+												
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-lg-6 grid-cust-padd">
+								<div class="gridview-card-panel">
+									
+									<div class="gridview-detail-dated">
+										<div class="gridview-detail-date-lft"><img src="images/hacka-cal.png" alt="calender" class="img-fluid mr-1">01/06/21 - 03/08/21</div>
+										<div class="gridview-detail-date-right grid-upcoming">
+											<div class="d-flex align-items-center">
+											<span>Starts in 8 Days</span>
+											<span>UPCOMING</span>
+											</div>
+											
+										</div>
+									</div>
+									<div class="gridview-card-panel-inblock grid-green-bg">
+										<div class="hackathon-bell"><a href="javascript:void(0);" id="myBtn"><img src="images/bell2.png" alt="bell" class="img-fluid bell-normal"><img src="images/green-bell.png" alt="bell" class="img-fluid bell-hover" data-toggle="modal" data-target="#myModal"></a></div>
+										
+											<div class="gridview-card-head-sect">
+												<div class="gridview-card-head-sect-left">
+													<img src="images/lusarn.png" alt="lusarn" class="img-fluid">
+												</div>
+												<div class="gridview-card-head-sect-right">
+													Cross-chaing BTC/ETH<br>lIQUIDITY LAYER-2 
+												</div>
+											</div>
+										
+										
+										
+									</div>
+									<div class="hackathon-cat-block">
+											<ul>
+												<li>Healthcare</li>
+												<li>Enterprises</li>
+												<li>Real estate</li>
+												<li>Real estate</li>
+											</ul>
+										</div>
+									<div class="gridview-card-panel-inblock2">
+										<div class="gridview-card-list1">
+											<div class="gridview-card-list1-left">ROUND   <span class="ml-1"><b>Private Sale</b></span> </div>
+											<div class="gridview-card-list1-right"><img src="images/Aus.png" alt="australia" class="img-fluid mr-2"/>Australia</div>
+												
+										</div>
+										<div class="gridview-card-list2">
+											<div class="gridview-card-list2-left">Funding Target <span class="ml-1"><b>$ 400k</b></span> </div>
+											<div class="gridview-card-list2-right">TOKEN TICKER & Pricing<span class="ml-1">ZXNG, $2.00</span></div>
+												
+										</div>
+										<div class="gridview-card-list3">
+											<div class="gridview-card-list3-bar">
+											<div class="gridview-card-list2-left">Soft Cap   <span class="ml-1"><b>$102K</b></span> </div>
+											<div class="gridview-card-list2-right">Hard Cap  <span class="ml-1">$400K</span></div>
+											</div>
+											<div class="gridview-progressbar">
+												<div class="gridview-innerprogressbar green-innerprogressbar">
+													<div class="innerprogressbar-val green-innerprogressbar-val">0.00</div>
+												</div>
+											</div>
+										</div>
+										<div class="gridview-card-list4">
+											<div class="gridview-card-list4-left">
+												<div class="gridview-card-list4-mngr">
+													<img src="images/manager3.png" alt="manager1" class="img-fluid mr-2"/>
+													<div class="gridview-card-list4-mngrtxt">
+														Dan Brooks
+													</div>
+												</div>
+												<div><img src="images/manager4.png" alt="manager1" class="img-fluid mr-2"/></div>
+												<span class="ml-2">Project Manager</span> 
+											</div>
+											<div class="gridview-card-list4-right"><a href="#">SEE DETAILS</a></div>
+												
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					
+				</div>
+				<div id="listview" class="supporttabcontent">
+					<div class="support-listview-block">
+						<ul>
+							<li class="support-listview-list-block">
+								<div class="support-listview-block-lft">
+									<div class="listview-card-panel-inblock">
+										<div class="hackathon-bell"><a href="javascript:void(0);" id="myBtn"><img src="images/bell2.png" alt="bell" class="img-fluid bell-normal"><img src="images/green-bell.png" alt="bell" class="img-fluid bell-hover" data-toggle="modal" data-target="#myModal"></a></div>
+										
+
+											<div class="gridview-card-head-sect">
+												<div class="gridview-card-head-sect-left">
+													<img src="images/lusarn.png" alt="lusarn" class="img-fluid">
+												</div>
+												<div class="gridview-card-head-sect-right">
+													Cross-chaing BTC/ETH<br>lIQUIDITY LAYER-2 
+												</div>
+											</div>
+										
+										
+										
+									</div>
+								</div>
+								<div class="support-listview-block-right">
+									<div class="lisview-detail-dated">
+										<div class="gridview-detail-date-lft"><img src="images/hacka-cal.png" alt="calender" class="img-fluid mr-1">21/05/21 - 04/06/21    </div>
+										<div class="gridview-detail-date-right">
+											<div class="d-flex align-items-center">
+											<span>Ending in 8 Days</span>
+											<span>OPEN</span>
+											</div>
+											
+										</div>
+									</div>
+									<div class="hackathon-cat-block">
+											<ul>
+												<li>Healthcare</li>
+												<li>Enterprises</li>
+												<li>Real estate</li>
+												<li>Real estate</li>
+											</ul>
+										</div>
+										<div class="support-listview-mid-sect">
+											<ul>
+												<li class="pl-0"><div class="gridview-card-list1-left">ROUND   <span class="ml-1"><b>Private Sale</b></span> </div></li>
+												<li class="ml-md-3"><div class="gridview-card-list1-right"><img src="images/Aus.png" alt="australia" class="img-fluid mr-2">Australia</div></li>
+												<li class="ml-md-3"><div class="gridview-card-list2-left">Funding Target <span class="ml-1"><b>$ 400k</b></span> </div></li>
+												<li class="ml-md-3"><div class="gridview-card-list2-right">TOKEN TICKER &amp; Pricing<span class="ml-1">ZXNG, $2.00</span></div></li>
+											</ul>
+										</div>
+										<div class="listview-card-list3">
+											
+											<div class="listview-progressbar">
+												<div class="listview-innerprogressbar">
+													<div class="listview-innerprogressbar-val">$220K</div>
+												</div>
+											</div>
+											<div class="listview-card-list3-bar">
+											<div class="gridview-card-list2-left">Soft Cap   <span class="ml-1"><b>$102K</b></span> </div>
+											<div class="gridview-card-list2-right">Hard Cap  <span class="ml-1">$400K</span></div>
+											</div>
+										</div>
+										<div class="listview-card-list4">
+											<div class="gridview-card-list4-left">
+												<div class="gridview-card-list4-mngr">
+													<img src="images/manager1.png" alt="manager1" class="img-fluid mr-2">
+													<div class="gridview-card-list4-mngrtxt">
+														Dan Brooks
+													</div>
+												</div>
+												
+												<span class="ml-2">Project Manager</span> 
+											</div>
+											<div class="gridview-card-list4-right"><a href="#">SEE DETAILS</a></div>
+												
+										</div>
+								</div>
+							</li>
+							<li class="support-listview-list-block">
+								<div class="support-listview-block-lft">
+									<div class="listview-card-panel-inblock grid-green-bg">
+										<div class="hackathon-bell"><a href="javascript:void(0);" id="myBtn"><img src="images/bell2.png" alt="bell" class="img-fluid bell-normal"><img src="images/green-bell.png" alt="bell" class="img-fluid bell-hover" data-toggle="modal" data-target="#myModal"></a></div>
+										
+
+											<div class="gridview-card-head-sect">
+												<div class="gridview-card-head-sect-left">
+													<img src="images/lusarn.png" alt="lusarn" class="img-fluid">
+												</div>
+												<div class="gridview-card-head-sect-right">
+													Cross-chaing BTC/ETH<br>lIQUIDITY LAYER-2 
+												</div>
+											</div>
+										
+										
+										
+									</div>
+								</div>
+								<div class="support-listview-block-right">
+									<div class="lisview-detail-dated">
+										<div class="gridview-detail-date-lft"><img src="images/hacka-cal.png" alt="calender" class="img-fluid mr-1">21/05/21 - 04/06/21    </div>
+										<div class="gridview-detail-date-right grid-upcoming">
+											<div class="d-flex align-items-center">
+											<span>Starts in 8 Days</span>
+											<span>UPCOMING</span>
+											</div>
+											
+										</div>
+									</div>
+									<div class="hackathon-cat-block">
+											<ul>
+												<li>Healthcare</li>
+												<li>Enterprises</li>
+												<li>Real estate</li>
+												<li>Real estate</li>
+											</ul>
+										</div>
+										<div class="support-listview-mid-sect">
+											<ul>
+												<li class="pl-0"><div class="gridview-card-list1-left">ROUND   <span class="ml-1"><b>Private Sale</b></span> </div></li>
+												<li class="ml-md-3"><div class="gridview-card-list1-right"><img src="images/Aus.png" alt="australia" class="img-fluid mr-2">Australia</div></li>
+												<li class="ml-md-3"><div class="gridview-card-list2-left">Funding Target <span class="ml-1"><b>$ 400k</b></span> </div></li>
+												<li class="ml-md-3"><div class="gridview-card-list2-right">TOKEN TICKER &amp; Pricing<span class="ml-1">ZXNG, $2.00</span></div></li>
+											</ul>
+										</div>
+										<div class="listview-card-list3">
+											
+											<div class="listview-progressbar">
+												<div class="listview-innerprogressbar green-innerprogressbar">
+													<div class="listview-innerprogressbar-val listview-green-innerprogressbar-val">$0.00</div>
+												</div>
+											</div>
+											<div class="listview-card-list3-bar">
+											<div class="gridview-card-list2-left">Soft Cap   <span class="ml-1"><b>$102K</b></span> </div>
+											<div class="gridview-card-list2-right">Hard Cap  <span class="ml-1">$400K</span></div>
+											</div>
+										</div>
+										<div class="listview-card-list4">
+											<div class="gridview-card-list4-left">
+												<div class="gridview-card-list4-mngr">
+													<img src="images/manager1.png" alt="manager1" class="img-fluid mr-2">
+													<div class="gridview-card-list4-mngrtxt">
+														Dan Brooks
+													</div>
+												</div>
+
+												<span class="ml-2">Project Manager</span> 
+											</div>
+											<div class="gridview-card-list4-right"><a href="#">SEE DETAILS</a></div>
+												
+										</div>
+								</div>
+							</li>
+							<li class="support-listview-list-block">
+								<div class="support-listview-block-lft">
+									<div class="listview-card-panel-inblock grid-red-bg">
+										<div class="hackathon-bell"><a href="javascript:void(0);" id="myBtn"><img src="images/bell2.png" alt="bell" class="img-fluid bell-normal"><img src="images/green-bell.png" alt="bell" class="img-fluid bell-hover" data-toggle="modal" data-target="#myModal"></a></div>
+										
+
+											<div class="gridview-card-head-sect">
+												<div class="gridview-card-head-sect-left">
+													<img src="images/lusarn.png" alt="lusarn" class="img-fluid">
+												</div>
+												<div class="gridview-card-head-sect-right">
+													Cross-chaing BTC/ETH<br>lIQUIDITY LAYER-2 
+												</div>
+											</div>
+										
+										
+										
+									</div>
+								</div>
+								<div class="support-listview-block-right">
+									<div class="lisview-detail-dated">
+										<div class="gridview-detail-date-lft"><img src="images/hacka-cal.png" alt="calender" class="img-fluid mr-1">21/05/21 - 04/06/21    </div>
+										<div class="gridview-detail-date-right grid-expired">
+											<div class="d-flex align-items-center">
+											<span>0 Days left</span>
+											<span>EXPIRED</span>
+											</div>
+											
+										</div>
+									</div>
+									<div class="hackathon-cat-block">
+											<ul>
+												<li>Healthcare</li>
+												<li>Enterprises</li>
+												<li>Real estate</li>
+												<li>Real estate</li>
+											</ul>
+										</div>
+										<div class="support-listview-mid-sect">
+											<ul>
+												<li class="pl-0"><div class="gridview-card-list1-left">ROUND   <span class="ml-1"><b>Private Sale</b></span> </div></li>
+												<li class="ml-md-3"><div class="gridview-card-list1-right"><img src="images/Aus.png" alt="australia" class="img-fluid mr-2">Australia</div></li>
+												<li class="ml-md-3"><div class="gridview-card-list2-left">Funding Target <span class="ml-1"><b>$ 400k</b></span> </div></li>
+												<li class="ml-md-3"><div class="gridview-card-list2-right">TOKEN TICKER &amp; Pricing<span class="ml-1">ZXNG, $2.00</span></div></li>
+											</ul>
+										</div>
+										<div class="listview-card-list3">
+											
+											<div class="listview-progressbar red-progressbar">
+												<div class="listview-innerprogressbar red-listview-innerprogressbar">
+													<div class="listview-innerprogressbar-val red-listview-innerprogressbar-val">$0.00</div>
+												</div>
+											</div>
+											<div class="listview-card-list3-bar">
+											<div class="gridview-card-list2-left">Soft Cap   <span class="ml-1"><b>$102K</b></span> </div>
+											<div class="gridview-card-list2-right">Hard Cap  <span class="ml-1">$400K</span></div>
+											</div>
+										</div>
+										<div class="listview-card-list4">
+											<div class="gridview-card-list4-left">
+												<div class="gridview-card-list4-mngr">
+													<img src="images/manager1.png" alt="manager1" class="img-fluid mr-2">
+													<div class="gridview-card-list4-mngrtxt">
+														Dan Brooks
+													</div>
+												</div>
+
+												<span class="ml-2">Project Manager</span> 
+											</div>
+											<div class="gridview-card-list4-right"><a href="#">SEE DETAILS</a></div>
+												
+										</div>
+								</div>
+							</li>
+							<li class="support-listview-list-block">
+								<div class="support-listview-block-lft">
+									<div class="listview-card-panel-inblock grid-blue-bg">
+										<div class="gridview-top-label">SOLD OUT</div>
+
+											<div class="gridview-card-head-sect">
+												<div class="gridview-card-head-sect-left">
+													<img src="images/lusarn.png" alt="lusarn" class="img-fluid">
+												</div>
+												<div class="gridview-card-head-sect-right">
+													Cross-chaing BTC/ETH<br>lIQUIDITY LAYER-2 
+												</div>
+											</div>
+										
+										
+										
+									</div>
+								</div>
+								<div class="support-listview-block-right">
+									<div class="lisview-detail-dated">
+										<div class="gridview-detail-date-lft"><img src="images/hacka-cal.png" alt="calender" class="img-fluid mr-1">21/05/21 - 04/06/21    </div>
+										<div class="gridview-detail-date-right grid-active">
+											<div class="d-flex align-items-center">
+											<span>Active now</span>
+											<span>INVESTED</span>
+											</div>
+											
+										</div>
+									</div>
+									<div class="hackathon-cat-block">
+											<ul>
+												<li>Healthcare</li>
+												<li>Enterprises</li>
+												<li>Real estate</li>
+												<li>Real estate</li>
+											</ul>
+										</div>
+										<div class="support-listview-mid-sect">
+											<ul>
+												<li class="pl-0"><div class="gridview-card-list1-left">ROUND   <span class="ml-1"><b>Private Sale</b></span> </div></li>
+												<li class="ml-md-3"><div class="gridview-card-list1-right"><img src="images/Aus.png" alt="australia" class="img-fluid mr-2">Australia</div></li>
+												<li class="ml-md-3"><div class="gridview-card-list2-left">Funding Target <span class="ml-1"><b>$ 400k</b></span> </div></li>
+												<li class="ml-md-3"><div class="gridview-card-list2-right">TOKEN TICKER &amp; Pricing<span class="ml-1">ZXNG, $2.00</span></div></li>
+											</ul>
+										</div>
+										<div class="listview-card-list3">
+											
+											<div class="listview-progressbar">
+												<div class="listview-innerprogressbar green-innerprogressbar">
+													<div class="listview-innerprogressbar-val listview-green-innerprogressbar-val">$0.00</div>
+												</div>
+											</div>
+											<div class="listview-card-list3-bar">
+											<div class="gridview-card-list2-left">Soft Cap   <span class="ml-1"><b>$102K</b></span> </div>
+											<div class="gridview-card-list2-right">Hard Cap  <span class="ml-1">$400K</span></div>
+											</div>
+										</div>
+										<div class="listview-card-list4">
+											<div class="gridview-card-list4-left">
+												<div class="gridview-card-list4-mngr">
+													<img src="images/manager1.png" alt="manager1" class="img-fluid mr-2">
+													<div class="gridview-card-list4-mngrtxt">
+														Dan Brooks
+													</div>
+												</div>
+
+												<span class="ml-2">Project Manager</span> 
+											</div>
+											<div class="gridview-card-list4-right"><a href="#">SEE DETAILS</a></div>
+												
+										</div>
+								</div>
+							</li>
+							<li class="support-listview-list-block">
+								<div class="support-listview-block-lft">
+									<div class="listview-card-panel-inblock">
+										<div class="hackathon-bell"><a href="javascript:void(0);" id="myBtn"><img src="images/bell2.png" alt="bell" class="img-fluid bell-normal"><img src="images/green-bell.png" alt="bell" class="img-fluid bell-hover" data-toggle="modal" data-target="#myModal"></a></div>
+										
+
+											<div class="gridview-card-head-sect">
+												<div class="gridview-card-head-sect-left">
+													<img src="images/lusarn.png" alt="lusarn" class="img-fluid">
+												</div>
+												<div class="gridview-card-head-sect-right">
+													Cross-chaing BTC/ETH<br>lIQUIDITY LAYER-2 
+												</div>
+											</div>
+										
+										
+										
+									</div>
+								</div>
+								<div class="support-listview-block-right">
+									<div class="lisview-detail-dated">
+										<div class="gridview-detail-date-lft"><img src="images/hacka-cal.png" alt="calender" class="img-fluid mr-1">21/05/21 - 04/06/21    </div>
+										<div class="gridview-detail-date-right">
+											<div class="d-flex align-items-center">
+											<span>Ending in 8 Days</span>
+											<span>OPEN</span>
+											</div>
+											
+										</div>
+									</div>
+									<div class="hackathon-cat-block">
+											<ul>
+												<li>Healthcare</li>
+												<li>Enterprises</li>
+												<li>Real estate</li>
+												<li>Real estate</li>
+											</ul>
+										</div>
+										<div class="support-listview-mid-sect">
+											<ul>
+												<li class="pl-0"><div class="gridview-card-list1-left">ROUND   <span class="ml-1"><b>Private Sale</b></span> </div></li>
+												<li class="ml-md-3"><div class="gridview-card-list1-right"><img src="images/Aus.png" alt="australia" class="img-fluid mr-2">Australia</div></li>
+												<li class="ml-md-3"><div class="gridview-card-list2-left">Funding Target <span class="ml-1"><b>$ 400k</b></span> </div></li>
+												<li class="ml-md-3"><div class="gridview-card-list2-right">TOKEN TICKER &amp; Pricing<span class="ml-1">ZXNG, $2.00</span></div></li>
+											</ul>
+										</div>
+										<div class="listview-card-list3">
+											
+											<div class="listview-progressbar">
+												<div class="listview-innerprogressbar">
+													<div class="listview-innerprogressbar-val">$220K</div>
+												</div>
+											</div>
+											<div class="listview-card-list3-bar">
+											<div class="gridview-card-list2-left">Soft Cap   <span class="ml-1"><b>$102K</b></span> </div>
+											<div class="gridview-card-list2-right">Hard Cap  <span class="ml-1">$400K</span></div>
+											</div>
+										</div>
+										<div class="listview-card-list4">
+											<div class="gridview-card-list4-left">
+												<div class="gridview-card-list4-mngr">
+													<img src="images/manager1.png" alt="manager1" class="img-fluid mr-2">
+													<div class="gridview-card-list4-mngrtxt">
+														Dan Brooks
+													</div>
+												</div>
+												
+												<span class="ml-2">Project Manager</span> 
+											</div>
+											<div class="gridview-card-list4-right"><a href="#">SEE DETAILS</a></div>
+												
+										</div>
+								</div>
+							</li>
+						</ul>
+						
+					</div>
+				</div>
+				<!--For security purpose we have to ommit rest of the code, for full version of code please contact site admin{help@finaxis.org}-->
+			</div>
+		</div>
+		
+		
+		<div class="row">
+			<div class="col-lg-12 p-0">
+				<div class="footer-main center-align">
+					<div class="Ezeo-container">
+						<div class="footer-content">
+							<div class="row">
+								<div class="col-lg-12">
+									<div class="row">
+										<div class="col-md-3">
+											<div class="ezeo-footer-logoblock">
+												<div class="footer-logo"><img src="images/Logo.png" alt="footer logo" class="img-fluid"/></div>																																			
+												<div class="below-logo">
+													<p>
+														Element Zero Labs is committed to the ecology and research of PoS and staking blockchains, focusing on the development of high-quality PoS projects, and providing state of the art tools, services and research reports.
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="ezeo-footer-list">
+												<h3 class="footer-head">Participate</h3>
+												<ul class="footer-menu p-0">
+													<li><a href="javascript:void(0);">How it works</a></li>
+													<li><a href="javascript:void(0);">Staking </a></li>
+													<li><a href="javascript:void(0);">Hackathon</a></li>
+													<li><a href="javascript:void(0);">Bounties</a></li>
+													<li><a href="javascript:void(0);">Support Projects</a></li>
+													<li><a href="javascript:void(0);">Ambassadors Progrram</a><span class="ezeo-comming">Coming</span></li>
+													<li><a href="javascript:void(0);">Lunch Partners Program </a><span class="ezeo-comming">Coming</span></li>
+												</ul>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="ezeo-footer-list">
+												<h3 class="footer-head">Company</h3>
+												<ul class="footer-menu p-0">
+													<li><a href="javascript:void(0);">Our Mission</a></li>
+													<li><a href="javascript:void(0);">Team</a></li>
+													<li><a href="javascript:void(0);">Career</a><span><img src="images/hire-icon.png" alt="hire-icon" class="ml-1 mr-1 img-fluid"/><a href="#">we are hiring</a></span></li>
+													
+												</ul>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="ezeo-footer-list">
+												<h3 class="footer-head">Support</h3>
+												<ul class="footer-menu p-0">
+													<li><a href="javascript:void(0);">Contact us</a></li>
+													<li><a href="javascript:void(0);">FAQ</a></li>
+													
+												</ul>
+											</div>
+										</div>
+										
+									</div>
+									<div class="row">
+										<div class="ezeo-footer-bottom">
+											<div class="ezeo-footer-bottom-lft">
+												Copyright &copy; 2021 Element Zero Labs, Inc. All rights reserved.
+											</div>
+											<div class="ezeo-footer-bottom-right">
+												<ul class="ezeo-social-media">
+													<li><a href="#"><img src="images/social-icon1.png" alt="social media" class="img-fluid"/></a></li>
+													<li><a href="#"><img src="images/social-icon2.png" alt="social media" class="img-fluid"/></a></li>
+													<li><a href="#"><img src="images/social-icon3.png" alt="social media" class="img-fluid"/></a></li>
+													<li><a href="#"><img src="images/social-icon4.png" alt="social media" class="img-fluid"/></a></li>
+													<li><a href="#"><img src="images/social-icon5.png" alt="social media" class="img-fluid"/></a></li>
+													<li><a href="#"><img src="images/social-icon6.png" alt="social media" class="img-fluid"/></a></li>
+													<li><a href="#"><img src="images/social-icon7.png" alt="social media" class="img-fluid"/></a></li>
+												</ul>
+												<p>
+													<span class="mr-3"><a href="#">Legal Disclaimer </a></span><span class="mr-3"><a href="#">Cookies & Privacy Policy </a></span><span><a href="#">   Copyright Policy</a></span>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				
+				</div>
+				
+			</div>
+			<div class="cookies-cls">
+			<div class="Ezeo-container">
+				<div class="cookies-cls-bottm">
+					<div class="cookies-cls-bottm-lft">
+						<div><img src="images/cookis.png" alt="cookis" class="img-fluid"/></div>
+						<p>We use cookies to improve user experience, and analyze website traffic. For these reasons, we may share your site usage data with our analytics partners. By clicking "Accept & Procced" you consent to store on your device all the technologies described in our <a href="#">Cookie Policy.</a></p>
+					</div>
+					<div class="cookies-cls-bottm-right">
+					<a href="#" class="btn cookies-btn">Accept & Proceed</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		
+	</div>
+	
+
+
+	<script type="text/javascript">
+
+
+		function popupFunction() {
+			var popup = document.getElementById("myPopup");
+			popup.classList.toggle("show");
+		}
+
+		/*for toggle menu*/
+		function togglediv(id, icon) {
+			var id = document.getElementById(id);
+			id.classList.toggle('active');
+			var cross = document.getElementById(icon);
+			cross.classList.toggle('fa-times');
+			cross.classList.toggle('fa-bars');
+		}
+		/*dropbox select*/
+		function Contributors() {
+
+	var popupD = document.getElementById("explore-select-drop-DropdownList");
+	popupD.classList.toggle("show");
+  
+}
+var listItems = document.getElementById("explore-select-drop-DropdownList").querySelectorAll(".explore-select-dropdown-content ul li .explore-select-inner");
+listItems.forEach(function(item) {
+          item.onclick = function(e) {
+            document.getElementById('contibutorsel').innerHTML = this.innerHTML;
+          }
+        });
+		function Project() {
+
+	var popupD = document.getElementById("explore-select-Project-DropdownList");
+	popupD.classList.toggle("show");
+  
+}
+var listItems2 = document.getElementById("explore-select-Project-DropdownList").querySelectorAll(".explore-select-dropdown-content ul li .explore-select-inner");
+listItems2.forEach(function(item) {
+          item.onclick = function(e) {
+            document.getElementById('projectsel').innerHTML = this.innerHTML;
+          }
+        });
+		
+		function Country() {
+
+	var popupD = document.getElementById("explore-select-Country-DropdownList");
+	popupD.classList.toggle("show");
+  
+}
+var listItems4 = document.getElementById("explore-select-Country-DropdownList").querySelectorAll(".explore-select-dropdown-content ul li .explore-select-inner");
+listItems4.forEach(function(item) {
+          item.onclick = function(e) {
+            document.getElementById('Countrysel').innerHTML = this.innerHTML;
+          }
+        });
+		//select list item
+		function selectlist() {
+
+	var popupD = document.getElementById("explore-select-listview-DropdownList");
+	popupD.classList.toggle("show");
+  
+}
+var listItems = document.getElementById("explore-select-listview-DropdownList").querySelectorAll(".explore-select-dropdown-content ul li .explore-select-inner");
+listItems.forEach(function(item) {
+          item.onclick = function(e) {
+            document.getElementById('listsel').innerHTML = this.innerHTML;
+          }
+        });
+		// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.explore-select-droplist')) {
+    var dropdowns = document.getElementsByClassName("explore-select-dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+	<!--  var selItem = document.getElementById("athp-sel"); -->
+	//selItem.classList.toggle("select-active");
+}
+	</script>
+	<script>
+	/*for toggle sub menu*/
+		function subtogglediv(id, icon) {
+			var id = document.getElementById(id);
+			id.classList.toggle('active');
+			var cross = document.getElementById(icon);
+			cross.classList.toggle('fa-times');
+			cross.classList.toggle('fa-bars');
+		}
+		
+/*for Tab*/
+        function supportfunction(evt, faqName) {
+            var i, supporttabcontent, supporttablinks;
+            supporttabcontent = document.getElementsByClassName("supporttabcontent");
+            for (i = 0; i < supporttabcontent.length; i++) {
+                supporttabcontent[i].style.display = "none";
+            }
+            supporttablinks = document.getElementsByClassName("supporttablinks");
+            for (i = 0; i < supporttablinks.length; i++) {
+                supporttablinks[i].className = supporttablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(faqName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+		</script>
+
+</body>
+
+</html>
