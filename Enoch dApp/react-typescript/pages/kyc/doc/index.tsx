@@ -6,6 +6,7 @@ const RequiredKyc: React.FC = () => {
   return (
     <div className='container-fluid dashboard-body-bg'>
       <Header />
+    
       <div className='row'>
         <div className='dashboard-header-bredcrumb'>
           <div className='ezl-dashboard-container'>
@@ -167,11 +168,11 @@ const RequiredKyc: React.FC = () => {
           </Link>
           <Link href='/kyc/doc/proof-res'>
             <button className='btn-next button-primary pl-4 pr-4 btn-w-45'>
-              <a>Continue</a>
             </button>
           </Link>
         </div>
       </div>
+    </div>
     </div>
   )
 }
