@@ -1,13 +1,19 @@
 import React, { useState, Component } from 'react'
-import Header from '../../component/header'
-import Dropdownreqdocs from '../../component/Common/Dropdown-req-docs'
+import Header from '../../../Component/header'
+import { useRouter } from 'next/router'
 import { Upload } from '@progress/kendo-react-upload'
+import Link from 'next/link'
 import DatePicker from 'react-datepicker'
 import 'react-datepicker/dist/react-datepicker.css'
+import SubHeaderDoc from '../../../Component/kyc/doc/sub-header'
+import BredCrumbDoc from '../../../Component/kyc/doc/bredcrumb'
 
 const RequiredDoc: React.FC = () => {
-  const [startDate, setStartDate] = useState<Date>(new Date())
-  const [date, setDate] = useState<Date>(new Date())
+  const [date, setDate] = useState(new Date())
+  const [selectedTag, setSelectedTag] = useState<string>('')
+  const [showDropdown, setShowDropdown] = useState<boolean>(false)
+  const [show, setshow] = useState(false)
+
   const [filter, setFilter] = useState([
     {
       label: 'ID Card',
@@ -32,108 +38,17 @@ const RequiredDoc: React.FC = () => {
     }
   ])
 
+  const setDateHandler = (date:any) => {
+     setDate(date)
+  }
+
   return (
     <div className='container-fluid dashboard-body-bg'>
       <Header />
-
-      <div className='row'>
-        <div className='dashboard-header-bredcrumb'>
-          <div className='ezl-dashboard-container'>
-            <div className='col-12'>
-              <ul>
-                <li className='mr-2'>
-                  <img
-                    src='/images/bread-crumb-icon-home.png'
-                    alt='icon'
-                    className='img-fluid'
-                  />{' '}
-                </li>
-                <li className='mr-1'>
-                  <a href='#' className='dsh-active-black'>
-                    {' '}
-                    Individual KYC /{' '}
-                  </a>
-                </li>
-                <li>
-                  <a href='#'> User ID Documentation</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+      <BredCrumbDoc />
 
       <div className='KYC-BODY ezl-dashboard-container'>
-        <div className='Linking-wallet-four-icons-sect'>
-          <div className='four-icons-list'>
-            <div className='row'>
-              <div className='col-md-3'>
-                <div className='Linking-wallet-icon Linking-wallet-icon-1'>
-                  <div className='Linking-wallet-icon-img Linking-wallet-icon-1-img'>
-                    <img
-                      src='/images/step-2-imgs/icon-1.png'
-                      alt='step-1'
-                      className='img-fluid'
-                    />
-                  </div>
-                  <div className='Linking-wallet-icon-text Linking-wallet-icon-1-text'>
-                    <h1>Step 1</h1>
-                    <h2>Individual Profile</h2>
-                  </div>
-                </div>
-              </div>
-
-              <div className='col-md-3'>
-                <div className='Linking-wallet-icon Linking-wallet-icon-2'>
-                  <div className='Linking-wallet-icon-img Linking-wallet-icon-2-img Linking-wallet-icon-img-act'>
-                    <img
-                      src='/images/step-2-imgs/icon-2-act.png'
-                      alt='step-2'
-                      className='img-fluid'
-                    />
-                  </div>
-                  <div className='Linking-wallet-icon-text Linking-wallet-icon-2-text'>
-                    <h1>Step 2</h1>
-                    <h2>Linking Wallet</h2>
-                  </div>
-                </div>
-              </div>
-
-              <div className='col-md-3'>
-                <div className='Linking-wallet-icon Linking-wallet-icon-3'>
-                  <div className='Linking-wallet-icon-img Linking-wallet-icon-3-img'>
-                    <img
-                      src='/images/step-2-imgs/icon-3-act.png'
-                      alt='step-3'
-                      className='img-fluid'
-                    />
-                  </div>
-                  <div className='Linking-wallet-icon-text Linking-wallet-icon-3-text Linking-wallet-active'>
-                    <h1>Step 3</h1>
-                    <h2>User ID Documentation</h2>
-                  </div>
-                </div>
-              </div>
-
-              <div className='col-md-3'>
-                <div className='Linking-wallet-icon Linking-wallet-icon-4'>
-                  <div className='Linking-wallet-icon-img Linking-wallet-icon-4-img'>
-                    <img
-                      src='/images/step-2-imgs/icon-4.png'
-                      alt='step-4'
-                      className='img-fluid'
-                    />
-                  </div>
-                  <div className='Linking-wallet-icon-text Linking-wallet-icon-4-text'>
-                    <h1>Step 4</h1>
-                    <h2>KYC Validation</h2>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
+        <SubHeaderDoc />
         <div className='Required-Documents-headings'>
           <h1>Required Documents</h1>
         </div>
@@ -174,8 +89,47 @@ const RequiredDoc: React.FC = () => {
                                                     <label for="music">Proof of Address</label>
                                                 </div> */}
                     </div>
+                    {/* <Dropdownreqdocs filters={filter} defaultLabel='Select' /> */}
+                    ;
+                    <div
+                      className='selected'
+                      onClick={() => {
+                        setShowDropdown(true)
+                        setshow(!show)
+                      }}
+                    >
+                      <div className=''>
+                        <div
+                        // className={classnames('', {
+                        //   '': showDropdown
+                        // })}
+                        >
+                          {selectedTag ? selectedTag : 'Select'}
+                        </div>
 
-                    <Dropdownreqdocs filters={filter} defaultLabel='Select' />
+                        <div
+                          className={
+                            show == true
+                              ? 'options-container  active'
+                              : 'options-container  '
+                          }
+                        >
+                          {showDropdown &&
+                            filter.map(f => (
+                              <div
+                                className='option'
+                                onClick={() => {
+                                  setSelectedTag(f.label)
+                                  setShowDropdown(false)
+                                  setshow(false)                                 
+                                }}
+                              >
+                                {f.label}
+                              </div>
+                            ))}
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
@@ -188,10 +142,10 @@ const RequiredDoc: React.FC = () => {
                       <DatePicker
                         wrapperClassName='datePicker'
                         selected={date}
-                        onChange={date => setDate(date)}
+                        onChange={date => setDateHandler(date)}
                         placeholderText='Expiration Date'
                       />
-                      <label className='date__trigger' for='custom__date'>
+                      <label className='date__trigger'>
                         {' '}
                         <img
                           src='/images/Date.png'
@@ -199,7 +153,7 @@ const RequiredDoc: React.FC = () => {
                           className='img-fluid'
                         />
                       </label>
-                      <label className='dropdown_trigger' for='custom__date'>
+                      <label className='dropdown_trigger'>
                         {' '}
                         <img
                           src='/images/step-3-kyc-id/dropdown.png'
@@ -219,22 +173,22 @@ const RequiredDoc: React.FC = () => {
                     <h2>Please provide the complete Address Proof</h2>
                   </div>
 
-                        <Upload
-                        batch={true}
-                        restrictions={{
-                          allowedExtensions: ['.jpg', '.png'],
-                          maxFileSize: 1000000
-                        }}
-                        multiple={true}
-                        defaultFiles={[]}
-                        withCredentials={false}
-                        saveUrl={
-                          'https://demos.telerik.com/kendo-ui/service-v4/upload/save'
-                        }
-                        removeUrl={
-                          'https://demos.telerik.com/kendo-ui/service-v4/upload/remove'
-                        }
-                      />
+                  <Upload
+                    batch={true}
+                    restrictions={{
+                      allowedExtensions: ['.jpg', '.png'],
+                      maxFileSize: 1000000
+                    }}
+                    multiple={true}
+                    defaultFiles={[]}
+                    withCredentials={false}
+                    saveUrl={
+                      'https://demos.telerik.com/kendo-ui/service-v4/upload/save'
+                    }
+                    removeUrl={
+                      'https://demos.telerik.com/kendo-ui/service-v4/upload/remove'
+                    }
+                  />
                   <div className='file-upload-sect'>
                     <div className='file-upload-btn cus-file-upload'>
                       <span id='custom-text'>
@@ -393,11 +347,11 @@ const RequiredDoc: React.FC = () => {
         </div>
 
         <div className='enoch-last-btn-sect'>
-          <button className='btn-back pl-4 pr-4'>
-            <a href='#' className='mr-3 ml-3'>
-              BACK
-            </a>
-          </button>
+          <Link href='/kyc/doc/proper-selfie'>
+            <button className='btn-back pl-4 pr-4'>
+              <a className='mr-3 ml-3'>BACK</a>
+            </button>
+          </Link>
           <button className='btn-next button-primary pl-4 pr-4 btn-w-45'>
             <a href='#'>Continue</a>
           </button>

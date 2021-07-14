@@ -40,7 +40,6 @@ const KYCCompleted: React.FC = () => {
       <div className='KYC-BODY ezl-dashboard-container'>
         <div className='Verificaion-Successfully-completed-sect'>
           <div className='Verificaion-Successfully-completed-headings'>
-            <h1>Your Verificaion has been</h1>
             <h2>Successfully completed</h2>
           </div>
           <div className='Verificaion-Successfully-completed-img'>

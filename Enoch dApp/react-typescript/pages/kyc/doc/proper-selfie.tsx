@@ -17,7 +17,6 @@ const ProperSelfie: React.FC = () => {
                 <li className='mr-1'>
                   <a href='#' className='dsh-active-black'>
                     {' '}
-                    Individual KYC /{' '}
                   </a>
                 </li>
                 <li>
