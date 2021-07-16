@@ -30,8 +30,7 @@ const SubHeaderValid: React.FC = () => {
                 />
               </div>
               <div className='Linking-wallet-icon-text Linking-wallet-icon-2-text'>
-                <h1>Step 2</h1>
-                <h2>Linking Wallet</h2>
+             
               </div>
             </div>
           </div>
