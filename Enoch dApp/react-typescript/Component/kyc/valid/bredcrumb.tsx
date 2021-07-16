@@ -26,7 +26,7 @@ const BredCrumbValid: React.FC = () => {
                 </a>
               </li>
               <li>
-                <a href='#'> Status Update</a>
+      
               </li>
             </ul>
           </div>
