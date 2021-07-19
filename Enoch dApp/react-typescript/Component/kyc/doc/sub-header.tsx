@@ -8,11 +8,7 @@ const SubHeaderDoc: React.FC = () => {
           <div className='col-md-3'>
             <div className='Linking-wallet-icon Linking-wallet-icon-1'>
               <div className='Linking-wallet-icon-img Linking-wallet-icon-1-img'>
-                <img
-                  src='/images/step-2-imgs/icon-1.png'
-                  alt='step-1'
-                  className='img-fluid'
-                />
+               
               </div>
               <div className='Linking-wallet-icon-text Linking-wallet-icon-1-text'>
                 <h1>Step 1</h1>
