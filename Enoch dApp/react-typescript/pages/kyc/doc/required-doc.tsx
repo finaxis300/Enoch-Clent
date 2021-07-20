@@ -114,19 +114,7 @@ const RequiredDoc: React.FC = () => {
                               : 'options-container  '
                           }
                         >
-                          {showDropdown &&
-                            filter.map(f => (
-                              <div
-                                className='option'
-                                onClick={() => {
-                                  setSelectedTag(f.label)
-                                  setShowDropdown(false)
-                                  setshow(false)                                 
-                                }}
-                              >
-                                {f.label}
-                              </div>
-                            ))}
+                         
                         </div>
                       </div>
                     </div>
