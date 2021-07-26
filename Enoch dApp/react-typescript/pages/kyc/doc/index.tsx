@@ -166,7 +166,6 @@ const RequiredKyc: React.FC = () => {
               <a className='mr-3 ml-3'>BACK</a>
             </button>
           </Link>
-          <Link href='/kyc/doc/proof-res'>
             <button className='btn-next button-primary pl-4 pr-4 btn-w-45'>
             </button>
           </Link>
