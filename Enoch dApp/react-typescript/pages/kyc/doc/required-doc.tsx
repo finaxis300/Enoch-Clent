@@ -124,7 +124,6 @@ const RequiredDoc: React.FC = () => {
                                   setshow(false)                                 
                                 }}
                               >
-                                {f.label}
                               </div>
                             ))}
                         </div>
