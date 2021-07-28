@@ -1,0 +1,1957 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>HOME</title>
+	<!-- Fav Icons -->
+	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+	<link rel="icon" href="images/favicon.png" type="image/x-icon">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/global.css" rel="stylesheet" />
+    <link href="css/dashboard-header.css" rel="stylesheet" />
+    <link href="css/dashboard-style.css" rel="stylesheet" />
+    <link href="css/helpCenterStyle.css" rel="stylesheet" />
+    <link href="css/help-center.css" rel="stylesheet" />
+    <link href="css/helpcenter-Admin.css" rel="stylesheet" />
+    <link href="css/admin-help-center.css" rel="stylesheet" />
+    <link href="css/admin-profile.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/OnBoardingJourney.css" />
+    <link rel="stylesheet" href="css/dApp-S-home.css" />
+</head>
+
+<body>
+	<div class="container-fluid dashboard-body-bg">
+	<div class="row">
+		<header class="custom-header">			
+			<div class="ezl-dashboard-header">
+				<div class="menu-left">
+					<div class="menu-wrap">
+						<a href="#menu" class="menu-link"><img src="images/Menu.png" alt="Menu" class="img-fluid"/></a>
+					</div>
+					<div class="header-logo"><a href="javascript:void(0)"><img src="images/logo.png" alt="logo" class="img-fluid"/></a></div>
+				</div>
+				<div class="menuright-side">
+					<div class="right-search">
+						<form class="search-form">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Fund, ISIN, Keyword ">
+									<button class="search-form-btn" type="Submit"><img class="search-img" src="images/search.png" alt="search"></button>
+							</div>
+						</form>
+					</div>
+					<div class="menu-mid-sect">
+						<ul id="submenubar">
+							<li class="">
+								<div class="menu-times-notifi"><img src="images/home.png" alt="home" class="img-fluid"/></div>
+								<a href="javascript:void(0)">Home</a>
+							</li>
+							<li class="">
+								<div class="menu-times-notifi"><img src="images/network.png" alt="network" class="img-fluid"/><span>0</span></div>
+								<a href="javascript:void(0)">My Network</a>
+							</li>
+							<li class="">
+								<div class="menu-times-notifi"><img src="images/jobs.png" alt="jobs" class="img-fluid"/></div>
+								<a href="javascript:void(0)">Jobs</a>
+							</li>
+							<li class="">
+								<div class="menu-times-notifi"><img src="images/Chat.png" alt="Chat" class="img-fluid"/><span>0</span></div>
+								<a href="javascript:void(0)">Messaging</a>
+							</li>
+							<li class="ether-block">
+								<div class="menu-times-notifi mr-2"><img src="images/Ethereum.png" alt="Ethereum" class="img-fluid"/></div>
+								<a href="javascript:void(0)">ETH Mainnet <i class="fa fa-angle-right"></i></a>
+							</li>
+							<li class="connect-wallet-block">
+								
+								<a href="javascript:void(0)">Connect Wallet</a>
+							</li>
+							
+						</ul>
+						<div class="toggle-menu">
+								<div onclick="subtogglediv('submenubar','submenu-toggle');" class="d-inline-block">
+									<i class="fa fa-bars" aria-hidden="true" id="submenu-toggle"></i>
+								</div>
+							</div>
+					</div>
+					
+					<div class="ezl-notificaion">
+					<div class="position-relative notificaion-dropdown ezl-notificaion-marg">
+						<a href="javascript:void(0)" class="popup"><img src="images/help.png" alt="help"/></a>							
+											
+					</div>
+					<div class=" position-relative notificaion-dropdown">
+						<a href="javascript:void(0)" class="popup"><img src="images/alertBell.png" alt="Bell"><span class="notificaion-spn">10</span></a>							
+						
+					</div>
+					</div>
+					<div class="ezl-user-ac">
+					
+					<div class="account-d dropdown">
+						<div class="dropdown-buttn"><span class="popup" onclick="popupFunction()"><div class="user-img"><img src="images/user-ReginaCooper.png" alt="user image" class="img-fluid"></div></span>
+							<div class="popupbox dropdown-menu" id="myPopup">
+								<ul class="">
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					</div>
+				</div>
+	
+				
+			</div>
+		</header>
+	</div>
+	<div class="dApp-menu-btn">
+	    <img src="images/LeftSide-Menu.png" alt="menu" class="img-fluid" />
+	</div>	
+	<div class="row">	
+		<div class="ezl-dashboard-container">			
+			<div class="dApp-S-Home-body">
+			    <div class="row m-0">
+			        <div class="col-lg-3 p-lg-0 custom-col-lg-3">
+                        <!--
+			            <div class="dApp-home-Enoch-Price-sect">
+			                <ul class="row-1">
+			                    <li class="pr-2">$Enoch Price</li>
+			                    <li>$120.00</li>
+			                    <li class="text-grey">USD</li>
+			                    <li class="text-grey">per coin</li>
+			                </ul>
+			                <ul>
+			                    <li>Your $Enoch</li>
+			                    <li>0.00</li>
+			                </ul>
+			                <ul class="m-0 right-text">
+			                    <li class="text-grey">= $0.00 USD</li>
+			                </ul>
+			            </div>
+			            <div class="dApp-home-lottery-sect">
+			                <img src="images/lottery.png" alt="Lottery-img" class="img-fluid" />
+			            </div>
+			            <div class="dApp-home-Premium-sect">
+			                <div class="dApp-home-Premium-text">
+			                    <h1>Enoch Premium</h1>
+			                    <p>Three months free membership <span>worth $15</span></p>
+			                    <button><a href="#">Claim</a></button>
+			                    <h6>*Subject to KYC verification</h6>
+			                </div>
+			                <div class="dApp-home-Premium-img">
+			                    <img src="images/premium.png" alt="premium" class="img-fluid" />
+			                </div>
+			            </div>
+			            -->
+			            <div class="dApp-Win-a-Day-Banner-sect">
+			                <img src="images/win-a-day-banner.png" alt="Banner" class="img-fluid" />
+			            </div>
+			            <div class="dApp-daily-bonous-Banner-sect">
+			                <img src="images/daily-bonous-banner.png" alt="Banner" class="img-fluid" />
+			            </div>
+			            
+			            <div class="dApp-home-Create-Post-sect">
+			                <h1>Home</h1>
+			                <p>Your personal Enoch frontpage. Comehere to check in with your favorite communication.</p>
+			                <div class="dApp-home-Create-Post-btn-sect">
+			                    <button class="Create-Post-btn"><a href="#">Create Post</a></button>
+			                    <button class="Create-Community-btn" data-toggle="modal" data-target="#CreateCommunity-Modal"><a href="#">Create Community</a></button>
+			                </div>
+			            </div>
+			            <!-- The Modal -->
+			             <div class="CreateCommunity-Modal-sect">
+			                 <div class="modal" id="CreateCommunity-Modal">
+			                     <div class="modal-dialog">
+			                         <div class="modal-content">
+
+			                             <!-- Modal Header -->
+			                             <div class="CreateCommunity-Modal-header">
+			                                 <!--<h4 class="modal-title">Add experience</h4>-->
+			                                 <div class="close CreateCommunity-Modal-modal-close" data-dismiss="modal"><img src="images/hCross.png" alt="icon" class="img-fluid" /></div>
+			                             </div>
+
+			                             <!-- Modal body -->
+			                             <div class="CreateCommunity-Modal-body">
+			                                 <div class="input-name">
+			                                     <h1>Name*</h1>
+			                                     <p>Community names including capitalization cannot be changed.</p>
+			                                     <input type="text" value="Enoch/" id="CreateCommunity-input-name-fild">
+			                                     <p class="input-name-error-text">Community already available, Please choose some diffrent name</p>
+			                                     <p class="pt-1">21 character remaining </p>
+			                                 </div>
+			                                 
+			                                 <div class="Community-type">
+			                                     <h1>Community type*</h1>
+			                                     
+			                                     <div class="Community-type-radio-sect">
+			                                         <label class="container"><strong>Public <span>Anyone can view, post, and comment to this community</span></strong>
+			                                             <input type="radio" name="radio">
+			                                             <span class="checkmark"></span>
+			                                         </label>
+			                                         <label class="container"><strong>Restricted <span>Anyone can view this community, but only approved users can post</span></strong>
+			                                             <input type="radio" name="radio">
+			                                             <span class="checkmark"></span>
+			                                         </label>
+			                                         <label class="container"><strong>Private <span>Only approved users can view and submit to this community</span></strong>
+			                                             <input type="radio" name="radio">
+			                                             <span class="checkmark"></span>
+			                                         </label>
+			                                     </div>
+			                                     
+			                                     
+			                                 </div>
+			                                 
+			                                 <div class="Adult-content-sect">
+			                                     <h1>Adult content</h1>
+			                                     <div class="Adult-content-Checkbox">
+			                                         <input type="checkbox">
+			                                         <label>18+ year old community</label>
+			                                     </div>
+			                                 </div>
+			                                 
+			                                 <div class="CreateCommunity-Modal-btn">
+			                                     <button id="Create-Community-button"><a href="#">Create Community</a></button>
+			                                 </div>
+			                                 
+			                             </div>
+			                         </div>
+			                     </div>
+			                 </div>
+			             </div>
+			                
+			        </div>
+			        
+			        <div class="col-lg-6 custom-col-lg-6">
+			            <div class="dApp-home-profile-sect">
+			                <div class="dApp-home-cover-And-DP-sect">
+			                    <div class="dApp-home-cover-photo">
+			                        <img src="images/dApp-cover-photo-img.png" alt="cover-photo" class="img-fluid h-100" />
+			                        <!--
+			                        <div class="coverPhoto-change-btn">
+			                            <img src="images/dApp-Camera.png" alt="camera" class="img-fluid" />
+			                        </div>
+			                        -->
+			                    </div>
+			                    <div class="dApp-home-profile-pic">
+			                        <div class="dApp-profile-picture">
+			                            <div class="dApp-profile-picture-img">
+			                                <img src="images/dApp-DP.png" alt="profile-picture" class="img-fluid" />
+			                            </div>
+			                            <!--
+			                            <input type="file" class="my_file update-profile" />
+			                            -->
+			                        </div>
+			                    </div>
+			                    <div class="dApp-home-profile-edit-btn">
+			                        <button data-toggle="modal" data-target="#dApp-home-profile-modal"><a href="#">Edit Profile</a></button>
+			                    </div>
+			                    
+			                    <div class="dApp-home-username-sect">
+			                        <h1>Robert Rose</h1>
+			                        <a href="#">@roserobert01</a>
+			                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+			                    </div>
+			                    <div class="dApp-home-user-info">
+			                        <ul>
+			                            <li class="active"><span><img src="images/dAppPin.png" alt="icon" class="img-fluid" /></span>London, England</li>
+			                            <li class="active"><span><img src="images/dAppGlobe.png" alt="icon" class="img-fluid" /></span>Podcast.com</li>
+			                            <li class="active"><span><img src="images/dAppCalendar.png" alt="icon" class="img-fluid" /></span>Joined July 2021</li>
+			                        </ul>
+			                        <ul>
+			                            <li class="active"><span><img src="images/dApp-Ballon.png" alt="icon" class="img-fluid" /></span>15 Sep 1983</li>
+			                        </ul>
+			                    </div>
+			                    <div class="dApp-home-user-followers-sect">
+			                        <ul>
+			                            <li>05 <span>Following</span></li>
+			                            <li>03 <span>Followers</span></li>
+			                        </ul>
+			                        
+			                        <div class="dApp-home-user-followers-imgs">
+			                            <img src="images/followers%20.png" alt="dp" class="img-fluid pr-3" />
+			                            <img src="images/Platium.png" alt="dp" class="img-fluid pr-0" />
+			                        </div>
+			                        
+			                    </div>
+			                </div>
+			            </div>
+			            
+			            <div class="dApp-Your-Dashbaord-sect">
+			                <div class="dApp-Your-Dashbaord-heading">
+			                    <h1>Your Dashbaord</h1>
+			                    <h2>Private to you</h2>
+			                </div>
+			                
+			                <div class="dApp-Your-Dashbaord-content">
+			                    <div class="dApp-Your-Dashbaord-content-col">
+			                        <h3>771</h3>
+			                        <p>Who viewed your profile</p>
+			                    </div>
+			                    
+			                    <div class="dApp-Your-Dashbaord-content-col">
+			                        <h3>1,004</h3>
+			                        <p>Post views</p>
+			                    </div>
+			                    
+			                    <div class="dApp-Your-Dashbaord-content-col mb-0">
+			                        <h3>379</h3>
+			                        <p>Search appearances</p>
+			                    </div>
+			                    
+			                </div>
+			                
+			            </div>
+			            
+			            <div class="dApp-home-profile-collaps-sect">
+                            <div class="dApp-home-profile-collaps-content">
+                                <button class="dApp-home-profile-collapsible">
+                                    <div class="dApp-home-profile-collaps-btn">
+                                        <lable>Interest </lable>
+                                    </div>
+                                </button>
+                                <div class="roles_collaps">
+                                    <div class="dApp-Interest-tab-sect">
+                                        <div class="dApp-Interest-tabs">
+                                            <div class="dApp-Interest-tab-heading tab">
+
+                                                <button class="Interest_tablinks dApp-Interest_tablinks" onclick="InterestOpenCity(event, 'Infulencers')" id="Interest_defaultOpen">Infulencers<div class="dApp-Interest-tab-underline"></div></button>
+
+                                                <button class="Interest_tablinks dApp-Interest_tablinks" onclick="InterestOpenCity(event, 'Companies')">Companies<div class="dApp-Interest-tab-underline"></div></button>
+
+                                                <button class="Interest_tablinks dApp-Interest_tablinks ml-0" onclick="InterestOpenCity(event, 'Tribes')">Tribes<div class="dApp-Interest-tab-underline"></div></button>
+                                            </div>
+
+                                            <div id="Infulencers" class="Interest_tabcontent">
+                                                <ul>
+                                                    <li>
+                                                        <div class="Interest_tabcontent-list-left">
+                                                            <div class="Interest_tabcontent-list-img">
+                                                                <img src="images/UserAngelinaEberle.png" alt="user img" class="img-fluid" />
+                                                                <div class="Interest_tabcontent-list-img-act">
+                                                                    <img src="images/follow-green.png" alt="icon" class="img-fluid" />
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="Interest_tabcontent-list-text">
+                                                                <h1>Vitalik Buterin</h1>
+                                                                <h2>Ethereum</h2>
+                                                                <h3>912 followers</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div class="Interest_tabcontent-list-Following-btn">
+                                                            <button><span><img src="images/dApp-Checkmark.png" alt="icon" class="img-fluid" /></span><a href="#">Following</a></button>
+                                                        </div>
+                                                    </li>
+                                                    
+                                                    <li>
+                                                        <div class="Interest_tabcontent-list-left">
+                                                            <div class="Interest_tabcontent-list-img">
+                                                                <img src="images/roger.png" alt="user img" class="img-fluid" />
+                                                                <div class="Interest_tabcontent-list-img-act">
+                                                                    <img src="images/follow-green.png" alt="icon" class="img-fluid" />
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="Interest_tabcontent-list-text">
+                                                                <h1>Roger Ver</h1>
+                                                                <h2>Investor in Bitcoin</h2>
+                                                                <h3>912 followers</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div class="Interest_tabcontent-list-Following-btn">
+                                                            <button><span><img src="images/dApp-Checkmark.png" alt="icon" class="img-fluid" /></span><a href="#">Following</a></button>
+                                                        </div>
+                                                    </li>
+                                                    
+                                                    <li>
+                                                        <div class="Interest_tabcontent-list-left">
+                                                            <div class="Interest_tabcontent-list-img">
+                                                                <img src="images/andreas-n.png" alt="user img" class="img-fluid" />
+                                                                <div class="Interest_tabcontent-list-img-act">
+                                                                    <img src="images/follow-green.png" alt="icon" class="img-fluid" />
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="Interest_tabcontent-list-text">
+                                                                <h1>Andreas M. Antonopoulos</h1>
+                                                                <h2>Author of 5 books.</h2>
+                                                                <h3>912 followers</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div class="Interest_tabcontent-list-Following-btn">
+                                                            <button><span><img src="images/dApp-Checkmark.png" alt="icon" class="img-fluid" /></span><a href="#">Following</a></button>
+                                                        </div>
+                                                    </li>
+                                                    
+                                                    <li>
+                                                        <div class="Interest_tabcontent-list-left">
+                                                            <div class="Interest_tabcontent-list-img">
+                                                                <img src="images/tim-draper.png" alt="user img" class="img-fluid" />
+                                                                <div class="Interest_tabcontent-list-img-act">
+                                                                    <img src="images/follow-green.png" alt="icon" class="img-fluid" />
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="Interest_tabcontent-list-text">
+                                                                <h1>Tim Draper</h1>
+                                                                <h2>Founder of @DFJvc</h2>
+                                                                <h3>912 followers</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div class="Interest_tabcontent-list-Following-btn">
+                                                            <button><span><img src="images/dApp-Checkmark.png" alt="icon" class="img-fluid" /></span><a href="#">Following</a></button>
+                                                        </div>
+                                                    </li>
+                                                    
+                                                    <li>
+                                                        <div class="Interest_tabcontent-list-left">
+                                                            <div class="Interest_tabcontent-list-img">
+                                                                <img src="images/charlie-lee.png" alt="user img" class="img-fluid" />
+                                                                <div class="Interest_tabcontent-list-img-act">
+                                                                    <img src="images/follow-green.png" alt="icon" class="img-fluid" />
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="Interest_tabcontent-list-text">
+                                                                <h1>Charlie Lee</h1>
+                                                                <h2>Creator of Litecoin</h2>
+                                                                <h3>912 followers</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div class="Interest_tabcontent-list-Following-btn">
+                                                            <button><span><img src="images/dApp-Checkmark.png" alt="icon" class="img-fluid" /></span><a href="#">Following</a></button>
+                                                        </div>
+                                                    </li>
+                                                    
+                                                </ul>
+                                            </div>
+
+                                            <div id="Companies" class="Interest_tabcontent">
+                                                <ul>
+                                                    <li>
+                                                        <div class="Interest_tabcontent-list-left">
+                                                            <div class="Interest_tabcontent-list-img">
+                                                                <img src="images/compound.png" alt="user img" class="img-fluid" />
+                                                            </div>
+                                                            
+                                                            <div class="Interest_tabcontent-list-text">
+                                                                <h1>Compound</h1>
+                                                                <h3>912 followers</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div class="Interest_tabcontent-list-Following-btn">
+                                                            <button><span><img src="images/dApp-Checkmark.png" alt="icon" class="img-fluid" /></span><a href="#">Following</a></button>
+                                                        </div>
+                                                    </li>
+                                                    
+                                                    <li>
+                                                        <div class="Interest_tabcontent-list-left">
+                                                            <div class="Interest_tabcontent-list-img">
+                                                                <img src="images/aave.png" alt="user img" class="img-fluid" />
+                                                            </div>
+                                                            
+                                                            <div class="Interest_tabcontent-list-text">
+                                                                <h1>Aave</h1>
+                                                                <h3>912 followers</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div class="Interest_tabcontent-list-Following-btn">
+                                                            <button><span><img src="images/dApp-Checkmark.png" alt="icon" class="img-fluid" /></span><a href="#">Following</a></button>
+                                                        </div>
+                                                    </li>
+                                                    
+                                                    <li>
+                                                        <div class="Interest_tabcontent-list-left">
+                                                            <div class="Interest_tabcontent-list-img">
+                                                                <img src="images/kava.png" alt="user img" class="img-fluid" />
+                                                            </div>
+                                                            
+                                                            <div class="Interest_tabcontent-list-text">
+                                                                <h1>Andreas M. Antonopoulos</h1>
+                                                                <h3>912 followers</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div class="Interest_tabcontent-list-Following-btn">
+                                                            <button><span><img src="images/dApp-Checkmark.png" alt="icon" class="img-fluid" /></span><a href="#">Following</a></button>
+                                                        </div>
+                                                    </li>
+                                                    
+                                                    <li>
+                                                        <div class="Interest_tabcontent-list-left">
+                                                            <div class="Interest_tabcontent-list-img">
+                                                                <img src="images/balancer.png" alt="user img" class="img-fluid" />
+                                                            </div>
+                                                            
+                                                            <div class="Interest_tabcontent-list-text">
+                                                                <h1>Balancer</h1>
+                                                                <h3>912 followers</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div class="Interest_tabcontent-list-Following-btn">
+                                                            <button><span><img src="images/dApp-Checkmark.png" alt="icon" class="img-fluid" /></span><a href="#">Following</a></button>
+                                                        </div>
+                                                    </li>
+                                                    
+                                                    <li>
+                                                        <div class="Interest_tabcontent-list-left">
+                                                            <div class="Interest_tabcontent-list-img">
+                                                                <img src="images/kyberswap.png" alt="user img" class="img-fluid" />
+                                                            </div>
+                                                            
+                                                            <div class="Interest_tabcontent-list-text">
+                                                                <h1>Kyberswap</h1>
+                                                                <h3>912 followers</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div class="Interest_tabcontent-list-Following-btn">
+                                                            <button><span><img src="images/dApp-Checkmark.png" alt="icon" class="img-fluid" /></span><a href="#">Following</a></button>
+                                                        </div>
+                                                    </li>
+                                                    
+                                                </ul>
+                                            </div>
+
+                                            <div id="Tribes" class="Interest_tabcontent">
+                                                <ul>
+                                                    <li>
+                                                        <div class="Interest_tabcontent-list-left">
+                                                            <div class="Interest_tabcontent-list-img no-border">
+                                                                <img src="images/ethereum-dApps.png" alt="user img" class="img-fluid" />
+                                                            </div>
+                                                            
+                                                            <div class="Interest_tabcontent-list-text">
+                                                                <h1>Ethereum Development and DApps</h1>
+                                                                <h3>2467537 followers</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div class="Interest_tabcontent-list-Following-btn">
+                                                            <button><span><img src="images/dApp-Checkmark.png" alt="icon" class="img-fluid" /></span><a href="#">Following</a></button>
+                                                        </div>
+                                                    </li>
+                                                    
+                                                    <li>
+                                                        <div class="Interest_tabcontent-list-left">
+                                                            <div class="Interest_tabcontent-list-img">
+                                                                <img src="images/dApp-ethereum.png" alt="user img" class="img-fluid" />
+                                                            </div>
+                                                            
+                                                            <div class="Interest_tabcontent-list-text">
+                                                                <h1>Ethereum</h1>
+                                                                <h3>2467537 followers</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div class="Interest_tabcontent-list-Following-btn">
+                                                            <button><span><img src="images/dApp-Checkmark.png" alt="icon" class="img-fluid" /></span><a href="#">Following</a></button>
+                                                        </div>
+                                                    </li>
+                                                    
+                                                    <li>
+                                                        <div class="Interest_tabcontent-list-left">
+                                                            <div class="Interest_tabcontent-list-img">
+                                                                <img src="images/citizenFinance.png" alt="user img" class="img-fluid" />
+                                                            </div>
+                                                            
+                                                            <div class="Interest_tabcontent-list-text">
+                                                                <h1>Citizen Finance</h1>
+                                                                <h3>2467537 followers</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div class="Interest_tabcontent-list-Following-btn">
+                                                            <button><span><img src="images/dApp-Checkmark.png" alt="icon" class="img-fluid" /></span><a href="#">Following</a></button>
+                                                        </div>
+                                                    </li>
+                                                    
+                                                    <li>
+                                                        <div class="Interest_tabcontent-list-left">
+                                                            <div class="Interest_tabcontent-list-img">
+                                                                <img src="images/spooky-swap.png" alt="user img" class="img-fluid" />
+                                                            </div>
+                                                            
+                                                            <div class="Interest_tabcontent-list-text">
+                                                                <h1>Spooky Swap</h1>
+                                                                <h3>2467537 followers</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div class="Interest_tabcontent-list-Following-btn">
+                                                            <button><span><img src="images/dApp-Checkmark.png" alt="icon" class="img-fluid" /></span><a href="#">Following</a></button>
+                                                        </div>
+                                                    </li>
+                                                    
+                                                    <li>
+                                                        <div class="Interest_tabcontent-list-left">
+                                                            <div class="Interest_tabcontent-list-img">
+                                                                <img src="images/Defl-Pulse.png" alt="user img" class="img-fluid" />
+                                                            </div>
+                                                            
+                                                            <div class="Interest_tabcontent-list-text">
+                                                                <h1>DefI Pulse</h1>
+                                                                <h3>2467537 followers</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div class="Interest_tabcontent-list-Following-btn">
+                                                            <button><span><img src="images/dApp-Checkmark.png" alt="icon" class="img-fluid" /></span><a href="#">Following</a></button>
+                                                        </div>
+                                                    </li>
+                                                    
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="dApp-home-profile-collaps-content">
+                                <button class="dApp-home-profile-collapsible">
+                                    <div class="dApp-home-profile-collaps-btn">
+                                        <lable>Experince </lable>
+                                    </div>
+                                </button>
+                                <div class="roles_collaps">
+                                    <div class="dApp-Add-Experince-sect-after">
+                                        <div class="dApp-Add-Experince-content">
+                                            <div class="dApp-Add-Experince-img">
+                                                <img src="images/ciena-india-logo.png" alt="logo" class="img-fluid" />
+                                            </div>
+                                            <div class="dApp-Add-Experince-text">
+                                                <h1>VP of Engineering (Crypto)</h1>
+                                                <h2>Bricktrade . Contract</h2>
+                                                <p>Jan 2018 - Counting . 2 years 11 mons</p>
+                                                <p>London, England, United Kingdom</p>
+                                            </div>
+                                        </div>
+                                        <div class="dApp-Add-Experince-btn">
+                                            <button data-toggle="modal" data-target="#dApp-Add-Experince-modal"><span><img src="images/dApp-btn-Plus.png" alt="+"></span><a href="#">Add Experience</a></button>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Modal -->
+			            <div class="dApp-home-profile-modal-sect dApp-Add-Experince-modal-sect">
+			                <div class="modal fade" id="dApp-Add-Experince-modal" role="dialog">
+			                    <div class="modal-dialog">
+
+			                        <!-- Modal content-->
+			                        <div class="modal-content">
+			                            <div class="dApp-home-profile-modal-header dApp-Add-Experince-modal-header">
+                                            <h4 class="modal-title">Add experience</h4>
+			                                <div class="close dApp-home-profile-modal-close" data-dismiss="modal"><img src="images/hCross.png" alt="icon" class="img-fluid" /></div>
+			                            </div>
+			                            <div class="modal-body">
+			                                <div>
+                                                <!--
+			                                    <div class="dApp-home-cover-photo">
+			                                        <img src="images/dApp-edit-cover-photo.png" alt="cover-photo" class="img-fluid h-100" />
+			                                        <div class="coverPhoto-change-btn">
+			                                            <span><img src="images/dApp-Camera.png" alt="camera" class="img-fluid" /></span>
+			                                            <a href="#">Cover image</a>
+			                                        </div>
+			                                    </div>
+			                                    <div class="dApp-home-profile-pic">
+			                                        <div class="dApp-profile-picture">
+			                                            <div class="dApp-profile-picture-img">
+			                                                <img src="images/dApp-progile-pic.png" alt="profile-picture" class="img-fluid" />
+			                                            </div>
+			                                            <input type="file" class="my_file update-profile" />
+			                                        </div>
+			                                    </div>
+			                                    -->
+			                                    <div class="dApp-home-profile-modal-form pb-0 mt-0">
+			                                        <form>
+			                                            <div class="input-Title input-fild">
+			                                                <lable>Title <span>*</span></lable>
+			                                                <input type="text" placeholder="Ex. Retail Sales Manager">
+			                                            </div>
+			                                            
+			                                            <div class="Employment-type-dropdown input-fild">
+			                                                <lable>Employment type</lable>
+			                                                <input type="text" placeholder="Type something" id="Edit-Employment-type">
+			                                                <div class="Edit-Employment-dropdown">
+			                                                    <ul>
+			                                                    <li>&nbsp;</li>
+			                                                    <li>&nbsp;</li>
+			                                                    <li>&nbsp;</li>
+			                                                    <li>&nbsp;</li>
+			                                                </ul>
+			                                                </div>
+			                                                <h6>Country-specific employment types</h6>
+			                                            </div>
+			                                            
+			                                            
+			                                            
+			                                            <div class="Company input-fild">
+			                                                <lable>Company <span>*</span></lable>
+			                                                <input type="text" placeholder="Ex: Cashcoin">
+			                                            </div>
+			                                            
+			                                            <div class="Location input-fild">
+			                                                <lable>Location <span>*</span></lable>
+			                                                <input type="text" placeholder="Ex: London, United Kingdom">
+			                                            </div>
+			                                            
+			                                            <div class="Location-checkbox">
+			                                                <input type="checkbox">
+			                                                <lable>I am currently working in this role</lable>
+			                                            </div>
+			                                            
+			                                            <div class="Headline input-fild">
+			                                                <lable>Headline <span>*</span></lable>
+			                                                <input type="text" placeholder="Type something">
+			                                            </div>
+			                                            
+			                                            <div class="Description input-fild">
+			                                                <lable>Description</lable>
+			                                                <textarea placeholder="Type something"></textarea>
+			                                            </div>
+			                                            
+			                                            
+			                                            
+			                                        </form>
+			                                    </div>
+			                                </div>
+			                            </div>
+			                            <div class="modal-footer no-border pt-0 pb-4">
+			                                <button><a href="#">Save</a></button>
+			                            </div>
+			                        </div>
+
+			                    </div>
+			                </div>
+			            </div>
+			            
+                                    
+                                </div>
+                            </div>
+    
+			                </div>
+			            
+			            <!-- Modal -->
+			            <div class="dApp-home-profile-modal-sect">
+			                <div class="modal fade" id="dApp-home-profile-modal" role="dialog">
+			                    <div class="modal-dialog">
+
+			                        <!-- Modal content-->
+			                        <div class="modal-content">
+			                            <div class="dApp-home-profile-modal-header">
+                                            <h4 class="modal-title">Edit Profile</h4>
+			                                <div class="close dApp-home-profile-modal-close" data-dismiss="modal"><img src="images/hCross.png" alt="icon" class="img-fluid" /></div>
+			                            </div>
+			                            <div class="modal-body">
+			                                <div>
+			                                    <div class="dApp-home-cover-photo">
+			                                        <img src="images/dApp-edit-cover-photo.png" alt="cover-photo" class="img-fluid h-100" />
+			                                        <div class="coverPhoto-change-btn">
+			                                            <span><img src="images/dApp-Camera.png" alt="camera" class="img-fluid" /></span>
+			                                            <a href="#">Cover image</a>
+			                                        </div>
+			                                    </div>
+			                                    <div class="dApp-home-profile-pic">
+			                                        <div class="dApp-profile-picture">
+			                                            <div class="dApp-profile-picture-img">
+			                                                <img src="images/dApp-progile-pic.png" alt="profile-picture" class="img-fluid" />
+			                                            </div>
+			                                            <input type="file" class="my_file update-profile" />
+			                                        </div>
+			                                    </div>
+			                                    <div class="dApp-home-profile-modal-form">
+			                                        <form>
+			                                            <div class="input-name input-fild">
+			                                                <lable>Name</lable>
+			                                                <input type="text" placeholder="Robert Rose">
+			                                            </div>
+			                                            
+			                                            <div class="Edit-username input-fild">
+			                                                <lable>Edit username</lable>
+			                                                <input type="text" placeholder="@userenoch007" id="Edit-username-input">
+			                                                <div class="username-dropdown">
+			                                                    <ul>
+			                                                    <li>&nbsp;</li>
+			                                                    <li>&nbsp;</li>
+			                                                    <li>&nbsp;</li>
+			                                                    <li>&nbsp;</li>
+			                                                </ul>
+			                                                </div>
+			                                            </div>
+			                                            
+			                                            <div class="Bio input-fild">
+			                                                <lable>Bio</lable>
+			                                                <textarea placeholder="Write your Bio"></textarea>
+			                                            </div>
+			                                            
+			                                            <div class="City-dropdown input-fild">
+			                                                <lable>City</lable>
+			                                                <div class="City-dropdown-box" id="City-drop-box">Select City</div>
+			                                                <div class="City-dropdown-list">
+			                                                    <ul>
+			                                                    <li>&nbsp;</li>
+			                                                    <li>&nbsp;</li>
+			                                                    <li>&nbsp;</li>
+			                                                    <li>&nbsp;</li>
+			                                                </ul>
+			                                                </div>
+			                                            </div>
+			                                            
+			                                            <div class="Country-dropdown input-fild">
+			                                                <lable>Select Country</lable>
+			                                                <div class="Country-dropdown-box" id="Country-drop-box">Select Country</div>
+			                                                <div class="Country-dropdown-list">
+			                                                    <ul>
+			                                                    <li>&nbsp;</li>
+			                                                    <li>&nbsp;</li>
+			                                                    <li>&nbsp;</li>
+			                                                    <li>&nbsp;</li>
+			                                                </ul>
+			                                                </div>
+			                                            </div>
+			                                            
+			                                            <div class="Website input-fild">
+			                                                <lable>Website</lable>
+			                                                <input type="text" placeholder="your website">
+			                                            </div>
+			                                            
+			                                            <div class="Date-of-birth input-fild">
+			                                                <lable>Date of birth</lable>
+			                                                <input type="text" placeholder="Date of birth">
+			                                            </div>
+			                                            
+			                                        </form>
+			                                    </div>
+			                                </div>
+			                            </div>
+			                            <div class="modal-footer">
+			                                <button><a href="#">Save</a></button>
+			                            </div>
+			                        </div>
+
+			                    </div>
+			                </div>
+			            </div>
+			            
+			            
+			            <div class="dApp-Posts-tab-sect">
+			                <div class="dApp-Posts-tabs">
+			                    <div class="dApp-Posts-tab-heading tab">
+                                
+			                        <button class="tablinks dApp-Posts-tablinks" onclick="openCity(event, 'Posts')" id="defaultOpen">Posts<div class="dApp-Posts-tab-underline"></div></button>
+			                        
+			                        <button class="tablinks dApp-Posts-tablinks" onclick="openCity(event, 'Post-and-replies')">Post and replies <div class="dApp-Posts-tab-underline"></div></button>
+			                        
+			                        <button class="tablinks dApp-Posts-tablinks" onclick="openCity(event, 'Media')">Media<div class="dApp-Posts-tab-underline"></div></button>
+			                        
+			                        <button class="tablinks dApp-Posts-tablinks" onclick="openCity(event, 'Links')">Links<div class="dApp-Posts-tab-underline"></div></button>
+			                    </div>
+
+			                    <div id="Posts" class="tabcontent">
+			                        <div class="dApp-status-block">
+			                            <div class="dApp-status-heading">
+			                                <div class="dApp-status-heading-profile-pic">
+			                                    <img src="images/RobertRosePic.png" alt="DP" class="img-fluid" />
+			                                </div>
+			                                <div class="dApp-status-heading-text">
+			                                    <h1>Robert Rose</h1>
+			                                    <h2>3 followers</h2>
+			                                    <h3><span><img src="images/Clock.png" alt="icon" class="img-fluid" /></span>July 15</h3>
+			                                </div>
+			                                <div class="dApp-post-3dots">
+			                                    <img src="images/dApp-ThreeDots.png" alt="3dots" class="img-fluid /">
+			                                </div>
+			                            </div>
+			                            
+			                            <div class="dApp-status-caption-sect">
+			                                <p>Our interactive session on "Happiness at the Workplace" with the renowned communication speaker Mukund Trivedy was an eye-opener on various challenges faced by employees across the country. …<a href="#">see more</a></p>
+			                            </div>
+			                            
+			                            <div class="dApp-status-react-sect">
+			                                <div class="dApp-status-react-icon">
+			                                    <img src="images/like.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/love.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/heart.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/clap.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/light.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/wow.png" alt="icon" class="img-fluid" />
+			                                </div>
+			                                <div class="dApp-status-react-text">
+			                                    <h6>32 comments</h6>
+			                                    <h6>.</h6>
+			                                    <h6>56 Views</h6>
+			                                </div>
+			                            </div>
+			                            
+			                            <div class="dApp-status-like-comment-share-sect">
+			                                <ul>
+                                                <li><span><img src="images/like-icon.png" alt="icon" class="img-fluid" /></span><a href="#">Like</a></li>
+			                                    
+                                                <li><span><img src="images/dislike.png" alt="icon" class="img-fluid" /></span><a href="#">Dislike</a></li>
+			                                    
+                                                <li><span><img src="images/gift.png" alt="icon" class="img-fluid" /></span> <a href="#">Gift</a></li>
+			                                    
+                                                <li><span><img src="images/comment-icon.png" alt="icon" class="img-fluid" /></span><a href="#">Comment</a></li>
+			                                    
+                                                <li><span><img src="images/dApp-share.png" alt="icon" class="img-fluid" /></span><a href="#">Share</a></li>
+			                                    
+                                                <li><span><img src="images/Paper-Plane.png" alt="icon" class="img-fluid" /></span><a href="#">Send</a></li>
+			                                    
+			                                </ul>
+			                            </div>
+			                        </div>
+			                        
+			                        <div class="dApp-status-block">
+			                            <div class="dApp-status-heading">
+			                                <div class="dApp-status-heading-profile-pic">
+			                                    <img src="images/RobertRosePic.png" alt="DP" class="img-fluid" />
+			                                </div>
+			                                <div class="dApp-status-heading-text">
+			                                    <h1>Robert Rose</h1>
+			                                    <h2>3 followers</h2>
+			                                    <h3><span><img src="images/Clock.png" alt="icon" class="img-fluid" /></span>July 2 </h3>
+			                                </div>
+			                                <div class="dApp-post-3dots">
+			                                    <img src="images/dApp-ThreeDots.png" alt="3dots" class="img-fluid /">
+			                                </div>
+			                            </div>
+			                            
+			                            <div class="dApp-status-content-sect">
+			                                <img src="images/post-img.png" alt="image" class="img-fluid" />
+			                            </div>
+			                            
+			                            <div class="dApp-status-react-sect">
+			                                <div class="dApp-status-react-icon">
+			                                    <img src="images/like.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/love.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/heart.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/clap.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/light.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/wow.png" alt="icon" class="img-fluid" />
+			                                </div>
+			                                <div class="dApp-status-react-text">
+                                                <h6 class="active">15,422</h6>
+                                                <h6>.</h6>
+			                                    <h6>475 comments</h6>
+			                                    <h6>.</h6>
+			                                    <h6>676,614 Views</h6>
+			                                </div>
+			                            </div>
+			                            
+			                            <div class="dApp-status-like-comment-share-sect">
+			                                <ul>
+                                                <li><span><img src="images/like-icon.png" alt="icon" class="img-fluid" /></span><a href="#">Like</a></li>
+			                                    
+                                                <li><span><img src="images/dislike.png" alt="icon" class="img-fluid" /></span><a href="#">Dislike</a></li>
+			                                    
+                                                <li><span><img src="images/gift.png" alt="icon" class="img-fluid" /></span> <a href="#">Gift</a></li>
+			                                    
+                                                <li><span><img src="images/comment-icon.png" alt="icon" class="img-fluid" /></span><a href="#">Comment</a></li>
+			                                    
+                                                <li><span><img src="images/dApp-share.png" alt="icon" class="img-fluid" /></span><a href="#">Share</a></li>
+			                                    
+                                                <li><span><img src="images/Paper-Plane.png" alt="icon" class="img-fluid" /></span><a href="#">Send</a></li>
+			                                    
+			                                </ul>
+			                            </div>
+			                        </div>
+			                        
+			                        <div class="dApp-status-block">
+			                            <div class="dApp-status-heading">
+			                                <div class="dApp-status-heading-profile-pic">
+			                                    <img src="images/RobertRosePic.png" alt="DP" class="img-fluid" />
+			                                </div>
+			                                <div class="dApp-status-heading-text">
+			                                    <h1>Robert Rose</h1>
+			                                    <h2>3 followers</h2>
+			                                    <h3><span><img src="images/Clock.png" alt="icon" class="img-fluid" /></span>July 15</h3>
+			                                </div>
+			                                <div class="dApp-post-3dots">
+			                                    <img src="images/dApp-ThreeDots.png" alt="3dots" class="img-fluid /">
+			                                </div>
+			                            </div>
+			                            
+			                            <div class="dApp-status-caption-sect">
+			                                <p>Our interactive session on "Happiness at the Workplace" with the renowned communication speaker Mukund Trivedy.</p>
+			                            </div>
+			                            
+			                            <div class="dApp-status-react-sect">
+			                                <div class="dApp-status-react-icon">
+			                                    <img src="images/like.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/love.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/heart.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/clap.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/light.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/wow.png" alt="icon" class="img-fluid" />
+			                                </div>
+			                                <div class="dApp-status-react-text">
+			                                    <h6>32 comments</h6>
+			                                    <h6>.</h6>
+			                                    <h6>56 Views</h6>
+			                                </div>
+			                            </div>
+			                            
+			                            <div class="dApp-status-like-comment-share-sect">
+			                                <ul>
+                                                <li><span><img src="images/like-icon.png" alt="icon" class="img-fluid" /></span><a href="#">Like</a></li>
+			                                    
+                                                <li><span><img src="images/dislike.png" alt="icon" class="img-fluid" /></span><a href="#">Dislike</a></li>
+			                                    
+                                                <li><span><img src="images/gift.png" alt="icon" class="img-fluid" /></span> <a href="#">Gift</a></li>
+			                                    
+                                                <li><span><img src="images/comment-icon.png" alt="icon" class="img-fluid" /></span><a href="#">Comment</a></li>
+			                                    
+                                                <li><span><img src="images/dApp-share.png" alt="icon" class="img-fluid" /></span><a href="#">Share</a></li>
+			                                    
+                                                <li><span><img src="images/Paper-Plane.png" alt="icon" class="img-fluid" /></span><a href="#">Send</a></li>
+			                                    
+			                                </ul>
+			                            </div>
+			                        </div>
+			                        
+			                        <div class="dApp-status-block no-border">
+			                            <div class="dApp-status-heading">
+			                                <div class="dApp-status-heading-profile-pic">
+			                                    <img src="images/RobertRosePic.png" alt="DP" class="img-fluid" />
+			                                </div>
+			                                <div class="dApp-status-heading-text">
+			                                    <h1>Robert Rose</h1>
+			                                    <h2>3 followers</h2>
+			                                    <h3><span><img src="images/Clock.png" alt="icon" class="img-fluid" /></span>July 2 </h3>
+			                                </div>
+			                                <div class="dApp-post-3dots">
+			                                    <img src="images/dApp-ThreeDots.png" alt="3dots" class="img-fluid /">
+			                                </div>
+			                            </div>
+			                            
+			                            <div class="dApp-status-content-sect">
+			                                <img src="images/dApp-post-vedio.png" alt="image" class="img-fluid" />
+			                                <div class="dApp-status-video-play-btn">
+			                                    <img src="images/dApp-play-btn.png" alt="play" class="img-fluid" />
+			                                </div>
+			                            </div>
+			                            
+			                            <div class="dApp-status-react-sect">
+			                                <div class="dApp-status-react-icon">
+			                                    <img src="images/like.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/love.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/heart.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/clap.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/light.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/wow.png" alt="icon" class="img-fluid" />
+			                                </div>
+			                                <div class="dApp-status-react-text">
+                                                <h6>22</h6>
+                                                <h6>.</h6>
+			                                    <h6>475 comments</h6>
+			                                    <h6>.</h6>
+			                                    <h6>676,614 Views</h6>
+			                                </div>
+			                            </div>
+			                            
+			                            <div class="dApp-status-like-comment-share-sect">
+			                                <ul>
+                                                <li><span><img src="images/like-icon.png" alt="icon" class="img-fluid" /></span><a href="#">Like</a></li>
+			                                    
+                                                <li><span><img src="images/dislike.png" alt="icon" class="img-fluid" /></span><a href="#">Dislike</a></li>
+			                                    
+                                                <li><span><img src="images/gift.png" alt="icon" class="img-fluid" /></span> <a href="#">Gift</a></li>
+			                                    
+                                                <li><span><img src="images/comment-icon.png" alt="icon" class="img-fluid" /></span><a href="#">Comment</a></li>
+			                                    
+                                                <li><span><img src="images/dApp-share.png" alt="icon" class="img-fluid" /></span><a href="#">Share</a></li>
+			                                    
+                                                <li><span><img src="images/Paper-Plane.png" alt="icon" class="img-fluid" /></span><a href="#">Send</a></li>
+			                                    
+			                                </ul>
+			                            </div>
+			                        </div>
+			                        
+			                        
+			                    </div>
+
+			                    <div id="Post-and-replies" class="tabcontent">
+                                    
+			                        <div class="dApp-status-block no-border">
+			                            <div class="dApp-status-heading">
+			                                <div class="dApp-status-heading-profile-pic">
+			                                    <img src="images/RobertRosePic.png" alt="DP" class="img-fluid" />
+			                                </div>
+			                                <div class="dApp-status-heading-text">
+			                                    <h1>Robert Rose</h1>
+			                                    <h2>3 followers</h2>
+			                                    <h3><span><img src="images/Clock.png" alt="icon" class="img-fluid" /></span>1h.</h3>
+			                                </div>
+			                                <div class="dApp-post-3dots">
+			                                    <img src="images/dApp-ThreeDots.png" alt="3dots" class="img-fluid /">
+			                                </div>
+			                            </div>
+			                            
+			                            <div class="dApp-status-content-sect">
+			                                <img src="images/dApp-post-img.png" alt="image" class="img-fluid" />
+			                            </div>
+			                            
+			                            <div class="dApp-status-react-sect">
+			                                <div class="dApp-status-react-icon">
+			                                    <img src="images/like.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/love.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/heart.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/clap.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/light.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/wow.png" alt="icon" class="img-fluid" />
+			                                </div>
+			                                <div class="dApp-status-react-text">
+                                                <h6>15,422</h6>
+                                                <h6>.</h6>
+			                                    <h6 class="active">475 comments</h6>
+			                                    <h6>.</h6>
+			                                    <h6>676,614 Views</h6>
+			                                </div>
+			                            </div>
+			                            
+			                            <div class="dApp-status-like-comment-share-sect">
+			                                <ul>
+                                                <li><span><img src="images/like-icon.png" alt="icon" class="img-fluid" /></span><a href="#">Like</a></li>
+			                                    
+                                                <li><span><img src="images/dislike.png" alt="icon" class="img-fluid" /></span><a href="#">Dislike</a></li>
+			                                    
+                                                <li><span><img src="images/gift.png" alt="icon" class="img-fluid" /></span> <a href="#">Gift</a></li>
+			                                    
+                                                <li class="dApp-post-comment-btn active"><span><img src="images/comment-icon.png" alt="icon" class="img-fluid" /></span><a href="#">Comment</a></li>
+			                                    
+                                                <li><span><img src="images/dApp-share.png" alt="icon" class="img-fluid" /></span><a href="#">Share</a></li>
+			                                    
+                                                <li><span><img src="images/Paper-Plane.png" alt="icon" class="img-fluid" /></span><a href="#">Send</a></li>
+			                                    
+			                                </ul>
+			                                
+			                            </div>
+			                            
+			                            <div class="dApp-post-comment-box">
+			                                <div class="dApp-post-comment-writing-sect">
+			                                    <div class="dApp-post-comment-input-sect">
+			                                        <div class="dApp-post-commenter-img">
+			                                            <img src="images/write-comment-img.png" alt="dp" class="img-fluid" />
+			                                        </div>
+			                                    </div>
+			                                    <div class="dApp-post-comment-input-fild">
+			                                        <textarea name="" rows="1" id="" placeholder="Add a comment"></textarea>
+			                                        <div class="dApp-post-comment-emoje-and-gallery">
+			                                            <img src="images/emoji-icon.png" alt="" class="img-fluid" />
+			                                            <img src="images/dAppgallery.png" alt="" class="img-fluid" />
+			                                        </div>
+			                                    </div>
+			                                </div>
+			                                
+			                                <div class="Most-relevant">
+			                                    <a href="#">Most relevant</a>
+			                                </div>
+			                                
+			                                <div class="dApp-post-comment-sect">
+			                                    <div class="dApp-post-commenter-img">
+			                                        <img src="images/commrnter-img.png" alt="dp" class="img-fluid" />
+			                                    </div>
+			                                    <div class="dApp-post-comment-right">
+			                                        <div class="dApp-post-comment-text">
+			                                            <h1>Alex Jeff</h1>
+			                                            <h2>912 followers</h2>
+			                                            <p>Our interactive session on "Happiness at the Workplace" with the renowned communication speaker Mukund Trivedy was an eye-opener on various challenges faced by employees across the country. …<a href="#">see more</a></p>
+			                                            <div class="dApp-post-comment-3dots">
+			                                                <img src="images/dApp-ThreeDots.png" alt="3Dots" class="img-fluid" />
+			                                            </div>
+			                                        </div>
+			                                        
+                                                    <div class="dApp-like-and-reply-btn">
+			                                            <ul>
+			                                                <li class="like">Like</li>
+			                                                <li class="reply active">Reply</li>
+			                                            </ul>
+			                                        </div>
+			                                        
+			                                        <div class="dApp-post-comment-writing-sect">
+			                                            <div class="dApp-post-comment-input-sect">
+			                                                <div class="dApp-post-commenter-img">
+			                                                    <img src="images/comment-reply-dp.png" alt="dp" class="img-fluid" />
+			                                                </div>
+			                                            </div>
+			                                            <div class="dApp-post-comment-input-fild">
+			                                                <textarea name="" rows="1" id="" placeholder="Add a comment"></textarea>
+			                                                <div class="dApp-post-comment-emoje-and-gallery">
+			                                                    <img src="images/emoji-icon.png" alt="" class="img-fluid" />
+			                                                    <img src="images/dAppgallery.png" alt="" class="img-fluid" />
+			                                                </div>
+			                                            </div>
+			                                        </div>
+			                                        
+			                                    </div>
+			                                </div>
+			                                
+			                                
+			                            </div>
+			                            
+			                        </div>
+			                        
+			                    </div>
+
+			                    <div id="Media" class="tabcontent">
+			                        <div class="dApp-status-block no-border">
+			                            <div class="dApp-status-heading">
+			                                <div class="dApp-status-heading-profile-pic">
+			                                    <img src="images/RobertRosePic.png" alt="DP" class="img-fluid" />
+			                                </div>
+			                                <div class="dApp-status-heading-text">
+			                                    <h1>Robert Rose</h1>
+			                                    <h2>3 followers</h2>
+			                                    <h3><span><img src="images/Clock.png" alt="icon" class="img-fluid" /></span>1h.</h3>
+			                                </div>
+			                                <div class="dApp-post-3dots">
+			                                    <img src="images/dApp-ThreeDots.png" alt="3dots" class="img-fluid /">
+			                                </div>
+			                            </div>
+			                            
+			                            <div class="dApp-status-content-sect">
+			                                <img src="images/dApp-post-img.png" alt="image" class="img-fluid" />
+			                            </div>
+			                            
+			                            <div class="dApp-status-react-sect">
+			                                <div class="dApp-status-react-icon">
+			                                    <img src="images/like.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/love.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/heart.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/clap.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/light.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/wow.png" alt="icon" class="img-fluid" />
+			                                </div>
+			                                <div class="dApp-status-react-text">
+                                                <h6>15,422</h6>
+                                                <h6>.</h6>
+			                                    <h6 class="active">475 comments</h6>
+			                                    <h6>.</h6>
+			                                    <h6>676,614 Views</h6>
+			                                </div>
+			                            </div>
+			                            
+			                            <div class="dApp-status-like-comment-share-sect">
+			                                <ul>
+                                                <li><span><img src="images/like-icon.png" alt="icon" class="img-fluid" /></span><a href="#">Like</a></li>
+			                                    
+                                                <li><span><img src="images/dislike.png" alt="icon" class="img-fluid" /></span><a href="#">Dislike</a></li>
+			                                    
+                                                <li><span><img src="images/gift.png" alt="icon" class="img-fluid" /></span> <a href="#">Gift</a></li>
+			                                    
+                                                <li class="dApp-post-comment-btn active"><span><img src="images/comment-icon.png" alt="icon" class="img-fluid" /></span><a href="#">Comment</a></li>
+			                                    
+                                                <li><span><img src="images/dApp-share.png" alt="icon" class="img-fluid" /></span><a href="#">Share</a></li>
+			                                    
+                                                <li><span><img src="images/Paper-Plane.png" alt="icon" class="img-fluid" /></span><a href="#">Send</a></li>
+			                                    
+			                                </ul>
+			                                
+			                            </div>
+			                            
+			                            <div class="dApp-post-comment-box">
+			                                <div class="dApp-post-comment-writing-sect">
+			                                    <div class="dApp-post-comment-input-sect">
+			                                        <div class="dApp-post-commenter-img">
+			                                            <img src="images/write-comment-img.png" alt="dp" class="img-fluid" />
+			                                        </div>
+			                                    </div>
+			                                    <div class="dApp-post-comment-input-fild">
+			                                        <textarea name="" rows="1" id="" placeholder="Add a comment"></textarea>
+			                                        <div class="dApp-post-comment-emoje-and-gallery">
+			                                            <img src="images/emoji-icon.png" alt="" class="img-fluid" />
+			                                            <img src="images/dAppgallery.png" alt="" class="img-fluid" />
+			                                        </div>
+			                                    </div>
+			                                </div>
+			                                
+			                                <div class="Most-relevant">
+			                                    <a href="#">Most relevant</a>
+			                                </div>
+			                                
+			                                <div class="dApp-post-comment-sect">
+			                                    <div class="dApp-post-commenter-img">
+			                                        <img src="images/commrnter-img.png" alt="dp" class="img-fluid" />
+			                                    </div>
+			                                    <div class="dApp-post-comment-right">
+			                                        <div class="dApp-post-comment-text">
+			                                            <h1>Alex Jeff</h1>
+			                                            <h2>912 followers</h2>
+			                                            <p>Our interactive session on "Happiness at the Workplace" with the renowned communication speaker Mukund Trivedy was an eye-opener on various challenges faced by employees across the country. …<a href="#">see more</a></p>
+			                                            <div class="dApp-post-comment-3dots">
+			                                                <img src="images/dApp-ThreeDots.png" alt="3Dots" class="img-fluid" />
+			                                            </div>
+			                                        </div>
+			                                        
+                                                    <div class="dApp-like-and-reply-btn">
+			                                            <ul>
+			                                                <li class="like">Like</li>
+			                                                <li class="reply active">Reply</li>
+			                                            </ul>
+			                                        </div>
+			                                        
+			                                        <div class="dApp-post-comment-writing-sect">
+			                                            <div class="dApp-post-comment-input-sect">
+			                                                <div class="dApp-post-commenter-img">
+			                                                    <img src="images/comment-reply-dp.png" alt="dp" class="img-fluid" />
+			                                                </div>
+			                                            </div>
+			                                            <div class="dApp-post-comment-input-fild">
+			                                                <textarea name="" rows="1" id="" placeholder="Add a comment"></textarea>
+			                                                <div class="dApp-post-comment-emoje-and-gallery">
+			                                                    <img src="images/emoji-icon.png" alt="" class="img-fluid" />
+			                                                    <img src="images/dAppgallery.png" alt="" class="img-fluid" />
+			                                                </div>
+			                                            </div>
+			                                        </div>
+			                                        
+			                                    </div>
+			                                </div>
+			                                
+			                                
+			                            </div>
+			                            
+			                        </div>
+			                        
+			                    </div>
+			                    
+			                    <div id="Links" class="tabcontent">
+			                        <div class="dApp-status-block no-border">
+			                            <div class="dApp-status-heading">
+			                                <div class="dApp-status-heading-profile-pic">
+			                                    <img src="images/RobertRosePic.png" alt="DP" class="img-fluid" />
+			                                </div>
+			                                <div class="dApp-status-heading-text">
+			                                    <h1>Robert Rose</h1>
+			                                    <h2>3 followers</h2>
+			                                    <h3><span><img src="images/Clock.png" alt="icon" class="img-fluid" /></span>1h.</h3>
+			                                </div>
+			                                <div class="dApp-post-3dots">
+			                                    <img src="images/dApp-ThreeDots.png" alt="3dots" class="img-fluid /">
+			                                </div>
+			                            </div>
+			                            
+			                            <div class="dApp-status-content-sect">
+			                                <img src="images/dApp-post-img.png" alt="image" class="img-fluid" />
+			                            </div>
+			                            
+			                            <div class="dApp-status-react-sect">
+			                                <div class="dApp-status-react-icon">
+			                                    <img src="images/like.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/love.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/heart.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/clap.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/light.png" alt="icon" class="img-fluid" />
+			                                    <img src="images/wow.png" alt="icon" class="img-fluid" />
+			                                </div>
+			                                <div class="dApp-status-react-text">
+                                                <h6>15,422</h6>
+                                                <h6>.</h6>
+			                                    <h6 class="active">475 comments</h6>
+			                                    <h6>.</h6>
+			                                    <h6>676,614 Views</h6>
+			                                </div>
+			                            </div>
+			                            
+			                            <div class="dApp-status-like-comment-share-sect">
+			                                <ul>
+                                                <li><span><img src="images/like-icon.png" alt="icon" class="img-fluid" /></span><a href="#">Like</a></li>
+			                                    
+                                                <li><span><img src="images/dislike.png" alt="icon" class="img-fluid" /></span><a href="#">Dislike</a></li>
+			                                    
+                                                <li><span><img src="images/gift.png" alt="icon" class="img-fluid" /></span> <a href="#">Gift</a></li>
+			                                    
+                                                <li class="dApp-post-comment-btn"><span><img src="images/comment-icon.png" alt="icon" class="img-fluid" /></span><a href="#">Comment</a></li>
+			                                    
+                                                <li><span><img src="images/dApp-share.png" alt="icon" class="img-fluid" /></span><a href="#">Share</a></li>
+			                                    
+                                                <li><span><img src="images/Paper-Plane.png" alt="icon" class="img-fluid" /></span><a href="#">Send</a></li>
+			                                    
+			                                </ul>
+			                                
+			                            </div>
+			                            <!--
+			                            <div class="dApp-post-comment-box">
+			                                <div class="dApp-post-comment-writing-sect">
+			                                    <div class="dApp-post-comment-input-sect">
+			                                        <div class="dApp-post-commenter-img">
+			                                            <img src="images/write-comment-img.png" alt="dp" class="img-fluid" />
+			                                        </div>
+			                                    </div>
+			                                    <div class="dApp-post-comment-input-fild">
+			                                        <textarea name="" rows="1" id="" placeholder="Add a comment"></textarea>
+			                                        <div class="dApp-post-comment-emoje-and-gallery">
+			                                            <img src="images/emoji-icon.png" alt="" class="img-fluid" />
+			                                            <img src="images/dAppgallery.png" alt="" class="img-fluid" />
+			                                        </div>
+			                                    </div>
+			                                </div>
+			                                
+			                                <div class="Most-relevant">
+			                                    <a href="#">Most relevant</a>
+			                                </div>
+			                                
+			                                <div class="dApp-post-comment-sect">
+			                                    <div class="dApp-post-commenter-img">
+			                                        <img src="images/commrnter-img.png" alt="dp" class="img-fluid" />
+			                                    </div>
+			                                    <div class="dApp-post-comment-right">
+			                                        <div class="dApp-post-comment-text">
+			                                            <h1>Alex Jeff</h1>
+			                                            <h2>912 followers</h2>
+			                                            <p>Our interactive session on "Happiness at the Workplace" with the renowned communication speaker Mukund Trivedy was an eye-opener on various challenges faced by employees across the country. …<a href="#">see more</a></p>
+			                                            <div class="dApp-post-comment-3dots">
+			                                                <img src="images/dApp-ThreeDots.png" alt="3Dots" class="img-fluid" />
+			                                            </div>
+			                                        </div>
+			                                        
+                                                    <div class="dApp-like-and-reply-btn">
+			                                            <ul>
+			                                                <li class="like">Like</li>
+			                                                <li class="reply active">Reply</li>
+			                                            </ul>
+			                                        </div>
+			                                        
+			                                        <div class="dApp-post-comment-writing-sect">
+			                                            <div class="dApp-post-comment-input-sect">
+			                                                <div class="dApp-post-commenter-img">
+			                                                    <img src="images/comment-reply-dp.png" alt="dp" class="img-fluid" />
+			                                                </div>
+			                                            </div>
+			                                            <div class="dApp-post-comment-input-fild">
+			                                                <textarea name="" rows="1" id="" placeholder="Add a comment"></textarea>
+			                                                <div class="dApp-post-comment-emoje-and-gallery">
+			                                                    <img src="images/emoji-icon.png" alt="" class="img-fluid" />
+			                                                    <img src="images/dAppgallery.png" alt="" class="img-fluid" />
+			                                                </div>
+			                                            </div>
+			                                        </div>
+			                                        
+			                                    </div>
+			                                </div>
+			                                
+			                                
+			                            </div>
+			                            -->
+			                        </div>
+			                        
+			                    </div>
+			                    
+			                </div>
+			            </div>
+			            
+			            
+			            
+			        </div>
+			        <div class="col-lg-3 p-lg-0 custom-col-lg-3">
+			            <div class="dApp-What-happening-sect">
+			                <div class="dApp-What-happeningheadings">
+			                    <h1>What’s happening</h1>
+			                </div>
+			                <div class="dApp-What-happening-news-sect">
+			                    <div class="dApp-What-happening-news">
+			                        <div class="dApp-What-happening-news-text">
+			                            <h2>News . <span>2 minutes ago</span></h2>
+			                            <p>Looking at the claim that discourse around ‘White Previlege’ can hamper white working class students.</p>
+			                        </div>
+			                        <div class="dApp-What-happening-news-photo">
+			                            <img src="images/dApp-news-pic-1.png" alt="photo" class="img-fluid" />
+			                        </div>
+			                    </div>
+			                    <h6>Treanding with <a href="#">#WhitePrevilege</a></h6>
+			                </div>
+			                
+			                <div class="dApp-Trending-United-Kingdom-sect">
+			                    <h1>Trending in United Kingdom</h1>
+			                    <a href="#">#CryptoCash</a>
+			                    <p>17.1K Pinned</p>
+			                    <div class="dApp-Trending-United-Kingdom-3dots">
+			                        <img src="images/dApp-ThreeDots.png" alt="3Dots" class="img-fluid" />
+			                    </div>
+			                </div>
+			                <div class="dApp-Trending-United-Kingdom-sect">
+			                    <h1>Trending in United Kingdom</h1>
+			                    <a href="#">#CryptoCash</a>
+			                    <p>17.1K Pinned</p>
+			                    <div class="dApp-Trending-United-Kingdom-3dots">
+			                        <img src="images/dApp-ThreeDots.png" alt="3Dots" class="img-fluid" />
+			                    </div>
+			                </div>
+			                
+			                <div class="dApp-What-happening-news-sect">
+			                    <div class="dApp-What-happening-news">
+			                        <div class="dApp-What-happening-news-text">
+			                            <h2>News . <span>2 minutes ago</span></h2>
+			                            <p>Looking at the claim that discourse around ‘White Previlege’ can hamper white working class students.</p>
+			                        </div>
+			                        <div class="dApp-What-happening-news-photo">
+			                            <img src="images/dApp-news-pic-2.png" alt="photo" class="img-fluid" />
+			                        </div>
+			                    </div>
+			                    <h6 class="pb-0">Treanding with <a href="#">#WhitePrevilege</a></h6>
+			                </div>
+			            </div>
+			            
+			            <div class="dApp-Who-to-follow-sect">
+			                <div class="dApp-Who-to-follow-headings">
+			                    <h1>Who to follow</h1>
+			                </div>
+			                <div class="dApp-Who-to-follow">
+			                    <div class="dApp-Who-to-follow-content">
+			                        <div class="dApp-Who-to-follow-dp">
+			                            <img src="images/dApp-DaisyBinder.png" alt="photo" class="img-fluid" />
+			                        </div>
+			                        <ul>
+			                            <li class="profile-name">Daisy Binder <span><img src="images/follow-green.png" alt="icon" class="img-fluid" /></span></li>
+			                            <li class="user-name">@daisybinder</li>
+			                            <li class="Promoted"><span><img src="images/External-Link.png" alt="icon" class="img-fluid" /></span>Promoted</li>
+			                        </ul>
+			                    </div>
+			                    <div class="dApp-Who-to-follow-btn">
+			                        <button><a href="#">Follow</a></button>
+			                    </div>
+			                </div>
+			                
+			                <div class="dApp-Who-to-follow">
+			                    <div class="dApp-Who-to-follow-content">
+			                        <div class="dApp-Who-to-follow-dp">
+			                            <img src="images/dApp-Curtis-Dawson.png" alt="photo" class="img-fluid" />
+			                        </div>
+			                        <ul>
+			                            <li class="profile-name">Curtis Daws...<span><img src="images/follow-green.png" alt="icon" class="img-fluid" /></span></li>
+			                            <li class="user-name">@sratwars01</li>
+			                        </ul>
+			                    </div>
+			                    <div class="dApp-Who-to-follow-btn">
+			                        <button><a href="#">Follow</a></button>
+			                    </div>
+			                </div>
+			                
+			                <div class="dApp-Who-to-follow">
+			                    <div class="dApp-Who-to-follow-content">
+			                        <div class="dApp-Who-to-follow-dp">
+			                            <img src="images/dApp-Janice-Hum.png" alt="photo" class="img-fluid" />
+			                        </div>
+			                        <ul>
+			                            <li class="profile-name">Janice Hum<span><img src="images/follow-green.png" alt="icon" class="img-fluid" /></span></li>
+			                            <li class="user-name">@janhu</li>
+			                        </ul>
+			                    </div>
+			                    <div class="dApp-Who-to-follow-btn">
+			                        <button><a href="#">Follow</a></button>
+			                    </div>
+			                </div>
+			                
+			                <div class="dApp-Who-to-follow">
+			                    <div class="dApp-Who-to-follow-content">
+			                        <div class="dApp-Who-to-follow-dp">
+			                            <img src="images/dApp-Lonnie-Hodges.png" alt="photo" class="img-fluid" />
+			                        </div>
+			                        <ul>
+			                            <li class="profile-name">Lonnie Hodges<span><img src="images/follow-green.png" alt="icon" class="img-fluid" /></span></li>
+			                            <li class="user-name">@lonnie</li>
+			                        </ul>
+			                    </div>
+			                    <div class="dApp-Who-to-follow-btn">
+			                        <button><a href="#">Follow</a></button>
+			                    </div>
+			                </div>
+			                
+			                <div class="dApp-Who-to-follow">
+			                    <div class="dApp-Who-to-follow-content">
+			                        <div class="dApp-Who-to-follow-dp">
+			                            <img src="images/dApp-Cary-Tingey.png" alt="photo" class="img-fluid" />
+			                        </div>
+			                        <ul>
+			                            <li class="profile-name">Cary Tingey<span><img src="images/follow-green.png" alt="icon" class="img-fluid" /></span></li>
+			                            <li class="user-name">@caryting</li>
+			                        </ul>
+			                    </div>
+			                    <div class="dApp-Who-to-follow-btn">
+			                        <button><a href="#">Follow</a></button>
+			                    </div>
+			                </div>
+			            </div>
+			            
+			            <div class="dApp-Topics-to-follow-sect">
+                            <div class="dApp-Topics-to-follow-headings">
+                                <h1>Topics to follow</h1>
+                            </div>
+			                <div class="dApp-Topics-to-follow">
+			                    <div class="dApp-Topics-to-follow-content">
+			                        <h2>Cricket <span><img src="images/follow-green.png" alt="icon" class="img-fluid" /></span></h2>
+			                        <h3>Sport</h3>
+			                    </div>
+			                    <div class="dApp-Who-to-follow-btn">
+			                        <button><a href="#">Follow</a></button>
+			                    </div>
+			                </div>
+			                
+			                <div class="dApp-Topics-to-follow">
+			                    <div class="dApp-Topics-to-follow-content">
+			                        <h2>Business & finance <span><img src="images/follow-green.png" alt="icon" class="img-fluid" /></span></h2>
+			                        <h3>All about business & finance</h3>
+			                    </div>
+			                    <div class="dApp-Who-to-follow-btn">
+			                        <button><a href="#">Follow</a></button>
+			                    </div>
+			                </div>
+			                
+			                <div class="dApp-Topics-to-follow">
+			                    <div class="dApp-Topics-to-follow-content">
+			                        <h2>Technology <span><img src="images/follow-green.png" alt="icon" class="img-fluid" /></span></h2>
+			                        <h3>Latest gadgets</h3>
+			                    </div>
+			                    <div class="dApp-Who-to-follow-btn">
+			                        <button><a href="#">Follow</a></button>
+			                    </div>
+			                </div>
+			                
+			                <div class="dApp-Topics-to-follow">
+			                    <div class="dApp-Topics-to-follow-content">
+			                        <h2>Entertainment <span><img src="images/follow-green.png" alt="icon" class="img-fluid" /></span></h2>
+			                        <h3>All about hollywood</h3>
+			                    </div>
+			                    <div class="dApp-Who-to-follow-btn">
+			                        <button><a href="#">Follow</a></button>
+			                    </div>
+			                </div>
+			                
+			                <div class="dApp-Topics-to-follow mb-0">
+			                    <div class="dApp-Topics-to-follow-content">
+			                        <h2>Careers <span><img src="images/follow-green.png" alt="icon" class="img-fluid" /></span></h2>
+			                        <h3>Sport</h3>
+			                    </div>
+			                    <div class="dApp-Who-to-follow-btn">
+			                        <button><a href="#">Follow</a></button>
+			                    </div>
+			                </div>
+			            </div>
+			            
+			        </div>
+			    </div>
+			</div>
+		</div>
+		
+	
+	</div>
+	
+	</div>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript">
+
+// When the user clicks, open the popup
+function popupFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+
+}
+
+
+</script>
+<script>
+	/*for toggle sub menu*/
+		function subtogglediv(id, icon) {
+			var id = document.getElementById(id);
+			id.classList.toggle('submenu-active');
+			var cross = document.getElementById(icon);
+			cross.classList.toggle('fa-times');
+			cross.classList.toggle('fa-bars');
+		}
+		</script>
+		<script>
+	/*for Tab*/
+        function helpfunction(evt, faqName) {
+            var i, supporttabcontent, helptablinks;
+            supporttabcontent = document.getElementsByClassName("supporttabcontent");
+            for (i = 0; i < supporttabcontent.length; i++) {
+                supporttabcontent[i].style.display = "none";
+            }
+            helptablinks = document.getElementsByClassName("helptablinks");
+            for (i = 0; i < helptablinks.length; i++) {
+                helptablinks[i].className = helptablinks[i].className.replace(" h-active", "");
+            }
+            document.getElementById(faqName).style.display = "block";
+            evt.currentTarget.className += " h-active";
+        }
+		</script>
+		<script type="text/javascript">
+		/* for modal dropdown menu*/
+	    var dropdownpopup = document.querySelectorAll('[data-toggle=dropdownpopup]');
+	    for (var k = 0; k < dropdownpopup.length; k++) {
+	        dropdownpopup[k].addEventListener('click', function (e) {
+	            if (this.hasAttribute('data-link')) {
+	                var m_ID1 = this.getAttribute('data-link');
+	                //for closing other popup
+	                var activedropdown = document.querySelector('.dropdown-menu.drop-active');
+	                if(activedropdown && activedropdown.getAttribute('id') != m_ID1)
+	                {
+	                    activedropdown.classList.remove('drop-active');
+	                }
+	                //activting popup
+	                document.getElementById(m_ID1).classList.toggle('drop-active');
+	            }
+	        });
+	    }
+	 
+		/*mass select*/
+		function checkall(source) {
+	  		checkboxes = document.getElementsByName('foo');
+	  		for(var i=0, n=checkboxes.length;i<n;i++) {
+	    		checkboxes[i].checked = source.checked;
+	  		}
+		}
+		
+
+		/*rating start*/
+		var changeClass = document.querySelectorAll('[data-toggleclass=starclass]');
+	    for (var k = 0; k < changeClass.length; k++) {
+	        changeClass[k].addEventListener('click', function (e) {
+	            if (this.hasAttribute('data-class')) {
+	                var dataClass = this.getAttribute('data-class');
+	                this.classList.toggle(dataClass);
+	            }
+	        });
+	    }
+
+	    //For modal
+		document.addEventListener('click', function (e) {
+	        e = e || window.event;
+	        var target = e.target || e.srcElement;
+
+	        if (target.hasAttribute('data-toggle') && target.getAttribute('data-toggle') == 'modal') 
+	        {
+	            if (target.hasAttribute('data-target')) 
+	            {
+	                var m_ID = target.getAttribute('data-target');
+	                document.getElementById(m_ID).classList.add('open');
+	            }
+	        }
+
+	        // Close modal window with 'data-dismiss' attribute or when the backdrop is clicked
+	        if ((target.hasAttribute('data-dismiss') && target.getAttribute('data-dismiss') == 'modal') ||target.classList.contains('modal')) {
+	            var modal = document.querySelector('.modal.open');
+	            modal.classList.remove('open');
+	        }
+        }, false);
+
+       
+	
+ 	</script>
+	<script>
+//var accrow = document.getElementsByClassName("tableCell-collapse-btn");
+//var i;
+//var accrowblock=document.getElementsByClassName("tableRow");
+//for (i = 0; i < accrowblock.length; i++) {
+ // accrow[i].addEventListener("click", function() {
+ //   accrowblock[1].classList.toggle("tableRow-active");
+	    
+//  });
+ 
+//}
+
+
+</script>
+<script type="text/javascript">
+		
+     //for accordion tab
+		var accItem = document.getElementsByClassName('tableRow');
+		var accHD = document.getElementsByClassName('hlp-collapse-bttn');
+		for (i = 0; i < accHD.length; i++) {
+			accHD[i].addEventListener('click', toggleItem, false);
+		}
+		function toggleItem() {
+			var itemClass = this.parentElement.className;
+			for (i = 0; i < accItem.length; i++) {
+				accItem[i].className = 'tableRow tableRow-inactive';
+			}
+			if (itemClass == 'tableRow tableRow-inactive') {
+				this.parentNode.className = 'tableRow tableRow-active';
+			}
+		}
+		
+	</script>
+<script type="text/javascript">
+	
+
+		var enable = document.querySelectorAll('.enable')
+		function rowenable() {
+			a = document.getElementsByClassName('cebox');
+		  	for (var i = 0; i < enable.length; i++) {
+		  		for(var i=0; i < a.length; i++) {
+		  			if (a[i].checked = "checked") {
+		  				enable[i].classList.add('border-row');
+		  			}
+		  			else {
+	  					enable[i].classList.remove('border-row');
+		  			}
+		    	}
+		  	}
+		  	//remove disable row
+		  	var disable = document.querySelectorAll('.disable.border-row')
+		  	b = document.getElementsByClassName('cbox');
+		  	for (var i = 0; i < disable.length; i++) {
+		  		for(var i=0; i < b.length; i++) {
+		  			if (b[i].checked = "checked") {
+		  				disable[i].classList.remove('border-row');
+		  				b[i].checked = false
+		  			}
+		  			else {
+	  					console.log("else");
+		  			}
+		    	}
+		  	}
+		}
+ 
+		var disable = document.querySelectorAll('.disable')
+		function rowdisable() {
+			a = document.getElementsByClassName('cbox');
+		  	for (var i = 0; i < disable.length; i++) {
+		  		for(var i=0; i < a.length; i++) {
+		  			if (a[i].checked = "checked") {
+		  				disable[i].classList.add('border-row');
+		  			}
+		  			else {
+	  					disable[i].classList.remove('border-row');
+		  			}
+		    	}
+		  	}
+		  	//remove enable row
+		  	var enable = document.querySelectorAll('.enable.border-row')
+		  	b = document.getElementsByClassName('cebox');
+		  	for (var i = 0; i < enable.length; i++) {
+		  		for(var i=0; i < b.length; i++) {
+		  			if (b[i].checked = "checked") {
+		  				enable[i].classList.remove('border-row');
+		  				b[i].checked = false
+		  			}
+		  			else {
+	  					console.log("else");
+		  			}
+		    	}
+		  	}
+		}
+ 	</script>
+
+<script>
+    $(document).ready(function() {
+        $('#Edit-username-input').click(function() {
+            $('.username-dropdown').toggle();
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function() {
+        $('#City-drop-box').click(function() {
+            $('.City-dropdown-list').toggle();
+        });
+    });
+</script>
+<script>
+    $(document).ready(function() {
+        $('#Country-drop-box').click(function() {
+            $('.Country-dropdown-list').toggle();
+        });
+    });
+</script>
+
+<script>
+    var coll = document.getElementsByClassName("dApp-home-profile-collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var Transfer_Ticket_collaps = this.nextElementSibling;
+            if (Transfer_Ticket_collaps.style.display === "block") {
+                Transfer_Ticket_collaps.style.display = "none";
+            } else {
+                Transfer_Ticket_collaps.style.display = "block";
+            }
+        });
+    }
+</script>
+
+<script>
+    function InterestOpenCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("Interest_tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("Interest_tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("Interest_defaultOpen").click();
+</script>
+
+<script>
+    function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+</script>
+
+
+<script>
+    $(document).ready(function() {
+        $('#Edit-Employment-type').click(function() {
+            $('.Edit-Employment-dropdown').toggle();
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function() {
+        $('#Create-Community-button').click(function() {
+            $('.input-name-error-text').show();
+        });
+    });
+</script>
+
+<script> 
+$('#Create-Community-button').bind('click', function() {
+    if(allFilledpassauthd()) $('#CreateCommunity-input-name-fild').addClass('error');
+});
+
+function allFilledpassauthd() {
+    var filled = true;
+    $('.CreateCommunity-Modal-body input').each(function() {
+        if($(this).val() == '') filled = false;
+    });
+    return filled;
+}
+</script>
+   
+
+
+
+
+
+
+</body>
+
+</html>
