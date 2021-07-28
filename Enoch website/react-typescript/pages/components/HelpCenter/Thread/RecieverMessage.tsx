@@ -35,6 +35,9 @@ const RecieverMessage: React.FC<Props> = ({ message, date }) => {
           </div>
         </div>
         {message}
+        {message}
+        {message}
+
         <div className="chat-block-bottm">
           <div className="tableCell-image">
             <ul className="">

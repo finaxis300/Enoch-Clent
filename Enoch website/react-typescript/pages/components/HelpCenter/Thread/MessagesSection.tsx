@@ -6,6 +6,7 @@ import SenderMessage from "./SenderMessage";
 interface Props {
   messages: any;
   subject: string;
+  heading: string;
 }
 
 const MessagesSection: React.FC<Props> = ({ messages, subject }) => {
