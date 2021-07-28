@@ -124,7 +124,6 @@ const RequiredDoc: React.FC = () => {
                                   setshow(false)                                 
                                 }}
                               >
-                                {f.label}
                               </div>
                             ))}
                         </div>
@@ -136,7 +135,6 @@ const RequiredDoc: React.FC = () => {
                 <div className='Required-Documents-left-form'>
                   <div className='row'>
                     <div className='col-md-6 input-left'>
-                      <input type='text' placeholder='ID Number' />
                     </div>
                     <div className='col-md-6 input-right'>
                       <DatePicker

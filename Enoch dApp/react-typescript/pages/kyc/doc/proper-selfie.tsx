@@ -42,7 +42,6 @@ const ProperSelfie: React.FC = () => {
                       <li>
                         3.
                         <span>
-                          Image should be in Focus and in good contrast
                         </span>
                       </li>
                     </ul>

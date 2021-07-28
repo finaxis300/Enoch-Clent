@@ -24,12 +24,8 @@ const KYCCompleted: React.FC = () => {
                   </a>
                 </li>
                 <li>
-                  <a href='#' className='dsh-active'>
-                    {' '}
-                  </a>
                 </li>
                 <li>
-                  <a href='#'> Status Update</a>
                 </li>
               </ul>
             </div>
