@@ -14,9 +14,7 @@ const SubHeaderValid: React.FC = () => {
                   className='img-fluid'
                 />
               </div>
-              <div className='Linking-wallet-icon-text Linking-wallet-icon-1-text'>
-               
-              </div>
+              <div className='Linking-wallet-icon-text Linking-wallet-icon-1-text'></div>
             </div>
           </div>
 
@@ -29,9 +27,7 @@ const SubHeaderValid: React.FC = () => {
                   className='img-fluid'
                 />
               </div>
-              <div className='Linking-wallet-icon-text Linking-wallet-icon-2-text'>
-             
-              </div>
+              <div className='Linking-wallet-icon-text Linking-wallet-icon-2-text'></div>
             </div>
           </div>
 
